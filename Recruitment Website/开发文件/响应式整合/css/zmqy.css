@@ -1,0 +1,60 @@
+#img1{ /*13行图标*/
+border:0; 
+margin:0; 
+padding:0; 
+max-width:52px; 
+width:expression_r(this.width>52?"52px":this.width); 
+max-height:52px; 
+height:expression_r(this.height>52?"52px":this.height); 
+}
+
+#img2/*头部图片*/
+{
+	width: 100%;
+	margin:auto;
+	height: auto;
+}
+#imgbig
+{
+	width: 100%;
+	margin:auto;
+	height: auto;
+}
+
+.main{/*主体样式设置*/
+    
+}
+.modul{/*每一个企业模块的样式设置*/
+width:100%;
+}
+
+.img3{/*企业logo*/
+   width:100%;
+   max-width: 100%; 
+   height:auto; display: block;
+}
+.title{/*标题显示,比如：国内名企、创业新秀等*/
+	background-color:#F63;
+	width:15%;
+	font-size:24px;
+	color:#FFF;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.table/*职位数据，表格设置*/
+{
+	text-align:left;
+	font-size:14px;
+	width:90%;
+	padding:0;
+	height:20%;
+}
+
+
+#footer{/*版权显示设置*/
+    background-color:#CCC;
+}
+
+
+

@@ -1,0 +1,7 @@
+<?php
+
+	define('APP_NAME', 'Index');//前台项目名称
+	define('APP_PATH', './Index/');//项目路径
+	define('APP_DEBUG',true);
+	include './ThinkPhp/ThinkPHP/ThinkPHP.php';//引入ThinkPHP核心运行文件
+?>

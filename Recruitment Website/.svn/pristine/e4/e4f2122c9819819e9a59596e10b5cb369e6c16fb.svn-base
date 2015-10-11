@@ -1,0 +1,330 @@
+﻿
+
+.modul{/*企业模块样式设置*/
+   width:90%;
+}
+
+.table/*职位数据，表格设置*/
+{
+	text-align:left;
+	font-size:14px;
+	padding:50px;
+	width:90%;
+	margin:auto;
+	height:20%;
+}
+
+
+.login-head input[type='text']
+{
+	margin-top:15px;
+	width:200px;
+	height:27px;	
+}
+
+.login-head input[type='password']
+{
+	margin-top:10px;
+	width:200px;
+	height:27px;	
+}
+
+.login-head input[type='submit']
+{
+	border-radius:5px;
+	margin-top:10px;
+	width:200px;
+	height:30px;	
+	background:#ff4a00;
+	outline:none;
+	border:none;
+	font-size:16px;
+	color:white;
+}
+
+#login-lab-register
+{
+	float:right;	
+	font-size:12px;
+	color:#00ccff;
+	margin-top:-15px;
+	margin-right:20px;
+}
+
+.navigator #checked/*被选中的页面*/
+{
+	background:#333333;	
+}
+
+.navigator li:hover/*鼠标悬浮*/
+{
+	background:#333333;	
+}
+        .rain{
+            color:#FFFFFF;
+            background-color: #080808;
+        }
+        .gray{;
+            color: #777777;
+            line-height: 60px;
+        }
+        .gray2{
+            color: #777777;
+            font-size: large;
+            line-height: 70px;
+        }
+      
+        .Ltitle{
+            margin-left: 15%;
+			width:150px;
+			background-color:#ff4a00;
+			border-radius:5px;
+			color: white;
+            line-height: 40px;
+			font-size:large;
+        }
+        .blockline{
+            margin-left: 15%;
+            color: #dddddd;
+            width: 71%;
+            height: 2px;
+            background-color: #cccccc;
+            margin-top:32px;
+        }
+        .kong{
+            height: 15px;
+            color: white;
+        }
+        .blockline2{
+            margin-left: 1%;
+            color: #dddddd;
+            width: 98%;
+            height: 3px;
+            background-color: #cccccc;
+            margin-top:30px;
+           
+        }
+        .word{
+            color: #dddddd;
+        }
+           .rain2{
+            color:#FFFFFF;
+            background-image:url("home/u195.jpg")
+        }
+.standline{
+    color:#cccccc;
+    width:2px;
+    height:100px;
+    float:left;
+    background-color:#cccccc;
+}
+   .footter{
+            margin-left: 12%;
+            margin-top:20px;
+        }
+.footterword{
+    width: 22%;
+    text-align: center;
+    float: left;
+}
+
+ body{
+	  padding-top:70px;
+  }
+       
+.navimg{
+			width:30PX;
+			height:30px;
+		}
+.home-vedio{
+	
+	width:300px;
+	height:240px;
+}
+.home-login
+{
+	position:absolute;
+	top:20%;
+	left:60%;
+	background:#333333;
+	width:234px;
+	height:240px;
+	opacity:0.9;
+	text-align:center;
+}
+.copyright{
+    margin-top:30px;
+    width:100%;
+    text-align: center;
+    background-color:#dddddd; 
+    float: left;
+}
+#modal-zhuce{
+	position:absolute;
+	top:50px;	
+}
+ .home-1{           
+            margin-left: 15%;
+			margin-top:20px;			
+        }
+ .home-search{
+            float: left;
+			padding-right:20%;			
+			margin-top:30px;
+        }
+		.home-container{
+			width:70%;
+		}
+	
+li
+{
+
+	list-style:none;	
+}
+
+.position li
+{
+	margin-top:10px;	
+}
+
+.login-head
+{
+	height:50px;
+}
+
+.login-head div
+{
+	float:left;
+	width:117px;
+	height:40px;
+	font-size:12px;
+	color:white;
+	line-height:40px;
+}
+.login-head checkbox
+{
+        
+}
+
+.login-head #unchecked
+{
+	color:#b5b5b5;
+	background:#6a6a6b;
+}
+
+#login-psd-deal
+{
+	list-style:none;
+	color:#b5b5b5;
+	font-size:12px;
+	line-height:20px;
+	margin: 15px 13px 15px;
+	padding:0px;
+}
+
+#login-psd-deal .left
+{
+	float:left;
+}
+
+#login-psd-deal .right
+{
+	float:right;
+}
+
+#opt1
+{
+	width:117.5px;
+}
+#opt2
+{
+	width:117.5px;
+}
+
+.form-group1
+{
+	margin-left:70px;
+	margin-bottom:10px;
+	margin-top:10px
+}
+.form-group2
+{
+	margin-left:42px;
+	margin-bottom:10px;
+	margin-top:10px
+}
+.form-group3
+{
+	margin-left:56px;
+}
+.form-group4{
+	margin-left:110px;
+	margin-top:5px;
+}
+#verify_ip{
+	width:60px;
+}
+#fverify_ip{
+	width:60px;
+}
+.warning-style{
+	font-size:10px;
+	color:#F00;
+	margin-top:7px;
+	position:absolute;
+}
+.warning-style-verify{
+	font-size:10px;
+	color:#F00;
+	margin-top:7px;
+	margin-left:55px;
+}
+.warning-style-RegInfo{
+	font-size:18px;
+	color:#F00;
+	margin-left:220px;
+	position:absolute;
+}
+#register-lab-register
+{
+	position:absolute;
+	float:right;	
+	font-size:12px;
+	color:#00ccff;
+	margin-right:200px;
+}
+#login-lab-register1
+{
+	float:right;
+	font-size:12px;
+	color:#00ccff;
+	margin-top:-2px;
+	margin-right:-5px;
+	margin-bottom:-10px;
+}
+.navimg1{
+			width:30PX;
+			height:35px;
+			margin-top:-5px;
+}
+.navimg2{
+		width:30PX;
+			height:20px;
+			margin-right:5px;
+}
+.nav-search{
+			width:200px;
+			position:absolute;
+			top:10px;
+			left:65px;
+}
+.pwd{width:40px;height:20px;line-height:14px;padding-top:2px;} 
+.pwd_f{color:#BBBBBB;} 
+.pwd_c{background-color:#F3F3F3;border-top:1px solid #D0D0D0;border-bottom:1px solid #D0D0D0;border-left:1px solid #D0D0D0;} 
+.pwd_Weak_c{background-color:#FF4545;border-top:1px solid #BB2B2B;border-bottom:1px solid #BB2B2B;border-left:1px solid #BB2B2B;} 
+.pwd_Medium_c{background-color:#FFD35E;border-top:1px solid #E9AE10;border-bottom:1px solid #E9AE10;border-left:1px solid #E9AE10;} 
+.pwd_Strong_c{background-color:#3ABB1C;border-top:1px solid #267A12;border-bottom:1px solid #267A12;border-left:1px solid #267A12;} 
+.pwd_c_r{border-right:1px solid #D0D0D0;} 
+.pwd_Weak_c_r{border-right:1px solid #BB2B2B;} 
+.pwd_Medium_c_r{border-right:1px solid #E9AE10;} 
+.pwd_Strong_c_r{border-right:1px solid #267A12;} 

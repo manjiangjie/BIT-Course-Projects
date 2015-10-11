@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">    
+    <title>测试</title>
+    <link rel="stylesheet" href="__PUBLIC__/Css/index.css" />
+    <script type="text/javascript" src='__PUBLIC__/Js/jquery-1.7.2.min.js'></script>
+    <script type="text/javascript" src='__PUBLIC__/Js/index.js'></script>
+    <script type="text/javascript">
+    var handleUrl = '{:U("handle",'','')}';
+    // var _session = 
+    </script>
+</head>
+<body >
+    <div >
+        <form action="" name='test'>
+            <p>
+                <input type="text" name='username' id='username' />
+            </p>
+            <p>
+                <textarea name="content" id='content'></textarea>
+            </p> 
+            <span id='send-btn' name='send-btn'></span>
+            <!-- <input id='send-btn' type = 'submit'> -->
+        </form>
+    </div>
+
+    <div>
+        <foreach name="d" item="i">
+            <label id='label1' name='label1'>{$i.addressArea}</label>
+        </foreach>
+    </div>
+
+
+    
+</body>
+</html>

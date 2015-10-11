@@ -1,0 +1,92 @@
+﻿object 查询单词: T查询单词
+  Left = 0
+  Top = 0
+  Caption = #26597#35810#21333#35789
+  ClientHeight = 323
+  ClientWidth = 405
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object 查询单词: TLabel
+    Left = 48
+    Top = 27
+    Width = 48
+    Height = 13
+    Caption = #26597#35810#21333#35789
+  end
+  object 要查询的单词: TEdit
+    Left = 136
+    Top = 24
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    TextHint = #36755#20837#35201#26597#35810#30340#21333#35789
+  end
+  object 查询: TButton
+    Left = 304
+    Top = 22
+    Width = 75
+    Height = 25
+    Caption = #26597#35810
+    TabOrder = 1
+  end
+  object 加入单词本: TButton
+    Left = 56
+    Top = 264
+    Width = 75
+    Height = 25
+    Caption = #21152#20837#21333#35789#26412
+    TabOrder = 2
+    OnClick = 加入单词本Click
+  end
+  object 返回: TButton
+    Left = 280
+    Top = 264
+    Width = 75
+    Height = 25
+    Caption = #36820#22238
+    TabOrder = 3
+    OnClick = 返回Click
+  end
+  object 查看单词本: TButton
+    Left = 167
+    Top = 264
+    Width = 75
+    Height = 25
+    Caption = #26597#30475#21333#35789#26412
+    TabOrder = 4
+  end
+  object DBGrid1: TDBGrid
+    Left = 6
+    Top = 53
+    Width = 391
+    Height = 164
+    DataSource = DataSource1
+    TabOrder = 5
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object ADOTable1: TADOTable
+    Active = True
+    Connection = 管理员.ADOConnection1
+    CursorType = ctStatic
+    TableName = 'words'
+    Left = 136
+    Top = 216
+  end
+  object DataSource1: TDataSource
+    DataSet = ADOTable1
+    Left = 248
+    Top = 216
+  end
+end

@@ -1,0 +1,5 @@
+1、在webshow里新添加comp_introduction（）方法
+
+2、使用时需要从跳转的地方获得companyName
+
+3、目前comp_introduction（）里的companyName是手动赋值的

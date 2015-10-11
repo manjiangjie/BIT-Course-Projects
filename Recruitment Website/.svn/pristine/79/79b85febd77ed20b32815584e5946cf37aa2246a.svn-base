@@ -1,0 +1,19 @@
+<?php
+	namespace Home\Controller;
+	use Think\Controller;
+	include './Interface.php';
+	class IndiSearchController extends Controller implements Search{
+		public function searchJob(){
+
+		}//搜索职位
+		public function searchAll(){
+
+		}
+		public function hrSearchResume(){
+
+		}
+		public function searchFiledResume(){
+
+		}
+	}
+?>

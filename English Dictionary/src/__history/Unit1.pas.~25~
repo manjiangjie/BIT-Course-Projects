@@ -1,0 +1,50 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Data.DB,
+  Data.Win.ADODB, Vcl.Imaging.jpeg;
+
+type
+  T欢迎登录 = class(TForm)
+    用户名: TLabel;
+    密码: TLabel;
+    登录: TButton;
+    输入用户名: TComboBox;
+    输入密码: TEdit;
+    记住密码: TCheckBox;
+    Image1: TImage;
+    退出: TButton;
+    ADOTable1: TADOTable;
+    Image2: TImage;
+    procedure 退出Click(Sender: TObject);
+    procedure 登录Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  欢迎登录: T欢迎登录;
+
+implementation
+
+uses Unit2;
+{$R *.dfm}
+
+procedure T欢迎登录.登录Click(Sender: TObject);
+begin
+欢迎登录.Hide;
+管理员.Show;
+//ShowMessage('用户名或密码错误！请重新输入');
+end;
+
+procedure T欢迎登录.退出Click(Sender: TObject);
+begin
+if messagedlg('确定要退出吗？',mtwarning,[mbyes,mbno],0)=mryes then close;
+end;
+
+end.

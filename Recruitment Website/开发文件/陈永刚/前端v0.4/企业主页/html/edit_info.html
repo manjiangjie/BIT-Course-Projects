@@ -1,0 +1,150 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/position.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+<!--header-->
+
+<div class="header">
+	<img id="title-img" src="../image/title.png">
+    <!--导航-->
+	<ul class="navigator">
+        <li>首页</li>
+        <li>人脉圈</li>
+        <li>知名企业</li>
+        <li>视频面试</li>
+        <li>海归路上</li>
+    </ul>
+    <!--搜索-->
+</div>
+<div class="container">
+	<div class="content">
+   	  <div class="left">
+        	<ul class="menu">
+            	<li>HR首页</li>
+                <li>简历管理
+                	<ul class="submenu">
+                    	<li><label>新收到简历</label>
+                        	<div id="new-resume">99+</div>
+                        </li>
+                        <li><label>待面试简历</label></li>
+                        <li><label>推荐简历</label></li>
+                        <li><label>搜索简历</label></li>
+                        <li><label>我的收藏</label></li>
+                        <li><label>已拒绝简历</label></li>
+                    </ul>
+                </li>
+                <li>职位管理
+                	<ul class="submenu">
+                    	<li><label>发布新职位</label></li>
+                        <li><label>已发布职位</label></li>
+                        <li><label>已失效职位</label></li>
+                    </ul>
+                </li>
+                <li>视频面试
+                	<ul class="submenu">
+                    	<li><label>预约日程</label></li>
+                        <li><label>已面试</label></li>
+                    </ul>
+                </li>
+                <li>企业主页</li>
+                <li>控制面板</li>
+            </ul>
+      </div>
+      <div class="right">
+   	  		<div class="block" id="block-title">企业主页</div>
+            <div class="block" id="block-head">
+                   <a href="edit_info.html">修改企业信息</a>
+                    <a href="info_show.html">企业风采</a>
+            </div>
+            <form>	
+            
+            <div class="block">
+            <br>
+            <span>企业名称&nbsp;&nbsp;</span>
+            <span style="font-family:'Applied Font Regular', 'Applied Font';color:#FF0000;">*</span> 
+            <input type=text value="请输入公司正式名" class="text_sketch"/> <br>
+            
+			<span>经营行业&nbsp;&nbsp;</span>
+            <span style="font-family:'Applied Font Regular', 'Applied Font';color:#FF0000;">*</span> 
+            <select>
+               <option>互联网金融</option>
+            </select><br>
+            
+            <span>公司性质&nbsp;&nbsp;</span>
+            <span style="font-family:'Applied Font Regular', 'Applied Font';color:#FF0000;">*</span>
+             <select>
+             <option>国企</option>
+              <option>外资独商</option>
+              <option>事业单位</option>
+              <option>国家机关</option>
+              </select><br>
+              
+              <span>融资情况&nbsp;&nbsp;</span>
+              <span style="font-family:'Applied Font Regular', 'Applied Font';color:#FF0000;">*</span>
+              <select>
+              <option>上市公司</option>
+              <option>创业公司</option>
+              <option>A轮 </option>
+              <option>B轮 </option>
+              </select><br>
+              <span>公司规模&nbsp;&nbsp;</span>
+              <span style="font-family:'Applied Font Regular', 'Applied Font';color:#FF0000;">*</span>
+                            <select>
+                            	<option>20人以下</option>
+                                <option>20-50人 </option>
+                                <option>50-100人</option>
+                                <option>100-500人</option>
+                                <option>500-1000人</option>
+                                <option>1000人以上</option>
+                            </select> <br>
+                     <span>&nbsp;&nbsp;&nbsp;&nbsp;所在地&nbsp;</s></span><span style="font-family:'Applied Font Regular', 'Applied Font';color:#FF0000;">&nbsp;*</span>
+                             <select>
+                            	<option>北京</option>
+                                <option>上海</option>
+                            </select><br>
+                      <span>企业网址&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <input type="text" value="http://"/><br>  
+                     <span>公司联系人&nbsp;</span>
+                            <input type="text" value="请输入姓名"/>
+                            <select>
+                            <option>先生</option>
+                            <option>女士</option>
+                            </select><br> 
+                       <span>联系人电话&nbsp;</span>
+                            <input type="text"/>  <br>
+                     <span>公司简介</span>
+                     <span style="font-family:'Applied Font Regular', 'Applied Font';color:#FF0000;">&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;</span> 最多2000个字符<br>
+                     <span class="pos-warn"><span class="pos-red">提示：</span>您的公司介绍信息会出现在您的招聘广告页中，请您认真填写。公司介绍包括但不限于以下几项:1、公司成立时间;
+2、公司主营业务;
+3、公司目前规模。</span><br><br>
+                     
+                     <textarea style="width:400;height:200"></textarea>
+                       <br>  
+                               
+                     <span>企业认证&nbsp;&nbsp;</span>
+                      <span>上传营业执照</span>
+                        <input type="file"/>(仅支持gif，jpg，png格式)
+                         <br>
+                         
+                       <span class="pos-warn"><span class="pos-red">提示：</span>请上传有最新年检章的营业执照；如果是复印件，需要加盖与执照公司名称一致的公司公章，以便您的营业执照顺利通过审核。此处仅支持gif、jpg、png格式。大小不超过5M。</span><br><br>
+         			<input id="btn-scan" type="submit" value="预览">
+                    <input id="btn-post" type="submit" value="发布">
+                    <br>
+                    <br>
+          </form>  
+</div>
+ <div class="portrait">
+            	<img src="" width="200" height="200"/>
+                <br>
+                <input type="file"/>
+            </div>
+</div>
+<div class="tail">
+京ICP备09083200号　京ICP证070419号　人才服务许可证：RC0280　京公网安备11010802012824<br>
+Copyright©2000-2014 13hang.com All Rights Reserved
+</div>
+</body>
+</html>

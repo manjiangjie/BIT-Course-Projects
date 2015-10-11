@@ -1,0 +1,192 @@
+#img1{ /*13行图标*/
+border:0; 
+margin:0; 
+padding:0; 
+max-width:52px; 
+width:expression_r(this.width>52?"52px":this.width); 
+max-height:52px; 
+height:expression_r(this.height>52?"52px":this.height); 
+}
+.header{/*导航栏头部*/
+margin-bottom:80px;/*设置导航栏与下面的间隔大小*/
+}
+.main{/*主体样式设置*/
+margin-top:10px;
+}
+.search_xy{/*校友搜索*/
+margin-color:#CCC;
+height:auto;
+}
+.jianli_set{/*简历隐私设置样式*/
+width:90%;
+height:auto;
+}
+
+#img1_xy{/*完善经历的图片*/
+width:70px;
+}
+
+.jingli_add{/*整块”完善经历“*/
+border:3px solid;
+border-color:#FFF;
+width:98%;
+margin-top:15px;
+padding-top:15px;
+}
+.jingli_label{/*”经历的标签“样式设置*/
+font-size:20px;
+margin-bottom:15px;
+margin-right:5px;
+float:left;
+}
+.jingli_xueli{/*学历*/
+margin-left:15px;
+margin-right:55px;
+display:inline;
+}
+.jingli_dd{/*学校地点*/
+margin-left:15px;
+display:inline;
+}
+.modul_school2{/*学校名称模块*/
+	width:70%;
+	border-color:#FFF;
+	margin-left:15px;
+}
+.school_list{/*学校名称列表*/
+border:3px solid;
+border-color:#FFF;
+overflow-y:scroll;
+list-style:none;
+width:90%;
+padding-left:5px;/*文字左边距*/
+margin-left:15px;/*滚动列表左边距*/
+height:150px;
+}
+.study_time{/*就读时间*/
+margin-top:10px;
+padding-left:0;
+}
+.jingli_button{/*添加教育经历按钮*/
+margin-top:10px;
+margin-bottom:20px;
+}
+.modul_xy{/*校友整个模块*/
+width:108%;
+}
+.title_xy{/*校友区域标题*/
+padding:0;
+margin:0;
+}
+#img2_xy{/*校友的头像图*/
+width:70px;
+}
+.know_xy{/*可能认识校友（每块）*/
+width:160%;
+margin-bottom:10px;
+margin-top:10px;
+padding-left:0;
+margin-left:0;
+}
+.img{/*校友头像模块*/
+	float:left;
+	display:inline;
+	margin-right:5px;
+	margin-bottom:10px;
+	padding:0;
+	margin-left:0;
+}
+.guanzhu{/*关注按钮*/
+	display:inline;
+	margin-right:5px;
+	padding:0;
+	float:left;
+}
+.xinxi_xy{/*校友信息*/
+	margin:0px;
+	display:inline;
+	float:left;
+}
+
+#xingming{/*校友姓名*/
+	font-size:18px;
+	font-weight:bold;
+}
+#xuexiao,#zhuanye{/*校友学校,校友专业*/
+font-size:12px;
+}
+.guanzhu1{/*一键关注和查找校友*/
+display:inline;
+}
+.search1_xy{/*查找更多校友*/
+display:inline;
+margin-left:40px;
+}
+/*海外校友2（额外）*/
+.search_result{/*整个搜索校友结果模块*/
+border:3px solid;
+border-color:#FFF;
+padding-bottom:10px;
+}
+.result_xy{/*每个校友结果模块*/
+width:120%;
+margin-top:30px;
+padding-left:0;
+margin-left:10px;
+float:left;
+}
+.result_xinxi{/*校友结果的信息*/
+margin:0px;
+float:left;
+}
+.result_add{/*加好友按钮*/
+display:inline;
+margin-left:30px;
+padding:0;
+}
+.result_img{/*搜索的校友头像模块*/
+    float:left;
+	display:inline;
+	margin-right:20px;
+	margin-bottom:3px;
+	padding:0;
+	margin-left:0;
+}
+#result_img1{/*搜索结果的校友头像*/
+width:80px;
+float:left;
+display:inline;
+}
+.xingming2{
+	float:left;
+	display:inline;
+	font-size:20px;
+	margin-right:20px;
+}
+.juzhudi{		
+	font-size:14px;	
+	display:inline;
+}
+#city{
+	margin-right:5px;
+}
+.jiaoyu{
+	margin-top:10px;
+	font-size:12px;
+	float:left;
+}
+.zhiye{
+	margin-top:0px;
+	font-size:12px;
+	float:left;
+	width:85%;
+}
+
+#footer{/*版权显示设置*/
+    background-color:#CCC;
+}
+
+
+
+
+

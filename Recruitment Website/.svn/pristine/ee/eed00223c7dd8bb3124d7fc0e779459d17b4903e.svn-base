@@ -1,0 +1,221 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/position.css">
+<meta charset="utf-8">
+</head>
+<body>
+<!--header-->
+<div class="header">
+	<img id="title-img" src="../image/title.png">
+    <!--导航-->
+	<ul class="navigator">
+        <li>首页</li>
+        <li>人脉圈</li>
+        <li>知名企业</li>
+        <li>视频面试</li>
+        <li>海归路上</li>
+    </ul>
+    <!--搜索-->
+</div>
+<div class="container2">
+	<div class="content">
+
+        <div class="center">
+            <form>
+            	<div class="block">
+                    <br>
+                    <label class="lab-title">中文简历2014</label>
+                    <label class="lab-title">
+                    <a href>预览</a>|
+                    <a href>刷新</a>
+                    </label>
+                    <label class="lab-title">
+                    <select id="pos-type">
+                    <option>中文简历</option>
+                    <option>英文简历</option>
+                    <option>添加</option>
+                    </select>
+                    </label>
+                    <br><br>
+                </div>
+                
+                <div class="block">
+               
+                 <div class="position">
+                 <div class="portrait2">
+            					<img src="" width="150" height="150"/>
+                			 <br>
+                			 <label class="lab-title"><a href="">修改</a></label>
+                				<a href="">删除</a></div>
+              			<div class="profile1">
+                            <div class="contact">
+                              <label style="font-size:24px">我的联系方式</label><br>
+                              <img id="u332_img" class="img " src="../image/u332.png"><label>18611761894</label><br><br>
+                              <img id="u330_img" class="img " src="../image/u330.png"><br><br>
+                              <img id="u324_img" class="img " src="../image/u324.png"><br><br>
+                              <img id="u326_img" class="img " src="../image/u326.png"><br><br>
+                              <img id="u328_img" class="img " src="../image/u328.png"><br><br>
+                              </div>
+                        	<div class="u287_line">
+                             <img id="u287_line" class="img " src="../image/u287_line.png" >
+                             </div>
+                         
+                             <label>姓名</label>
+                             <input type="text"/>
+                              <select id="pos-type">
+                    			<option>汉族</option>
+                    			<option>壮族</option>
+                   				<option>藏族</option>
+                    		  </select>
+                              
+                              <br>
+                              <label>性别</label>
+                              <input type="radio"/>男
+                              <input type="radio"/>女
+                              <br>
+                              <label>出生年份</label>
+                              <select>
+                              <option></option>
+                              </select>
+                               <select>
+                              <option></option>
+                              </select>
+                               <select>
+                              <option></option>
+                              </select>
+                              
+
+                              <br>
+                              <label>国籍</label>
+                               <select>
+                              <option></option>
+                              </select>
+                              <br>
+                              <label>开始工作时间</label>
+                               <select>
+                              <option></option>
+                              </select>
+                               <select>
+                              <option></option>
+                              </select>
+                              <br>
+                              <label>常住地区</label><br>
+                               <select>
+                              <option></option>
+                              </select>
+                               <select>
+                              <option></option>
+                              </select>
+                               <select>
+                              <option></option>
+                              </select>
+                              <br>
+                              <br>
+                              <textarea style="width:300px;height:80px;"></textarea>          
+                              
+                       </div>
+       				</div>
+                   
+            	</div>
+                 <div class="block">
+                    <br>
+                    <label class="lab-title">教育背景</label>
+                 </div>
+            	 <div class="block">
+                 <br>
+                 <br>
+                 <label>学历</label>
+                 <select>
+                 <option>博士后</option>
+                 <option>博士</option>
+                 <option>MBA/EMBA</option>
+                 <option>硕士</option>
+                 <option>本科</option>
+                 <option>其他</option>
+                 </select>
+                 <br>
+                 <br>
+                 <label>学校地点</label>
+                  <select>
+                  <option>美国</option>
+                  <option>中国</option>
+                  <option>其他国家</option>
+                  </select>
+                   <select>
+                  <option>加利福尼亚州</option>
+                  </select>
+                  <br>
+                  <br>
+                  <label>学校名称</label>
+                  <br>
+                  <textarea style="width:300px;height:80px;">
+                  </textarea>
+                  <br>
+                  <br>
+                  <label>专业名称</label>
+                  <input type="text" size="50"/>
+                  <br>
+                  <br>
+                  <label>就读时间</label>
+                  <select> 
+                  <option></option>
+                  </select>
+                  <select> 
+                  <option></option>
+                  </select>
+                  <select> 
+                  <option></option>
+                  </select>
+                  &nbsp;&nbsp;—————&nbsp;&nbsp;
+                  <select> 
+                  <option></option>
+                  </select>
+                  <select> 
+                  <option></option>
+                  </select>
+                  <select> 
+                  <option></option>
+                  </select>
+                  <br>
+                  <br>
+                  <label><a href="">添加教育经历</a></label>
+                 </div>
+                  <div class="block">
+                    <br>
+                    <label class="lab-title">语言能力</label>
+                 </div>
+                  <div class="block">
+                    <br>
+                     <input type="checkbox" name="英语"><label>英语</label>
+                     <input type="checkbox" name="西班牙语"><label>西班牙语</label>
+                     <input type="checkbox" name="法语"><label>法语</label>
+                     <input type="checkbox" name="日语"><label>日语</label>
+                     <input type="checkbox" name="德语"><label>德语</label>
+                     <input type="checkbox" name="普通话"><label>普通话</label>
+                     <br>
+                     <br>
+                     <input type="checkbox" name="其他语言"><label>其他语言</label>
+                     <br>
+                 </div>
+                 <div class="block">
+                    <br>
+                    <label class="lab-title">工作经历</label>
+                    <br>
+                 </div>
+                 <div class="block">
+                    <br>
+                    <br>
+                    <textarea style="width:800px;height:400px;"></textarea>
+                    <br>
+                    <br>
+                 </div>
+            </form>
+  		</div>
+	</div>
+</div>
+<div class="tail2">
+京ICP备09083200号　京ICP证070419号　人才服务许可证：RC0280　京公网安备11010802012824<br>
+Copyright©2000-2014 13hang.com All Rights Reserved
+</div>
+</body>
+</html>

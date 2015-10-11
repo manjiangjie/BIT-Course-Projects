@@ -1,0 +1,808 @@
+  <!--  袁路非  简历修改界面  2015.4.28 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>简历修改</title>
+    <link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+    <script src="__PUBLIC__/js/jquery-2.1.3.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/javascript/resume.js"></script>
+    <script src="__PUBLIC__/javascript/jquery-2.1.3.js"></script>
+    <style>
+	.navimg1{
+			width:30PX;
+			height:35px;
+			margin-top:-5px;
+		}
+	.navimg2{
+		width:30PX;
+			height:20px;
+			margin-right:10px;
+			}	
+	.nav-search{
+			width:200px;
+			position:absolute;
+			top:10px;
+			left:65px;
+		}	
+	body{
+			padding-top: 70px;
+		}
+		.jlyl-all{
+			width:75%;
+		}
+		.jlyl-heading{
+			margin:10px;
+		}
+		#btn1{
+			margin:5px;
+		}
+			#btn2{
+			margin:5px;
+		}
+		.jlyl-face{
+			height:100px;
+			width:100px;
+			margin-left:10px;
+			margin-top:30px;
+			float:left;
+		}
+		.jlyl-name{
+			margin-left:5px;
+			font-size:25px;
+			font-weight:bolder;		
+		}
+		.jlyl-sex{
+			margin-top:5px;
+		}
+		.jlyl-11{
+			margin-left:10px;
+			margin-top:10px;
+		}
+		.jlyl-title{
+			margin-left:30px;
+			font-size:20px;
+			font-weight:bold;
+		}
+		.jlyl-form{
+			margin:10px;
+			margin-right:40px;
+		}
+		.jlyl-detail{
+			color:#999;
+			margin-left:20px;
+			margin:3px;
+		}
+		.jlyl-21{
+			margin-top:10px;
+			margin-left:30px;
+		}
+		.jlyl-31{
+			margin-top:10px;
+			margin-left:30px;
+		}
+	 .jlyl-41{
+		 margin-top:10px;
+		 margin-left:5px;
+		 background-color:#CCC;
+		 font-size:18px;
+	 }
+	 .jlyl-4-comp{
+		 font-weight:bold;
+	 }
+	 .jlyl-42{
+			margin-top:10px;
+			margin-left:30px;
+		}
+		.jlyl-42-1{
+			 margin-top:10px;
+		 margin-left:5px;
+		 background-color:#CCC;	
+		}
+		.jlyl-42-1-zhiwei{			
+			font-weight:bold;
+		}
+		.jlyl-42-1-time{
+			margin-left:20px;
+		}
+		.jlyl-51{
+			margin-top:10px;
+			margin-left:30px;
+		}
+		.jlyl-5-school{
+			font-weight:bold;
+			margin-left:30px;
+			margin-top:20px;
+		}
+			.jlyl-5-time{
+			font-weight:bold;
+		}
+		.jlxg-lang{
+			margin:5px;
+		}
+		.jlxg-textarea{
+			width:70%;
+			height:100px;
+		}
+		.jlxg-btn{
+			text-align:center;
+			width:300px;
+			margin-top:20px;
+		}
+		.jlxg-panel{
+			width:70%;
+			margin-left:15%;
+		}
+		.jlxg-btn1{
+			margin-left:200px;
+			margin-top:10px;
+			width:80px;
+		}
+		.jlxg-textarea1{
+			width:400px;
+			height:100px;
+		}
+		.jlxg-btn2{
+			width:160px;
+			margin-left:20px;
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+	</style>
+  </head>
+  <body>
+  
+ <nav class="navbar  navbar-fixed-top navbar-inverse" role="navigation">
+  <div class="container">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <a class="navbar-brand" href="#"><img class="navimg1" alt="Brand" src="image/简历修改/u42.png"></a>
+    
+             
+             <div class="visible-xs nav-search">  
+              <input type="text" class="form-control" placeholder="请输入职位关键字">          
+             </div>  <!-- ./nav-search-->  
+    </div>
+   
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav ">
+  	
+        <li><a href="HOME.html">首页 <span class="sr-only">(current)</span></a></li>
+      
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">找职位<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="找职位.html">搜寻职位</a></li>
+            <li class="divider"></li>
+            <li><a href="职位管理.htm">职位管理</a></li>
+           
+          </ul>
+          </li><!-- dropdown ！-->
+          
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">人脉圈<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="海外校友.html">海外校友</a></li>
+            <li class="divider"></li>
+            <li><a href="我的人脉.htm">人脉圈</a></li>
+            
+           </ul>
+           </li><!-- dropdown ！-->
+            
+            <li><a href="知名企业.html">知名企业</a></li>
+              <li><a href="#">视频面试</a></li>
+                <li><a href="海归路上.html">海归路上</a></li>          
+      </ul>
+     <ul class="nav navbar-nav navbar-right">
+          <li><a href="站内信.html"><img class="navimg2" alt="Brand" src="image/简历修改/1_u297.png"></a></li>
+          <li><a href="个人界面首页.thm"><img class="navimg2" alt="Brand" src="image/简历修改/2_u299.png"></a></li>
+          <li><a href="#">加入收藏</a></li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+
+
+<div class="container jlyl-all">
+<div class="panel panel-info">
+  <div class="panel-heading" >
+  <div class="row">
+  <div class="col-md-7">
+    <div class=" jlyl-heading"> 猎头顾问和企业HR都能看到，随时可以打电话联系我。</div>
+    <div class=" jlyl-heading"> →联系我时请说明是在十三行上找到我的。</div>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-4">
+  <button class="btn btn-primary" id="btn1" onclick="saveresume('{:U('IndiAddinfo/indiAddResume','','')}')"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>确认修改</button>
+  <button class="btn btn-primary" id="btn2"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>下载简历</button>
+  </div>
+  </div> <!-- ./row -->
+  </div> <!-- ./heading-->
+  
+  <div class="panel-body">
+  <div class="jlyl-1 row">
+      
+     <div class="col-md-3">
+     <img src="image/简历修改/u231.jpg" class="jlyl-face"> 
+     </div>
+     
+     <div class="col-md-9">    
+    
+     <div class="row">
+     <span class="col-md-2 jlyl-name">马云</span>
+     <span class="col-md-1 jlyl-sex">男</span>
+     </div><!-- ./row -->
+     
+     <div class="jlyl-11">
+     
+    <form class="form-inline">
+  <div class="form-group jlyl-form">
+    <span class="jlyl-detail">当前公司：</span>
+    <input type="text" class="form-control"placeholder="">
+  </div>
+  <div class="form-group jlyl-form">
+     <span class="jlyl-detail">所在地点：</span>
+    <input type="email" class="form-control" placeholder="">
+  </div>
+  </form>
+     
+      <form class="form-inline">
+  <div class="form-group jlyl-form">
+    <span class="jlyl-detail">当前职位：</span>
+    <input type="text" class="form-control"placeholder="">
+  </div>
+  <div class="form-group jlyl-form">
+     <span class="jlyl-detail">工作年限：</span>
+    <input type="email" class="form-control" placeholder="">
+  </div>
+  </form>
+     
+     </div><!-- ./jlyl-11-->
+    </div><!-- ./com-md-9 -->  
+   </div><!-- ./ jlyl-1 -->
+    <hr>
+  
+     <div class="jlyl-2">
+     <div class="jlyl-title"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>基本资料</div>
+     <div class="jlyl-21">
+       
+      <form class="form-inline">
+  <div class="form-group jlyl-form">
+    <span class="jlyl-detail">年龄：</span>
+    <input type="text" class="form-control" placeholder="{$info[0].applicantbirthday|getage}" id="age">
+  </div>
+  <div class="form-group jlyl-form">
+     <span class="jlyl-detail">婚姻状况：</span>
+    <input type="email" class="form-control" placeholder="">
+  </div>
+  </form>
+     
+         
+      <form class="form-inline">
+  <div class="form-group jlyl-form">
+    <span class="jlyl-detail">手机：</span>
+    <input type="text" class="form-control"placeholder="{$info[0].resumetelnum}" id="tel">
+  </div>
+  <div class="form-group jlyl-form">
+     <span class="jlyl-detail">邮箱：</span>
+    <input type="email" class="form-control" placeholder="{$info[0].applicantid|getmail}" id="mail">
+  </div>
+  </form>
+     
+          
+      <form class="form-inline">
+  <div class="form-group jlyl-form">
+    <span class="jlyl-detail">国籍：</span>
+    <input type="text" class="form-control" placeholder="{$info[0].resumenationality|getnation}" id="nation">
+  </div>
+  <div class="form-group jlyl-form">
+     <span class="jlyl-detail">户籍：</span>
+    <input type="email" class="form-control" placeholder="{$info[0].resumeaddress}" id="address">
+  </div>
+  </form>
+         
+      <form class="form-inline">
+  <div class="form-group jlyl-form">
+    <span class="jlyl-detail">目前状态：</span>
+    <input type="text" class="form-control"placeholder="" id="status">
+  </div>
+  
+  </form>
+     </div><!-- ./jlyl-21 -->
+     </div><!-- ./ jlyl-2 -->
+     <hr>
+     
+      <div class="jlyl-3">
+     <div class="jlyl-title"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>职业意向</div>
+      <div class="jlyl-31">
+         
+      <form class="form-inline">
+  <div class="form-group jlyl-form">
+    <span class="jlyl-detail">期望行业：</span>
+    <input type="text" class="form-control" placeholder="">
+  </div>
+  </form>
+     <form class="form-inline">
+  <div class="form-group jlyl-form">
+    <span class="jlyl-detail">期望职位：</span>
+    <input type="text" class="form-control" placeholder="">
+  </div>
+  </form>
+     <form class="form-inline">
+  <div class="form-group jlyl-form">
+    <span class="jlyl-detail">期望地点：</span>
+    <input type="text" class="form-control" placeholder="">
+  </div>
+  </form>
+     <form class="form-inline">
+  <div class="form-group jlyl-form">
+    <span class="jlyl-detail">期望年薪：</span>
+    <input type="text" class="form-control" placeholder="">
+  </div>
+  </form>
+     <form class="form-inline">
+  <div class="form-group jlyl-form">
+    <span class="jlyl-detail">目前年薪：</span>
+    <input type="text" class="form-control" placeholder="">
+  </div>
+  </form>
+     
+      </div><!-- ./ jlyl-31 -->  
+     </div><!-- ./ jlyl-3 -->
+     <hr>
+     
+       <div class="jlyl-4 hidden-xs">
+     <div class="jlyl-title"><span class="glyphicon glyphicon-credit-card" aria-hidden="true"></span>工作经历</div>
+     
+     <foreach name='work' item='a'>
+     <div class="jlyl-jinli">
+     <div class="jlyl-41">
+
+     <span> {$a.worktime|substr=0,4}~无截止时间</span> <span class="jlyl-4-comp">{$a.workcompany}</span>
+     </div>
+     
+      <div class="jlyl-42">
+     <div class="jlyl-detail">公司描述:<a></a></div>
+     <div class="jlyl-detail">公司性质:<a></a></div>
+     <div class="jlyl-detail">公司规模:<a></a></div>
+     <div class="jlyl-detail">公司行业:<a></a></div>
+     <div class="jlyl-zhiwei">
+      <div class="jlyl-42-1">
+      <span class="jlyl-42-1-zhiwei">{$a.workJob}</span ><span class="jlyl-42-1-time">  {$a.worktime|substr=0,4}~无截止时间</span>
+     </div>
+     <div class="jlyl-detail">薪酬状况:<a></a></div>
+     <div class="jlyl-detail">工作地点:<a></a></div>
+     <div class="jlyl-detail">所在部门:<a></a></div>
+     <div class="jlyl-detail">汇报对象:<a></a></div>
+     <div class="jlyl-detail">下属人数:<a></a></div>
+     <div class="jlyl-detail">工作职责:<a></a></div>
+     <div class="jlyl-detail">工作业绩:<a></a></div>
+      
+  
+      <button class=" btn btn-sm jlxg-btn2" data-toggle="collapse" data-target="#collapse-{$key}" aria-expanded="false" aria-controls="collapse-{$key}">
+      <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加本公司其他任职
+     </button>
+     
+     
+     <div class="collapse" id="collapse-{$key}">  
+
+       <div class="panel panel-default jlxg-panel">
+
+       <div class="panel-heading">添加本公司下其他任职</div>
+  <div class="panel-body">
+      
+  
+     <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">职位名称：</span>
+       <input type="text" placeholder="">
+    </div>
+    </form>
+    
+    
+     <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">工作地点：</span>
+       <input type="text" placeholder="">
+    </div>
+    <div class="form-group jlyl-form">
+      <span class="jlyl-detail">下属人数：</span>
+       <input type="text" placeholder="">
+    </div>
+    </form>
+    
+    <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">任职时间：</span>
+      <select placeholder="开始年份">
+     <option>2010</option>
+     <option>2011</option>
+     <option>2012</option>
+     <option>2013</option>
+     <option>2014</option>
+     <option>2015</option>
+      </select>
+      
+      <select placeholder="开始年份">
+     <option>01</option>
+     <option>02</option>
+     <option>03</option>
+     <option>04</option>
+     <option>05</option>
+     <option>06</option>
+     <option>07</option>
+     <option>08</option>
+     <option>09</option>
+     <option>10</option>
+     <option>11</option>
+     <option>12</option>
+      </select>
+      ——
+       <select placeholder="开始年份">
+     <option>2010</option>
+     <option>2011</option>
+     <option>2012</option>
+     <option>2013</option>
+     <option>2014</option>
+     <option>2015</option>
+      </select>
+      
+      <select placeholder="开始年份">
+     <option>01</option>
+     <option>02</option>
+     <option>03</option>
+     <option>04</option>
+     <option>05</option>
+     <option>06</option>
+     <option>07</option>
+     <option>08</option>
+     <option>09</option>
+     <option>10</option>
+     <option>11</option>
+     <option>12</option>
+      </select>
+    </div>
+    </form>
+    
+    <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">工作职责：</span>
+        <textarea class="jlxg-textarea1"></textarea>
+    </div>
+    </form>
+     
+     <button class="btn btn-primary jlxg-btn1" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">保存</button>
+       <span class="btn" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">取消</span>
+ 
+    
+     </div><!-- ./panel-body -->
+  </div><!-- ./panel-->
+
+     </div><!-- ./collapse-{$key} -->
+        
+     
+     
+    </div><!-- ./jlyl-zhiwei-->
+     </div><!-- ./ jlyl-42 -->  
+      </div><!-- ./ jlyl-jinli -->  
+      </foreach>
+        <center>
+     <div class="well btn btn-lg jlxg-btn" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+      <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加工作经历
+     </div>
+     </center>
+     
+     <div class="collapse" id="collapse1">  
+       <div class="panel panel-default jlxg-panel">
+       <div class="panel-heading">添加工作经历</div>
+  <div class="panel-body">
+        <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">公司名称：</span>
+       <input type="text"  placeholder="" id="company">
+  </div>
+  </form>
+  
+     <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">公司行业：</span>
+       <input type="text" placeholder="" id="industry">
+    </div>
+    </form>
+    
+    
+     <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">职位名称：</span>
+       <input type="text" placeholder="" id="job">
+    </div>
+    </form>
+    
+    
+     <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">工作地点：</span>
+       <input type="text" placeholder="" id="workaddress">
+    </div>
+    <div class="form-group jlyl-form">
+      <span class="jlyl-detail">下属人数：</span>
+       <input type="text" placeholder="">
+    </div>
+    </form>
+    
+    <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">任职时间：</span>
+      <select placeholder="开始年份" id="wsy">
+     <option>2010</option>
+     <option>2011</option>
+     <option>2012</option>
+     <option>2013</option>
+     <option>2014</option>
+     <option>2015</option>
+      </select>
+      
+      <select placeholder="开始年份" id="wsm">
+     <option>01</option>
+     <option>02</option>
+     <option>03</option>
+     <option>04</option>
+     <option>05</option>
+     <option>06</option>
+     <option>07</option>
+     <option>08</option>
+     <option>09</option>
+     <option>10</option>
+     <option>11</option>
+     <option>12</option>
+      </select>
+      ——
+       <select placeholder="开始年份" id="wey">
+     <option>2010</option>
+     <option>2011</option>
+     <option>2012</option>
+     <option>2013</option>
+     <option>2014</option>
+     <option>2015</option>
+      </select>
+      
+      <select placeholder="开始年份" id="wem">
+     <option>01</option>
+     <option>02</option>
+     <option>03</option>
+     <option>04</option>
+     <option>05</option>
+     <option>06</option>
+     <option>07</option>
+     <option>08</option>
+     <option>09</option>
+     <option>10</option>
+     <option>11</option>
+     <option>12</option>
+      </select>
+    </div>
+    </form>
+    
+    <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">工作职责：</span>
+        <textarea class="jlxg-textarea1"></textarea>
+    </div>
+    </form>
+     
+     <button class="btn btn-primary jlxg-btn1" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1" onclick="addwork('{:U('IndiAddinfo/indiAddWork','','')}')">保存</button>
+       <span class="btn" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">取消</span>
+ 
+    
+     </div><!-- ./panel-body -->
+  </div><!-- ./panel-->
+
+     </div><!-- ./collapse1 -->
+     </div><!-- ./ jlyl-4 -->
+     <hr>
+     
+        <div class="jlyl-5 hidden-xs">
+     <div class="jlyl-title"><span class="glyphicon glyphicon glyphicon-book" aria-hidden="true"></span>教育经历</div>
+      <foreach name='education' item='a'>
+     <div class="jlyl-51">
+      <span class="jlyl-5-school">{$a.educationschoolname}</span><span class="jlyl-5-time">({$a.educationstarttime|substr=0,6}~{$a.educationendtime|substr=0,6})</span>
+      </div>
+       <div class="jlyl-51">
+     <div class="row">
+     <div class="col-md-4">专业名称:<a>{$a.educationmajor}</a></div>
+     <div class="col-md-4">学历:<a>{$a.educationdegree|changedegree}</a></div>
+       <div class="col-md-4">是否统招:<a></a></div>
+     </div><!-- ./row --> 
+   
+     
+     </div><!-- ./ jlyl-51 -->  
+     </foreach>
+     <center>
+     <div class="well btn btn-lg jlxg-btn" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+      <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加教育经历
+     </div>
+     </center>
+     
+     <div class="collapse" id="collapse2">  
+       <div class="panel panel-default jlxg-panel">
+  <div class="panel-body">
+        <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">学校：</span>
+       <input type="text" id="school" placeholder="">
+  </div>
+  </form>
+  
+     <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">专业名称：</span>
+       <input type="text" id="major" placeholder="">
+    </div>
+    </form>
+    
+    <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">就读时间：</span>
+      <select placeholder="开始年份" id="sty">
+     <option>2010</option>
+     <option>2011</option>
+     <option>2012</option>
+     <option>2013</option>
+     <option>2014</option>
+     <option>2015</option>
+      </select>
+      
+      <select placeholder="开始月份" id="stm">
+     <option>01</option>
+     <option>02</option>
+     <option>03</option>
+     <option>04</option>
+     <option>05</option>
+     <option>06</option>
+     <option>07</option>
+     <option>08</option>
+     <option>09</option>
+     <option>10</option>
+     <option>11</option>
+     <option>12</option>
+      </select>
+      ——
+       <select placeholder="结束年份" id="eny">
+     <option>2010</option>
+     <option>2011</option>
+     <option>2012</option>
+     <option>2013</option>
+     <option>2014</option>
+     <option>2015</option>
+      </select>
+      
+      <select placeholder="结束月份" id="enm">
+     <option>01</option>
+     <option>02</option>
+     <option>03</option>
+     <option>04</option>
+     <option>05</option>
+     <option>06</option>
+     <option>07</option>
+     <option>08</option>
+     <option>09</option>
+     <option>10</option>
+     <option>11</option>
+     <option>12</option>
+      </select>
+    </div>
+    </form>
+    
+    <form class="form-inline">
+     <div class="form-group jlyl-form">
+      <span class="jlyl-detail">学历：</span>
+        <select placeholder="学历" id="degree">
+     <option>博士及以上</option>
+     <option>硕士</option>
+     <option>本科</option>
+     <option>高中毕业</option>
+     <option>无</option>
+ 
+      </select>
+      <input type="checkbox">是否统招
+    </div>
+    </form>
+     
+     <button class="btn btn-primary jlxg-btn1" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2" onclick="location.reload();" onclick="saveschool('{:U('IndiAddinfo/indiAddEducation','','')}')" >保存</button>
+       <span class="btn" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">取消</span>
+ 
+    
+     </div><!-- ./panel-body -->
+  </div><!-- ./panel-->
+
+     </div><!-- ./collapse2 -->
+      
+     </div><!-- ./ jlyl-5 -->
+     <hr>
+     
+     
+      <div class="jlyl-6">
+     <div class="jlyl-title"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>语言能力</div>
+      <div class="jlyl-31">
+      <form class="form-inline">
+      <label class="jlxg-lang">
+      <input type="checkbox" checked="checked">英语
+    </label>
+    
+    <label class="jlxg-lang">
+      <input type="checkbox" >日语
+    </label>
+    
+    <label class="jlxg-lang">
+      <input type="checkbox">法语
+    </label>
+    <label class="jlxg-lang">
+      <input type="checkbox">普通话
+    </label>
+    
+    <label class="jlxg-lang">
+      <input type="checkbox">粤语
+    </label>
+    
+    <label class="jlxg-lang">
+      <input type="checkbox">其他<input type="text">
+    </label>
+      </form>
+      </div><!-- ./ jlyl-31 -->  
+     </div><!-- ./ jlyl-3 -->
+     <hr>
+     
+        <div class="jlyl-6">
+     <div class="jlyl-title"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>自我评价</div>
+      <div class="jlyl-31">
+      <textarea class="jlxg-textarea"></textarea>
+      </div><!-- ./ jlyl-31 -->  
+     </div><!-- ./ jlyl-3 -->
+     <hr>
+     
+        <div class="jlyl-6">
+     <div class="jlyl-title"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>附加信息</div>
+      <div class="jlyl-31">
+      <textarea class="jlxg-textarea"></textarea>
+      </div><!-- ./ jlyl-31 -->  
+     </div><!-- ./ jlyl-3 -->
+     <hr>
+    
+  </div><!-- ./panel-body-->
+  </div>
+</div><!-- ./ jlyl-all-->
+    
+   
+<div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                     <center>
+                    <span>京ICP09083200号</span>     
+                    <span>京ICP证070419号</span>   
+                     <span>人才服务许可证：RC0280</span>  
+                    <span>京公网安备11010802012824</span> 
+                     </center>
+                </div>
+                
+                 <div class="col-sm-12">
+                     <center>
+                    <span>Copyright©2015 trading13.com All Rights Reserved</span>         
+                     </center>
+                </div>
+            </div>
+        </div>
+    </div><!-- copyright!-->
+
+    
+  </body>
+</html>

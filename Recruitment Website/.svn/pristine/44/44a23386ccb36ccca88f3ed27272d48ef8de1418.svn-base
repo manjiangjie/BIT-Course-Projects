@@ -1,0 +1,176 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/position.css">
+<meta charset="utf-8">
+</head>
+<body>
+    <script type="text/javascript" src="__PUBLIC__/javascript/position.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/javascript/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/javascript/position.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/javascript/resume.js"></script>
+    <script src="__PUBLIC__/javascript/jquery-2.1.3.js"></script>
+</script>
+<!--header-->
+<div class="header">
+  <img id="title-img" src="__PUBLIC__/image/title.png">
+    <!--导航-->
+  <ul class="navigator">
+        <li><a href="{:U('WebShow/home')}">首页</a></li>
+        <li onMouseOver="showSubnav1()" onMouseOut="hideSubnav1()"><a href="{:U('WebSearch/searchJob')}">找职位</a>
+        <li onMouseOver="showSubnav2()" onMouseOut="hideSubnav2()">人脉圈
+          <ul class="subnav" id="subnav2">
+              <li><a href="{:U('WebShow/indi_myfriends')}">海外校友</a></li>
+                <li><a href="#">人脉圈</a></li>
+            </ul>
+        </li>
+        <li><a href="{:U('WebShow/indi_famous')}">知名企业</a></li>
+        <li><a href="#">视频面试</a></li>
+        <li><a href="#">海归路上</a></li>
+    </ul>
+   <div class="toolbar">
+        <a href="{:U('WebShow/indi_webNews_show_all')}"><img src="__PUBLIC__/image/chat.png"></a>
+        <a href="{:U('WebShow/hr_recuitmentJob_show')}">
+            <img src="__PUBLIC__/image/avatar.png"  onMouseOver="showGeren()" onMouseOut="hideGeren()">
+            <div class="info" id="gerenzhongxin">
+                <div class="arrow"></div>
+                <div class="arrow-border"></div>
+                <ul>
+                    <li class="geren" onMouseOver="setShowFlag(this)" onMouseOut="hideGeren()">账号信息</li>
+                    <li class="geren" onMouseOver="setShowFlag(this)" onMouseOut="hideGeren()">账号升级</li>
+                    <li class="geren" onMouseOver="setShowFlag(this)" onMouseOut="hideGeren()">使用帮助</li>
+                    <li class="geren" onMouseOver="setShowFlag(this)" onMouseOut="hideGeren()">反馈建议</li>
+                                      <a href="{:U('UserLog/logout')}"> <li class="geren" onMouseOver="setShowFlag(this)" onMouseOut="hideGeren()">退出</li></a>
+                </ul>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="container">
+	<div class="content">
+    	<div class="left">
+        	<a href="{:U('HRAddinfo/hrAddJob')}"><div class="title">发布新职位</div></a>
+            <ul class="menu">
+                <a href="{:U('WebShow/hr_recuitmentJob_show')}"><li class="clickable">HR首页</li></a>
+                <li>简历管理
+                    <ul class="submenu">
+                        <a href="{:U('WebShow/hr_getNewResume_show')}">
+                            <li>新收到简历
+                            </li></a>
+                        <a href="{:U('WebShow/hr_recommandResume_show')}"><li>推荐简历</li></a>
+                        <a href="{:U('Search/hrSearchResume')}"><li>搜索简历</li></a>
+                        <a href="{:U('WebShow/hr_collectedResume_show')}"><li>我的收藏</li></a>
+                        <a href="{:U('WebShow/hr_rejectedResume_show')}"><li>已拒绝简历</li></a>
+                    </ul>
+                </li>
+                <li>职位管理
+                    <ul class="submenu">
+                        <a href="{:U('HRAddinfo/Addjob')}"><li>发布新职位</li></a>
+                        <a href="{:U('WebShow/hr_publishedJob_show')}"><li>已发布职位</li></a>
+                        <a href="{:U('WebShow/hr_failedJob_show')}"><li id="cur-html">已失效职位</li></a>
+                    </ul>
+                </li>
+                <li>视频面试
+                    <ul class="submenu">
+                        <a href="{:U('WebShow/hr_interResume_show')}"><li>待面试</li></a>
+                        <a href="{:U('WebShow/hr_interviewed_show')}"><li>已面试</li></a>
+                    </ul>
+                </li>
+                <a href="{:U('HRAddinfo/compInfoShow')}"><li class="clickable">企业主页</li></a>
+                <a href="{:U('HRAddinfo/hrInfoShow')}"><li class="clickable">控制面板</li></a>
+            </ul>
+            <div class="wanshanxinxi">
+            	<div>完善企业资料</div>
+                <div class="xinxi-wrap">
+                	<ul>
+                	<li><div><img class="li1" src="__PUBLIC__/image/booklet.png"></div></li>
+                    <li><div class="li2">15%</div></li>
+                    <li><div class="li3">企业基本信息</div></li>
+                    <li><div><img class="li4" src="__PUBLIC__/image/view.png"></div></li>
+                    <li><div><img class="li5" src="__PUBLIC__/image/refresh.png"></div></li>
+                    <li><div><img class="li6" src="__PUBLIC__/image/modify.png"></div></li>
+                </ul>
+                	<ul>
+                		<li><div><img class="li1" src="__PUBLIC__/image/booklet.png"></div></li>
+                    	<li><div class="li2">15%</div></li>
+                    	<li><div class="li3">管理员信息</div></li>
+                    	<li><div><img class="li4" src="__PUBLIC__/image/view.png"></div></li>
+                    	<li><div><img class="li5" src="__PUBLIC__/image/refresh.png"></div></li>
+                    	<li><div><img class="li6" src="__PUBLIC__/image/modify.png"></div></li>
+                	</ul>
+                	<ul>
+                		<li><div><img class="li1" src="__PUBLIC__/image/booklet.png"></div></li>
+                    	<li><div class="li2">15%</div></li>
+                    	<li><div class="li3">职位信息</div></li>
+                    	<li><div><img class="li4" src="__PUBLIC__/image/view.png"></div></li>
+                    	<li><div><img class="li5" src="__PUBLIC__/image/refresh.png"></div></li>
+                    	<li><div><img class="li6" src="__PUBLIC__/image/modify.png"></div></li>
+                	</ul>
+                </div>
+                <hr>
+                <div>服务热线</div>
+                <div class="xiaozi">
+                	十三行人事顾问：赵卉心<br>
+                    联系电话：<label>18611771893</label><br>
+                    Email：<label>zhx212@trading13.com</label>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+   	  		<ul class="cheat">
+            	<li><input type="text"> </li>
+            	<li><button>搜索</button></li>
+            </ul>
+            <form>
+            	<div class="block">
+                    <br>
+                    <label class="lab-title">时间：</label>
+              		<select id="select-year">
+                    	<option>2015</option>
+                    </select> 年
+                    <select id="select-month"></select> 月
+                    <select id="select-day"></select> 日
+                   ——
+                    	<select id="select-year">
+                    	<option>2015</option>
+                    </select> 年
+                    <select id="select-month"></select> 月
+                    <select id="select-day"></select> 日
+                    <input type="submit" value="查询" id="selectTime">
+                    <br><br>
+                </div>
+                <div class="block">
+                	<br>
+                    <input onmouseDown="checkAll()" id="selectAll" type="checkbox" style="margin-left:34px">	
+                    <label id="lab-checkbox">全选</label>
+                    <span class="pos-des">重新发布</span>
+                    <br><br>
+
+                    <foreach name='failedJobInfo' item='a'>
+                    <div class="position">
+                        <input name="checkSingle" type="checkbox">
+                        <div class="info-pos">
+                            <div class="pos-name"><a href="{:U('WebShow/job_show',array('jobid'=>$a['jobid'],),'')}">{$a.jobname}</a></div>
+                            <div class="pos-intro">地点：{$a.jobaddress} | 薪水：{$a.jobsalary}/月 | 招聘人数：{$a.jobrecruitnum} | 已收到简历 {$a.jobid|jobgetresumenum} 份 | 失效时间：????</div>
+                        </div>
+                        <div  class="end-post" onclick="location.reload();">
+                          <label onclick="jobopenclick('{:U('HRAddinfo/HRopenjob',array('jobid'=>$a['jobid']))}')">重新发布</label></div>
+                    </div>
+                    </foreach>
+                    <div class="page">
+                    	<label class="page1">共 10 页</label>
+                        <label class="page2">上一页</label>
+                        <label class="page1">第 <input type="text" value="1"> 页</label>
+                        <label class="page2">下一页</label>
+                    </div>
+                    <br><br>
+            	</div>
+            </form>
+  		</div>
+	</div>
+</div>
+<div class="tail">
+京ICP备09083200号　京ICP证070419号　人才服务许可证：RC0280　京公网安备11010802012824<br>
+Copyright©2000-2014 13hang.com All Rights Reserved
+</div>
+</body>
+</html>

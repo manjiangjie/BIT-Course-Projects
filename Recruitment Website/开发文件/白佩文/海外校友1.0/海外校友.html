@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/hwxy.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="../scripts/jquery-2.1.3.min.js"></script>
+<script src="../scripts/bootstrap.min.js"></script>
+<title>海外校友</title>
+</head>
+
+<body>
+<div class="header">
+<!--导航栏-->
+<nav class="navbar  navbar-fixed-top navbar-inverse " role="navigation">
+  <div class="container">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <a class="navbarbrand" href="#"><img src="../image/home/u191.png" id="img1"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav ">
+  	
+        <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">找职位<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">搜寻职位</a></li>
+            <li class="divider"></li>
+            <li><a href="#">我投递的职位</a></li>
+            <li class="divider"></li>
+            <li><a href="#">我收藏的职位</a></li>
+            <li class="divider"></li>
+            <li><a href="#">职位订阅</a></li>
+          </ul>
+          </li><!-- dropdown ！-->
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">人脉圈<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">海外校友</a></li>
+            <li class="divider"></li>
+            <li><a href="#">人脉圈</a></li>
+            
+           </ul>
+           </li><!-- dropdown ！-->
+            
+            <li><a href="#">知名企业</a></li>
+              <li><a href="#">视频面试</a></li>
+                <li><a href="#">海归路上</a></li>
+       
+      </ul>
+     <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><p>登录</p></a></li>
+      <li><a href="#"><p>注册</p></a></li>
+      <li><a href="#">加入收藏</a></li>
+      </ul>
+      </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+</div><!--header-->
+
+<div class="main">
+<!--海外校友搜索-->
+<div class="container">
+ <div class="row">
+  <div class="col-md-8 col-sm-7">
+  <div class="search_xy">
+   <div class="jumbotron">
+   <div class="input-group input-group-lg">
+      <input type="text" class="form-control" name="keywords" placeholder="搜索你想知道的校友">
+      <span class="input-group-btn">
+       <a href="海外校友2.html" class="btn btn-primary btn-lg active" role="button">搜索</a>
+      </span>
+    </div>
+   </div>
+   </div><!--search_xy-->
+  </div><!--.col-->
+<!--简历隐私设置-->
+ <div class="col-md-4 col-sm-5">
+ 
+   <div class="jianli_set">
+   <div class="jumbotron"> 
+    <a href="#"><button type="button" class="btn btn-warning btn-lg">简历隐私设置</h3></button></a>
+   </div>
+  </div><!--.jianli_set-->
+ </div><!--.col-->
+ </div><!--.row-->
+</div><!--.container-->
+
+<div class="container">
+ <div class="row">
+<!--完善经历-->
+  <div class="col-md-8 col-sm-7">
+   <div class="jumbotron text-left">
+     <label><h3><img src="image/海外校友/u255.png" id="img1_xy">完善经历助你找到更多校友</h3></label>
+   <p>我的经历:</p>
+   <div class="container">   
+   <div class="row">
+   
+   <div class="jingli_label">
+    <span class="label label-info" name="xueli">硕士</span></div>
+   <div class="jingli_label">
+    <span class="label label-info" name="diqu1">美国</span></div>
+   <div class="jingli_label">
+    <span class="label label-info" name="diqu2">加利福尼亚州</span></div>  
+   <div class="jingli_label">
+    <span class="label label-info" name="xuexiao">斯坦福大学</span></div   
+   ><div class="jingli_label">
+    <span class="label label-info" name="zhuanye">工程学院</span></div>
+   <div class="jingli_label">
+    <span class="label label-info" name="xueli_time">2012/05/01-2014/12/05</span></div>   
+    </div><!--.row-->
+    </div><!--container-->
+<!--经历添加-->   
+    <div class="jingli_add">
+
+<!-- <form class="navbar-form navbar-left" role="search">-->
+<!--下拉选择学历-->
+<div class="jingli_xueli">
+<label type="text">学历:</label>
+<select type="text" class="text1" name="xueli">
+<option></option>
+<option>博士后</option>
+<option>博士</option>
+<option>硕士</option>
+<option>MBA/EMBA</option>
+<option>本科</option>
+<option>其它</option>
+</select>
+</div>
+<!--下拉选择学校地点-->
+<div class="jingli_dd">
+<label type="text">学校地点:</label>
+   <select type="text" class="text1" name="guojia">
+<option></option>
+<option>美国</option>
+<option>澳洲</option>
+<option>英国</option>
+<option>日本</option>
+<option>中国</option>
+</select>
+<span></span>
+<select type="text" class="text1" name="zhou">
+<option></option>
+<option>呵呵哈哈呵呵州</option>
+<option>上海</option>
+<option>广州</option>
+<option>深圳</option>
+<option>海外</option>
+</select>
+</div>
+</form>
+
+
+<!--学校名称-->
+<div class="modul_school2">
+<form>
+<label type="text">学校名称：</label> 
+ <ul class="school_list">
+  <li>哈佛大学</li>
+  <li>哈佛大学</li>
+  <li>哈佛大学</li>
+  <li>哈佛大学</li>
+  <li>哈佛大学</li>
+  <li>哈佛大学</li>
+  <li>哈佛大学</li>
+  <li>哈佛大学</li>
+  <li>哈佛大学</li>
+ </ul>
+ </form>
+ </div><!--.modul_school2-->
+ <div class="container">
+  <div class="row">
+   <div class="col-md-5 col-sm-6">
+   <form> 
+   <label type="text">学院名称：</label>
+   <input type="text" class="form-control" name="xueyuan">
+   </form>
+   </div>
+   <div class="col-md-5 col-sm-6">
+   <form> 
+   <label type="text">专业名称：</label>
+   <input type="text" class="form-control" name="zhuanye">
+   </form>
+   </div>
+   </div>
+   <div class="row study_time"> 
+   <div class="col-md-10 col-sm-12">
+   <form>
+   <label type="text">就读时间：</label>
+   
+   <select type="text" class="text1" name="year">
+     <option></option>
+     <option>2010</option>
+     <option>2011</option>
+     <option>2012</option>
+     <option>2013</option>
+     <option>2014</option>
+     <option>2015</option>
+   </select>
+   
+   <select type="text" class="text1" name="month">
+    <option></option>
+     <option>1</option>
+     <option>2</option>
+     <option>3</option>
+     <option>4</option>
+     <option>5</option>
+     <option>6</option>
+     <option>7</option>
+     <option>8</option>
+     <option>9</option>
+     <option>10</option>
+     <option>11</option>
+     <option>12</option>
+   </select> 
+   <label>—</label>
+   <select type="text" class="text1" name="year">
+     <option></option>
+     <option>2010</option>
+     <option>2011</option>
+     <option>2012</option>
+     <option>2013</option>
+     <option>2014</option>
+     <option>2015</option>
+     <option>2016</option>
+     <option>2017</option>
+     <option>2018</option>
+   </select>  
+   <select type="text" class="text1" name="month">
+     <option></option>
+     <option>1</option>
+     <option>2</option>
+     <option>3</option>
+     <option>4</option>
+     <option>5</option>
+     <option>6</option>
+     <option>7</option>
+     <option>8</option>
+     <option>9</option>
+     <option>10</option>
+     <option>11</option>
+     <option>12</option>
+   </select>
+   </form>
+   </div>
+  </div><!--row-->
+  </div><!--container-->
+  
+  <div class="container">
+    <div class="jingli_button">
+  <button type="submit" class="btn btn-success btn-sm">+添加教育经历</button>
+    </div>
+  </div>
+    </div><!--.jingli_add-->
+  </div><!--.jumbotron-->
+ </div><!--.col-->
+<!--可能认识的校友-->
+  <div class="col-md-4 col-sm-5">
+    <div class="modul_xy">
+   <div class="jumbotron">
+    <div class="title_xy">    
+      <button type="button" class="btn btn-block btn-lg"disabled="disabled">你可能认识的校友！</button>
+    </div><!--.title_xy-->
+<!--每一个校友块-->   
+ <div class="container">
+    <div class="know_xy"> 
+      <div class="img">
+       <img src="image/海外校友/jay.jpg" id="img2_xy"> 
+      </div>
+      <div class="guanzhu"><button type="submit" class="btn btn-success btn-sm">+关注</button></div>
+     <div class="xinxi_xy"> 
+      <div id="xingming">周小伦</div>
+      <div id="xuexiao">英国曼彻斯特大学</div>
+      <div id="zhuanye">计算机专业</div> 
+     </div>    
+     </div><!--.know_xy-->
+    </div><!--.container-->
+    
+   <div class="container">
+    <div class="know_xy"> 
+      <div class="img">
+       <img src="image/海外校友/jay.jpg" id="img2_xy"> 
+      </div>
+      <div class="guanzhu"><button type="submit" class="btn btn-success btn-sm">+关注</button></div>
+     <div class="xinxi_xy"> 
+      <div id="xingming">周小伦</div>
+      <div id="xuexiao">英国曼彻斯特大学</div>
+      <div id="zhuanye">计算机专业</div> 
+     </div>    
+    </div><!--.know_xy-->
+   </div><!--.container-->
+    
+   <div class="container">
+    <div class="know_xy"> 
+      <div class="img">
+       <img src="image/海外校友/jay.jpg" id="img2_xy"> 
+      </div>
+      <div class="guanzhu"><button type="submit" class="btn btn-success btn-sm">+关注</button></div>
+     <div class="xinxi_xy"> 
+      <div id="xingming">周小伦</div>
+      <div id="xuexiao">英国曼彻斯特大学</div>
+      <div id="zhuanye">计算机专业</div> 
+     </div>    
+    </div><!--.know_xy-->
+   </div><!--.container-->
+    
+   <div class="container">
+    <div class="know_xy"> 
+      <div class="img">
+       <img src="image/海外校友/jay.jpg" id="img2_xy"> 
+      </div>
+      <div class="guanzhu"><button type="submit" class="btn btn-success btn-sm">+关注</button></div>
+     <div class="xinxi_xy"> 
+      <div id="xingming">周小伦</div>
+      <div id="xuexiao">英国曼彻斯特大学</div>
+      <div id="zhuanye">计算机专业</div> 
+     </div>    
+    </div><!--.know_xy-->
+   </div><!--.container-->
+    
+   <div class="container">
+    <div class="know_xy"> 
+      <div class="img">
+       <img src="image/海外校友/jay.jpg" id="img2_xy"> 
+      </div>
+      <div class="guanzhu"><button type="submit" class="btn btn-success btn-sm">+关注</button></div>
+     <div class="xinxi_xy"> 
+      <div id="xingming">周小伦</div>
+      <div id="xuexiao">英国曼彻斯特大学</div>
+      <div id="zhuanye">计算机专业</div> 
+     </div>    
+    </div><!--.know_xy-->
+   </div><!--.container-->
+    
+   <div class="container">
+    <div class="know_xy"> 
+      <div class="img">
+       <img src="image/海外校友/jay.jpg" id="img2_xy"> 
+      </div>
+      <div class="guanzhu"><button type="submit" class="btn btn-success btn-sm">+关注</button></div>
+     <div class="xinxi_xy"> 
+      <div id="xingming">周小伦</div>
+      <div id="xuexiao">英国曼彻斯特大学</div>
+      <div id="zhuanye">计算机专业</div> 
+     </div>    
+    </div><!--.know_xy-->
+   </div><!--.container-->
+     
+<!--一键关注和查找更多校友-->
+<div class="container">
+    <div class="know_xy"> 
+<div class="guanzhu1">
+<button type="submit" class="btn btn-success btn-sm">一键关注</button>
+</div>
+<div class="search1_xy">
+<button type="submit" class="btn btn-primary btn-sm">查找更多校友</button>
+</div>
+ </div><!--.know_xy-->
+   </div><!--.container-->   
+   </div><!--.jumbotron-->
+  </div><!--.modul_xy-->
+ </div><!--.col-->
+ 
+</div><!--.row-->
+</div><!--.container-->  
+</div><!--main-->
+
+<!--版权显示-->       
+  <div class="panel-footer">
+               
+            <div class="row">
+                <div class="col-sm-12">
+                     <center>
+                    <span>京ICP09083200号</span>     
+                    <span>京ICP证070419号</span>   
+                     <span>人才服务许可证：RC0280</span>  
+                    <span>京公网安备11010802012824</span> 
+                     </center>
+                </div>
+                
+                 <div class="col-sm-12">
+                  <center>
+                   <span>Copyright2015 trading13.com All Rights Reserved</span>         
+                  </center>
+                </div>
+            </div>
+
+  </div>
+
+</body>
+</html>

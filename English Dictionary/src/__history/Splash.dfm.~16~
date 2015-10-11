@@ -1,0 +1,29 @@
+object SplashForm: TSplashForm
+  Left = 0
+  Top = 0
+  AutoSize = True
+  BorderStyle = bsNone
+  Caption = 'SplashForm'
+  ClientHeight = 249
+  ClientWidth = 369
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image1: TImage
+    Left = 0
+    Top = 0
+    Width = 369
+    Height = 249
+    Align = alClient
+    AutoSize = True
+    Stretch = True
+  end
+end

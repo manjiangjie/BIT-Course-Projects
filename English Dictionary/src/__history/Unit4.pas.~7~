@@ -1,0 +1,35 @@
+unit Unit4;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TÉ¾³ýµ¥´Ê = class(TForm)
+    ÒªÉ¾³ýµÄµ¥´Ê: TEdit;
+    Label1: TLabel;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  É¾³ýµ¥´Ê: TÉ¾³ýµ¥´Ê;
+
+implementation
+
+{$R *.dfm}
+
+procedure TÉ¾³ýµ¥´Ê.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+if messagedlg('È·¶¨ÒªÍË³öÂð£¿',mtwarning,[mbyes,mbno],0)=mryes then close;
+end;
+
+end.

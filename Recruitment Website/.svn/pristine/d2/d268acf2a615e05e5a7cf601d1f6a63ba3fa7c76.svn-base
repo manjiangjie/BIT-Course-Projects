@@ -1,0 +1,27 @@
+<?php
+/*
+ *Author: 谢辰
+ *function: 进行工程配置
+ *AlterTime: 2015/04/05
+ */
+return array(
+	//'配置项'=>'配置值'
+	'AUTOLOAD_NAMESPACE'    => array(
+        'Lib'               => APP_PATH . 'Home/Lib/',
+    ),
+    //数据库连接参数
+    'DB_TYPE' => 'mysql',
+    'DB_HOST' => '127.0.0.1',
+    'DB_USER' => 'root',
+    'DB_PWD' => '',
+    'DB_NAME' => 'test_db',
+    // 配置邮件发送服务器
+    'MAIL_HOST' =>'smtp.exmail.qq.com',//smtp服务器的名称
+    'MAIL_SMTPAUTH' =>TRUE, //启用smtp认证
+    'MAIL_USERNAME' =>'13Trade',//你的邮箱名
+    'MAIL_FROM' =>'13Trade@outlook.com',//发件人地址
+    'MAIL_FROMNAME'=>'十三行公司',//发件人姓名
+    'MAIL_PASSWORD' =>'13hang',//邮箱密码
+    'MAIL_CHARSET' =>'utf-8',//设置邮件编码
+    'MAIL_ISHTML' =>TRUE, // 是否HTML格式邮件
+);

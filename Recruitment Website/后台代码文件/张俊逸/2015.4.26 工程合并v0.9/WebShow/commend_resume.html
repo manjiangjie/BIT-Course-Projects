@@ -1,0 +1,202 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/position.css">
+<meta charset="utf-8">
+</head>
+<body>
+<script type="text/javascript" src="__PUBLIC__/javascript/position.js"></script>
+<script type="text/javascript" src="__PUBLIC__/javascript/jquery-2.1.3.js">
+</script>
+<!--header-->
+<div class="header">
+	<img id="title-img" src="__PUBLIC__/image/title.png">
+    <!--导航-->
+	<ul class="navigator">
+        <li>首页</li>
+        <li onMouseOver="showSubnav1()" onMouseOut="hideSubnav1()">找职位
+        	<ul class="subnav" id="subnav1">
+            	<li>搜索职位</li>
+                <li>投递职位</li>
+            	<li>收藏职位</li>
+                <li>职位订阅</li>
+            </ul>
+        </li>
+        <li onMouseOver="showSubnav2()" onMouseOut="hideSubnav2()">人脉圈
+        	<ul class="subnav" id="subnav2">
+            	<li>海外校友</li>
+                <li>人脉圈</li>
+            </ul>
+        </li>
+        <li>知名企业</li>
+        <li>视频面试</li>
+        <li>海归路上</li>
+    </ul>
+    <div class="toolbar">
+    	<img src="__PUBLIC__/image/chat.png">
+        <a href="HRfrontpage.html"><img src="__PUBLIC__/image/avatar.png"></a>
+    </div>
+</div>
+<div class="container" id="height800">
+	<div class="content">
+    	<div class="left">
+        	<div class="title">发布新职位</div>
+        	<ul class="menu">
+                <a href="{:U('WebShow/hr_recuitmentJob_show')}"><li class="clickable">HR首页</li></a>
+                <li>简历管理
+                    <ul class="submenu">
+                        <a href="{:U('WebShow/hr_getNewResume_show')}">
+                            <li>新收到简历
+                            </li></a>
+                        <a href="{:U('WebShow/hr_recommandResume_show')}"><li id="cur-html">推荐简历</li></a>
+                        <a href="{:U('Search/hrSearchResume')}"><li>搜索简历(xx)</li></a>
+                        <a href="{:U('WebShow/hr_collectedResume_show')}"><li>我的收藏</li></a>
+                        <a href="{:U('WebShow/hr_rejectedResume_show')}"><li>已拒绝简历</li></a>
+                    </ul>
+                </li>
+                <li>职位管理
+                    <ul class="submenu">
+                        <a href="{:U('WebShow/hr_rejectedResume_show')}"><li>发布新职位</li></a>
+                        <a href="{:U('WebShow/hr_publishedJob_show')}"><li>已发布职位</li></a>
+                        <a href="{:U('WebShow/hr_failedJob_show')}"><li>已失效职位</li></a>
+                    </ul>
+                </li>
+                <li>视频面试
+                    <ul class="submenu">
+                        <a href="{:U('WebShow/hr_interResume_show')}"><li>待面试</li></a>
+                        <a href="{:U('WebShow/hr_interviewed_show')}"><li>已面试</li></a>
+                    </ul>
+                </li>
+                <a href="company_info.html"><li class="clickable">企业主页</li></a>
+                <a href="edit_account.html"><li class="clickable">控制面板</li></a>
+            </ul>
+            <div class="wanshanxinxi">
+            	<div>完善企业资料</div>
+                <div class="xinxi-wrap">
+                	<ul>
+                	<li><div><img class="li1" src="__PUBLIC__/image/booklet.png"></div></li>
+                    <li><div class="li2">15%</div></li>
+                    <li><div class="li3">企业基本信息</div></li>
+                    <li><div><img class="li4" src="__PUBLIC__/image/view.png"></div></li>
+                    <li><div><img class="li5" src="__PUBLIC__/image/refresh.png"></div></li>
+                    <li><div><img class="li6" src="__PUBLIC__/image/modify.png"></div></li>
+                </ul>
+                	<ul>
+                		<li><div><img class="li1" src="__PUBLIC__/image/booklet.png"></div></li>
+                    	<li><div class="li2">15%</div></li>
+                    	<li><div class="li3">管理员信息</div></li>
+                    	<li><div><img class="li4" src="__PUBLIC__/image/view.png"></div></li>
+                    	<li><div><img class="li5" src="__PUBLIC__/image/refresh.png"></div></li>
+                    	<li><div><img class="li6" src="__PUBLIC__/image/modify.png"></div></li>
+                	</ul>
+                	<ul>
+                		<li><div><img class="li1" src="__PUBLIC__/image/booklet.png"></div></li>
+                    	<li><div class="li2">15%</div></li>
+                    	<li><div class="li3">职位信息</div></li>
+                    	<li><div><img class="li4" src="__PUBLIC__/image/view.png"></div></li>
+                    	<li><div><img class="li5" src="__PUBLIC__/image/refresh.png"></div></li>
+                    	<li><div><img class="li6" src="__PUBLIC__/image/modify.png"></div></li>
+                	</ul>
+                </div>
+                <hr>
+                <div>服务热线</div>
+                <div class="xiaozi">
+                	十三行人事顾问：赵卉心<br>
+                    联系电话：<label>18611771893</label><br>
+                    Email：<label>zhx212@trading13.com</label>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+        	<ul class="cheat">
+            	<li><input type="text"> </li>
+            	<li><button>搜索</button></li>
+            </ul>
+            <form>
+            	<div class="block">
+                	<div class="subtitle">搜索</div>
+                    <div class="search-top">
+                        <label class="lab-title">关键词	</label>
+                        <input type="text">
+                        <label class="lab-title">行业类别</label>
+                        <input type="text">
+                        <label id="more-condition-btn" onMouseDown="toggleMore()">▶更多条件</label>
+                    </div>
+                    <div id="more-condition">
+                       	<div class="search-middle">
+                                <label style="margin-left:34px">工作地点</label>
+                                <select>
+                                    <option>不限</option>
+                                </select>
+                                <label style="margin-left:135px">学历</label>
+                                <select id="select-edu-bg">
+                                    <option>不限</option>
+                                    <option>专科及以上</option>
+                                    <option>本科及以上</option>
+                                    <option>硕士及以上</option>
+                                    <option>博士及以上</option>
+                                </select>
+                            </div>
+                        <div class="search-bottom">
+                                <label style="margin-left:65px">性别</label>
+                                <select id="select-gender">
+                                    <option>不限</option>
+                                    <option>男</option>
+                                    <option>女</option>
+                                </select>
+                                <label style="margin-left:176px">年龄</label>
+                                <select id="select-age">
+                                    <option>不限</option>
+                                    <option>25岁以下</option>
+                                    <option>25-30岁</option>
+                                    <option>30-35岁</option>
+                                    <option>35岁以上</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div class="searchbtn">
+                        <input type="submit" value="搜索">
+                    </div>
+                </div>
+                <div class="block">
+                     <foreach name='recommandResumeInfo' item='r'>
+                    <div class="commend-resume">
+                    	<ul>
+                        	<li>
+                            	<div class="avatar">
+                                    <div class="icon">
+                                        <img src="__PUBLIC__/image/icon1.png">
+                                    </div>
+                                    <div class="identity">
+                                        <div class="name"><a href="{:U('WebShow/hr_searchPageResume_show',array('applicantid'=>$r['applicantid'],'jobid'=>$r['jobid'],),'')}">{$r.applicantname}</a></div>
+                                        <div class="job"><a href="{:U('WebShow/job_show',array('jobid'=>$r['jobid'],),'')}">{$r.jobname}</a></div>
+                                    </div>
+                                </div>
+                                 <div class="info">{:changesex($r.applicantsex)}/ {$r.jobname}/{$r.resumeaddress}</div>
+                                <div class="exp">{$r.jobname} 3年</div>
+                                <div class="view">
+                                	<div class="view-resume"><a href="{:U('WebShow/hr_searchPageResume_show',array('applicantid'=>$r['applicantid'],'jobid'=>$r['jobid'],),'')}">查看简历</a></div>
+                                </div>
+                            </li>
+                       
+                        </ul>
+                    </div>
+                     </foreach>
+                    <br>
+                    <div class="page">
+                    	<label class="page1">共 10 页</label>
+                        <label class="page2">上一页</label>
+                        <label class="page1">第 <input type="text" value="1"> 页</label>
+                        <label class="page2">下一页</label>
+                    </div>
+                    <br><br>
+            	</div>
+            </form>
+  		</div>
+	</div>
+</div>
+<div class="tail">
+京ICP备09083200号　京ICP证070419号　人才服务许可证：RC0280　京公网安备11010802012824<br>
+Copyright©2000-2014 13hang.com All Rights Reserved
+</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+unit Delete;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Data.DB,
+  Data.Win.ADODB;
+
+type
+  T删除单词 = class(TForm)
+    要删除的单词: TEdit;
+    单词: TLabel;
+    确定: TButton;
+    取消: TButton;
+    结果显示: TButton;
+    ADOTable1: TADOTable;
+    procedure 确定Click(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure 取消Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  删除单词: T删除单词;
+
+implementation
+
+{$R *.dfm}
+
+uses Main;
+
+procedure T删除单词.确定Click(Sender: TObject);
+begin
+删除单词.Hide;
+管理员.Show;
+end;
+
+procedure T删除单词.取消Click(Sender: TObject);
+begin
+删除单词.Hide;
+管理员.Show;
+end;
+
+procedure T删除单词.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+删除单词.Hide;
+管理员.Show;
+end;
+
+end.

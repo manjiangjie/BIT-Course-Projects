@@ -1,0 +1,70 @@
+﻿object 管理员: T管理员
+  Left = 0
+  Top = 0
+  Caption = #31649#29702#21592
+  ClientHeight = 360
+  ClientWidth = 503
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object 添加单词: TButton
+    Left = 24
+    Top = 264
+    Width = 75
+    Height = 25
+    Caption = #28155#21152#21333#35789
+    TabOrder = 0
+    OnClick = 添加单词Click
+  end
+  object 修改单词: TButton
+    Left = 144
+    Top = 264
+    Width = 75
+    Height = 25
+    Caption = #20462#25913#21333#35789
+    TabOrder = 1
+    OnClick = 修改单词Click
+  end
+  object 删除单词: TButton
+    Left = 272
+    Top = 264
+    Width = 75
+    Height = 25
+    Caption = #21024#38500#21333#35789
+    TabOrder = 2
+    OnClick = 删除单词Click
+  end
+  object 查询单词: TButton
+    Left = 400
+    Top = 264
+    Width = 75
+    Height = 25
+    Caption = #26597#35810#21333#35789
+    TabOrder = 3
+    OnClick = 查询单词Click
+  end
+  object Button2: TButton
+    Left = 400
+    Top = 320
+    Width = 75
+    Height = 25
+    Caption = #36864#20986
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 272
+    Top = 320
+    Width = 75
+    Height = 25
+    Caption = #36820#22238#30331#24405#30028#38754
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+end

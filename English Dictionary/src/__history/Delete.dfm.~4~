@@ -1,0 +1,66 @@
+﻿object 删除单词: T删除单词
+  Left = 0
+  Top = 0
+  Caption = #21024#38500#21333#35789
+  ClientHeight = 330
+  ClientWidth = 401
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object 单词: TLabel
+    Left = 48
+    Top = 27
+    Width = 24
+    Height = 13
+    Caption = #21333#35789
+  end
+  object 要删除的单词: TEdit
+    Left = 120
+    Top = 24
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    TextHint = #35201#21024#38500#30340#21333#35789
+  end
+  object 确定: TButton
+    Left = 64
+    Top = 272
+    Width = 75
+    Height = 25
+    Caption = #30830#23450
+    TabOrder = 1
+    OnClick = 确定Click
+  end
+  object 取消: TButton
+    Left = 254
+    Top = 272
+    Width = 75
+    Height = 25
+    Caption = #21462#28040
+    TabOrder = 2
+    OnClick = 取消Click
+  end
+  object 结果显示: TButton
+    Left = 288
+    Top = 22
+    Width = 75
+    Height = 25
+    Caption = #32467#26524#26174#31034
+    TabOrder = 3
+  end
+  object ADOTable1: TADOTable
+    Active = True
+    Connection = 管理员.ADOConnection1
+    CursorType = ctStatic
+    TableName = 'words'
+    Left = 152
+    Top = 280
+  end
+end

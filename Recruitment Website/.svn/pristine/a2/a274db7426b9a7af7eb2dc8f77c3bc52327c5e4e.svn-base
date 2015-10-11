@@ -1,0 +1,16 @@
+<?php
+	namespace Home\Controller;
+	use Think\Controller;
+	use Lib\Classes\Users;
+	use Lib\Interfaces\Register;
+	class HRController extends Users implements Register{
+		//public function index(){echo 'HR';$this->display();}
+		public function indiReg(){
+			//nothing
+		}
+		public function hrReg(){
+			echo 'hr';
+			//echo $search;
+		}//HR注册
+	}
+?>

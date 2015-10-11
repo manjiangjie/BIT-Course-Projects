@@ -1,0 +1,262 @@
+<!--Author: 白佩文  Time:2015-04-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/hgls.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="scripts/jquery-2.1.3.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<title>海归路上</title>
+ <style>
+
+	.navimg1{
+			width:30PX;
+			height:35px;
+			margin-top:-5px;
+		}
+	.navimg2{
+		width:30PX;
+			height:20px;
+			margin-right:10px;
+			}
+	.nav-search{
+			width:200px;
+			position:absolute;
+			top:10px;
+			left:65px;
+		}	
+		.body{
+			padding-top:70px;
+		}
+</style>
+            
+</head>
+
+<body>
+<div class="header">
+<!--导航栏-->
+ <nav class="navbar  navbar-fixed-top navbar-inverse " role="navigation">
+  <div class="container">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <a class="navbar-brand" href="#"><img class="navimg1" alt="Brand" src="image/海归路上2/u42.png"></a>
+             <div class="visible-xs nav-search">  
+              <input type="text" class="form-control" placeholder="请输入职位关键字">          
+             </div>  <!-- ./nav-search-->  
+    </div>
+   
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav ">
+  	
+        <li><a href="HOME.html">首页 <span class="sr-only">(current)</span></a></li>
+      
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">找职位<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="找职位.html">搜寻职位</a></li>
+            <li class="divider"></li>
+            <li><a href="职位管理.htm">职位管理</a></li>
+           
+          </ul>
+          </li><!-- dropdown ！-->
+          
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">人脉圈<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="海外校友.html">海外校友</a></li>
+            <li class="divider"></li>
+            <li><a href="我的人脉.htm">人脉圈</a></li>
+            
+           </ul>
+           </li><!-- dropdown ！-->
+            
+            <li><a href="知名企业.html">知名企业</a></li>
+              <li><a href="#">视频面试</a></li>
+                <li class="active"><a href="海归路上.html">海归路上</a></li>
+               
+               
+             <!--    
+               <form class="navbar-form navbar-left" role="search">
+             <div class="form-group">  
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+             </form>
+             !-->
+          
+      </ul>
+     <ul class="nav navbar-nav navbar-right">
+          <li><a href="站内信.html"><img class="navimg2" alt="Brand" src="image/海归路上2/1_u297.png"></a></li>
+          <li><a href="个人界面首页.htm"><img class="navimg2" alt="Brand" src="image/海归路上2/2_u299.png"></a></li>
+          <li><a href="#">加入收藏</a></li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav>
+</div><!--header-->
+
+<div class="main">
+ <div class="container">
+  <div class="row"> 
+<!--左部-->  
+   <div class="col-md-7 col-sm-7">
+     <div class="tiezi_content panel panel-default">
+        <img src="image/海归路上/u232.png" class="zixun_img">
+        <ul>
+          <div class="label zixun_hot">热门</div>
+          <li class="zixun_title"><a href="#">在读博士，询问未来发展方向</a></li>
+          <li>
+            <div class="zixun_xinxi">
+              <label name="zixun_author">刘先生</label> -
+              <label name="zixun_time">2014-12-04</label> -
+              <label>回答<label name="zixun_respond">31</label>个</label> -
+              <label name="zixun_sort">求职</label></label>
+            </div>
+          </li>
+          <li class="zixun_text1">德国高校在读博士（机械/电子 TOP1），从事机器人（现为医疗康复机器人）结构设计，控制器设计等方向的研究。之前在国内读本科与研究生，主要从事机械，机电相关领域。虽然离博士毕业还需要好几年的时间，但我希望通过此平台多了解下国内企业概况，如果能交到朋友，拓展人脉也是最好的。我有个虽然离博士毕业还需要好几年的时间，但我希望通过此平台多了解下国内企业概况，如果能交到朋友，拓展人脉也是最好的。我有个    
+          </li>
+          <!--<li><label><a href="#">[查看全部]</a></label></li-->
+        </ul>
+      </div><!--tiezi_content-->
+     <!--帖子回复-->
+      <div class="container">
+        <img src="image/海归路上2/u248.png" class="respond_img">
+         <li>
+           <label name="tiezi_xingzi">贾晨杰</label>&nbsp;&nbsp;&nbsp;
+           <label name="tiezi_qiye">阿里巴巴</label>&nbsp;&nbsp;&nbsp;
+           <label name="tiezi_zhiwei">HR</label>
+        </li>
+        <li>
+          <form method="post">
+           <div>
+            <textarea name="respond_text" cols=50 row=10>
+            </textarea>
+           </div> 
+          </form>
+        </li>
+        <li>
+          <div class="respond_ok">
+           <form method="post">
+            <input type="checkbox" name="respond_sort" value="respond_nm">匿名回复
+            <button type="submit" class="btn-default btn-sm">提交答案</button>
+           </form>
+          </div>
+        </li>
+      </div><!--tiezi_respond-->
+     <!--问答-->
+     <div class="wenda_num">
+         <label name="wenda_num">31<label>个问答</label></label>
+        </div>
+     <div class="tiezi_wenda panel panel-default">
+        
+        <div class="wenda_content">
+          <img src="image/海归路上2/u258.png" class="wenda_img">
+          <li>
+            <label class="wenda_mingzi">张传奇</label>&nbsp;&nbsp;
+            <label class="wenda_zhiwei">顾问（C）</label>
+          </li>
+          <li class="wenda_text">
+            您好，您的简历我已经看了，已经关注您，你问的问题也要看在什么行业、什么地点、什么公司，之前我们操作的博士211、985毕业的应届毕业生25万(多一年*5~8万)工作地点在顺德，现在我负责电机一方面的，薪资待遇博士的珠三角还是挺不错的，关键还要看个人能力，应为现在很多企业并不是一定要博士毕业，所以能力非常好，企业发展好，薪资还是能够满足你的需求的，其他的方面了解不是特别详细，如有什么问题也可以关注我，详谈！
+          </li>
+          <li>
+            <label class="wenda_time">2015-01-06 23:11</label>
+            <label><a href="#" class="wenda_share"><img src="image/海归路上2/u384.jpg" class="share_img">一键分享到微信</a></label>
+          </li>
+        </div><!--wenda_content-->
+        
+        <div class="wenda_content">
+          <img src="image/海归路上2/u258.png" class="wenda_img">
+          <li>
+            <label class="wenda_mingzi">张传奇</label>&nbsp;&nbsp;
+            <label class="wenda_zhiwei">顾问（C）</label>
+          </li>
+          <li class="wenda_text">
+            您好，您的简历我已经看了，已经关注您，你问的问题也要看在什么行业、什么地点、什么公司，之前我们操作的博士211、985毕业的应届毕业生25万(多一年*5~8万)工作地点在顺德，现在我负责电机一方面的，薪资待遇博士的珠三角还是挺不错的，关键还要看个人能力，应为现在很多企业并不是一定要博士毕业，所以能力非常好，企业发展好，薪资还是能够满足你的需求的，其他的方面了解不是特别详细，如有什么问题也可以关注我，详谈！
+          </li>
+          <li>
+            <label class="wenda_time">2015-01-06 23:11</label>
+            <label><a href="#" class="wenda_share"><img src="image/海归路上2/u384.jpg" class="share_img">一键分享到微信</a></label>
+          </li>
+        </div><!--wenda_content-->
+        
+        <div class="wenda_content">
+          <img src="image/海归路上2/u258.png" class="wenda_img">
+          <li>
+            <label class="wenda_mingzi">张传奇</label>&nbsp;&nbsp;
+            <label class="wenda_zhiwei">顾问（C）</label>
+          </li>
+          <li class="wenda_text">
+            您好，您的简历我已经看了，已经关注您，你问的问题也要看在什么行业、什么地点、什么公司，之前我们操作的博士211、985毕业的应届毕业生25万(多一年*5~8万)工作地点在顺德，现在我负责电机一方面的，薪资待遇博士的珠三角还是挺不错的，关键还要看个人能力，应为现在很多企业并不是一定要博士毕业，所以能力非常好，企业发展好，薪资还是能够满足你的需求的，其他的方面了解不是特别详细，如有什么问题也可以关注我，详谈！
+          </li>
+          <li>
+            <label class="wenda_time">2015-01-06 23:11</label>
+            <label><a href="#" class="wenda_share"><img src="image/海归路上2/u384.jpg" class="share_img">一键分享到微信</a></label>
+          </li>
+        </div><!--wenda_content-->
+      <!--分页浏览-->
+      <center>
+        <ul class="pagination">
+          <li><a href="#">&laquo;</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">&raquo;</a></li>
+       </ul>
+       </center>
+        
+     </div> 
+   </div><!--col-->
+
+<!--右部-->   
+   <div class="col-md-5 col-sm-5">
+     <!--广告位-->
+     <div class="gg_hg">
+       <img src="image/海归路上/u562.png" id="gg_img">
+     </div>
+    <!--热点话题-->
+     <div class="hot_hg" id="hot_title">
+       热议话题前TOP5
+       <li class="hot_text"><a href="#">"海龟"变"海带"谁解其中味？</a></li>
+       <li class="hot_text"><a href="#">"海龟"变"海带"谁解其中味？</a></li>
+       <li class="hot_text"><a href="#">"海龟"变"海带"谁解其中味？</a></li>
+       <li class="hot_text"><a href="#">"海龟"变"海带"谁解其中味？</a></li>
+       <li class="hot_text"><a href="#">2014年中国留学回国就业蓝皮书发布:过半海归青睐北上广深</a></li>
+     </div><!--hot_hg--> 
+   </div><!--col-->
+   
+  </div><!--row-->
+ </div><!--container-->
+</div><!--main-->
+<!--版权显示-->       
+  <div class="panel-footer">
+               
+            <div class="row">
+                <div class="col-sm-12">
+                     <center>
+                    <span>京ICP09083200号</span>     
+                    <span>京ICP证070419号</span>   
+                     <span>人才服务许可证：RC0280</span>  
+                    <span>京公网安备11010802012824</span> 
+                     </center>
+                </div>
+                
+                 <div class="col-sm-12">
+                  <center>
+                   <span>Copyright2015 trading13.com All Rights Reserved</span>         
+                  </center>
+                </div>
+            </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+unit Main;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Data.DB,
+  Data.Win.ADODB;
+
+type
+  T管理员 = class(TForm)
+    添加单词: TButton;
+    修改单词: TButton;
+    删除单词: TButton;
+    查询单词: TButton;
+    退出: TButton;
+    返回登录界面: TButton;
+    ADOConnection1: TADOConnection;
+    procedure 退出Click(Sender: TObject);
+    procedure 返回登录界面Click(Sender: TObject);
+    procedure 添加单词Click(Sender: TObject);
+    procedure 修改单词Click(Sender: TObject);
+    procedure 删除单词Click(Sender: TObject);
+    procedure 查询单词Click(Sender: TObject);
+    procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  管理员: T管理员;
+
+implementation
+
+uses Login, Insert, Delete, Update, Unit6;
+{$R *.dfm}
+
+procedure T管理员.返回登录界面Click(Sender: TObject);
+begin
+管理员.Hide;
+欢迎登录.Show;
+end;
+
+procedure T管理员.FormCloseQuery(Sender: TObject; var CanClose: Boolean);
+begin
+if MessageBox(Handle,'确定要退出本系统吗？','系统提示',MB_ICONWARNING+MB_YesNo) = IDNO
+then CanClose := False;
+end;
+
+procedure T管理员.修改单词Click(Sender: TObject);
+begin
+管理员.Hide;
+Application.CreateForm(T修改单词, 修改单词);
+修改单词.Show;
+end;
+
+procedure T管理员.删除单词Click(Sender: TObject);
+begin
+管理员.Hide;
+删除单词.Show;
+end;
+
+procedure T管理员.添加单词Click(Sender: TObject);
+begin
+管理员.Hide;
+添加单词.Show;
+end;
+
+procedure T管理员.查询单词Click(Sender: TObject);
+begin
+管理员.Hide;
+查询单词.Show;
+end;
+
+procedure T管理员.退出Click(Sender: TObject);
+begin
+if MessageBox(Handle,'确定要退出本系统吗？','系统提示',MB_ICONWARNING+MB_YesNo) = IDYES
+then application.Terminate;
+end;
+
+end.

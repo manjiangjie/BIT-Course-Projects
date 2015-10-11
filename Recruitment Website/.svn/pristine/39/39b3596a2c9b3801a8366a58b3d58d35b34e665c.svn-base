@@ -1,0 +1,32 @@
+<?php
+	namespace Home\Controller;
+	use Think\Controller;
+	include './Interface.php';
+	class HRAddinfoController extends Controller implements Addinfo{
+		public function indiAddResume(){
+
+		}
+		public function indiResumeSet(){
+
+		}
+		public function hrAddJob(){
+
+		}//HR添加新职位
+		public function hrChangeCompInfo(){
+
+		}//HR修改公司信息
+		public function hrAddCompNews(){
+
+		}//HR修改/添加企业新闻
+		public function hrChangeInfo(){
+
+		}//HR修改注册信息
+		public function hrSetInfo(){
+
+		}//修改账号可见性状态
+		public function chat(){
+			
+		}
+	}
+
+?>

@@ -1,0 +1,365 @@
+  <!--  袁路非 2015.4.16  个人界面首页-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>个人界面首页</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-2.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+
+	.navimg{
+			width:30PX;
+			height:30px;
+		}
+	body{
+			padding-top: 70px;
+			background-color:#CCC;
+		}
+		#shouye-all{
+			width:100%;
+			margin-left:250px;
+			
+		}
+	.jinli{
+		overflow:hidden;
+			list-style:none;
+			background-color:white;
+			
+	}
+	.jinli-img{
+		padding-top:80px;
+		margin-left:-20px;
+	}
+	
+	
+.jingli_add{/*整块"完善经历"*/
+border:1px solid;
+border-color:#CCC;
+width:120%;
+margin-top:15px;
+position:static;
+padding:10px;
+
+}
+.jianli_button{
+	float:right;
+	padding-right:20px;	
+}
+input[type="button"]
+{
+	background:#ed741c;
+	border:none;
+	border-radius:10px;	
+	width:75px;
+	height:30px;
+	color:white;
+	margin-left:20px;
+}
+.jianli_head
+{
+	float:left;
+	margin-left:20px;
+	font-size:22px;
+	
+	}
+.potrait
+{
+	margin-top:10px;
+	margin-left:20px;
+	width:105px;
+	heght:105px;
+	}
+.jianli_tissue
+{
+	font-size:20px;
+}
+.jianli_title1
+{
+	margin-left:20px;
+	font-size:18px;
+	font-style:black;
+	background-color:#DDD;
+	}
+
+.jianli_title2
+{
+	margin-left:40px;
+	background-color:#DDD;
+	}
+
+.jianli_001
+{
+	position:absolute;
+	margin-left:140px;
+	margin-top:10px;
+	font-size:18px
+}
+.jianli_002
+{
+	position:absolute;
+	margin-left:120px;
+	margin-top:40px;
+	fontsize:16px;
+	width:100%;
+}
+.jianli_003
+{
+	padding-left:30px;
+}
+
+.jianli_sex
+{
+	float:right;
+	font-size:12px;
+	margin-left:5px;
+	margin-top:5px;
+}
+label
+{
+	width:220px;
+	margin-left:20px;
+	}
+		.copyright{
+			padding-top:20px;
+		}
+		
+	</style>
+  </head>
+  <body>
+  
+ <nav class="navbar  navbar-fixed-top navbar-inverse " role="navigation">
+  <div class="container">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <a class="navbar-brand" href="#"><img class="navimg" alt="Brand" src="image/u42.png"></a>
+    </div>
+   
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav ">
+  	
+        <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+      
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">找职位<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">搜寻职位</a></li>
+            <li class="divider"></li>
+            <li><a href="#">我投递的职位</a></li>
+            <li class="divider"></li>
+            <li><a href="#">我收藏的职位</a></li>
+            <li class="divider"></li>
+            <li><a href="#">职位订阅</a></li>
+          </ul>
+          </li><!-- dropdown ！-->
+          
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">人脉圈<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">海外校友</a></li>
+            <li class="divider"></li>
+            <li><a href="#">人脉圈</a></li>
+            
+           </ul>
+           </li><!-- dropdown ！-->
+            
+            <li><a href="#">知名企业</a></li>
+              <li><a href="#">视频面试</a></li>
+                <li><a href="#">海归路上</a></li>
+       
+      </ul>
+     <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">加入收藏</a></li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container 标签页 -->
+</nav>
+
+
+
+ <div class="container" id="shouye-all">
+ <div class="row">
+   <div class="col-md-8">
+  
+<!--完善经历-->
+
+   <div class="jumbotron text-left jinli">
+ 
+    <div class="row">  
+    <div class="jianli_head">
+    企业HR将会看到您的简历，并且和您联系。
+    </div>
+    <div class="jianli_button"> 
+   	<input type="button" value="修改简历"/>
+   	<input type="button" value="下载简历"/>
+	</div>
+<!--经历添加-->   
+    <div class="col-md-10">
+    <div class="jingli_add">
+    <div class="jianli_001">
+   	范德萨
+    <div class="jianli_sex">
+    男
+    </div></div>
+    <div class="jianli_002">
+    <label>目前所在公司：百度在线</label>
+    <label>所在地点：北京</label><br>
+    <label>目前职位：电气工程师</label>
+    <label>工作年限：21年以上</label>
+    </div>
+    <div class="potrait">
+    <img src="" style="width:100px;height:100px;"/>
+    </div>
+    <br>
+ 	
+    
+    </div>
+    
+    <div class="jingli_add">
+    <div class="jianli_tissue">
+    <label>基本资料</label></div>
+    <div class="jianli_003">
+    <label>年龄：41</label>
+    <label>婚姻状况：保密</label><br>
+    <label>手机：13712345678</label>
+    <label>邮箱：807376702@qq.com</label><br>
+    <label>国籍：中国</label>
+    <label>户籍：</label><br>
+    <label>目前状态：在职，看看新机会</label>
+    </div>
+    </div>
+    
+    <div class="jingli_add">
+    <div class="jianli_tissue">
+    <label>职业意向</label></div>
+    <div class="jianli_003">
+    <label>期望行业：计算机硬件/网络设备</label><br>
+    <label>期望职位：高级硬件工程师</label><br>
+    <label>期望地点：北京</label><br>
+    <label>期望年薪：0.00万 0元/月*12个月</label><br>
+    </div>
+    </div>
+    
+    
+    <div class="jingli_add">
+    <div class="jianli_tissue">
+    <label>工作经历</label></div>
+    <div class="jianli_title1">
+    	2013.02 -至今 百度在线网络技术(北京)有限公司上海第二分公司
+    </div>
+    <div class="jianli_003">
+    <br>
+    <label>公司描述：</label><br>
+    <label>公司性质：</label><br>
+    <label>公司规模：</label><br>
+    <label>公司行业：</label><br>
+    <br>
+    </div>
+    <div class="jianli_title2">
+    	<label>电气工程师</label>
+        <label>2013.02-至今</label>
+    </div>
+    <div class="jianli_003">
+    <br>
+    <label>薪酬状况：</label><br>
+    <label>工作地点：北京</label><br>
+    <label>所在部门：</label><br>
+    <label>汇报对象：</label><br>
+    <label>下属人数：</label><br>
+    <label>工作职责：</label><br>
+    <label>工作业绩：</label><br>
+    </div>
+    </div>
+    
+    <div class="jingli_add">
+    <div class="jianli_tissue">
+    <label>教育经历</label></div>
+    <div class="jianli_003">
+    <label>北京理工大学（2012.09-至今）</label><br>
+    <label>专业名称：日狗系</label>
+    <label>学历：博士后</label>
+    <label>是否统招：是</label>
+    </div>
+    </div>
+    
+    <div class="jingli_add">
+    <div class="jianli_tissue">
+    <label>语言能力</label></div>
+    <div class="jianli_003">
+    <label>普通话</label>
+    </div>
+    </div>
+    
+    <div class="jingli_add">
+    <div class="jianli_tissue">
+    <label>自我评价</label></div>
+    <div class="jianli_003">
+    <label></label>
+    </div>
+    </div>
+    
+    
+    <div class="jingli_add">
+    <div class="jianli_tissue">
+    <label>附加信息</label></div>
+    <div class="jianli_003">
+    <label></label>
+    </div>
+    </div>
+    
+    
+   </div>
+  </div><!--row-->
+ 
+  
+    </div><!--.jingli_add-->
+    </div><!-- ./col-md-8 -->
+    
+    </div><!-- ./row-->
+  	</div><!--.jumbotron--><!-- /.panel-->
+  
+  
+
+      
+   
+      
+      
+
+
+
+
+    
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                     <center>
+                    <span>京ICP09083200号</span>     
+                    <span>京ICP证070419号</span>   
+                     <span>人才服务许可证：RC0280</span>  
+                    <span>京公网安备11010802012824</span> 
+                     </center>
+                </div>
+                
+                 <div class="col-sm-12">
+                     <center>
+                    <span>Copyright©2015 trading13.com All Rights Reserved</span>         
+                     </center>
+                </div>
+            </div>
+        </div>
+    </div><!-- copyright!-->
+
+
+    
+  </body>
+</html>

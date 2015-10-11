@@ -1,0 +1,368 @@
+#img1{ /*13行图标*/
+border:0; 
+margin:0; 
+padding:0; 
+max-width:52px; 
+width:expression_r(this.width>52?"52px":this.width); 
+max-height:52px; 
+height:expression_r(this.height>52?"52px":this.height); 
+}
+
+#img2/*头部图片*/
+{
+	width: 100%;
+	margin:auto;
+	height: auto;
+}
+#imgbig
+{
+	width: 100%;
+	margin:auto;
+	height: auto;
+}
+.img3{/*企业logo*/
+   width:50%;
+   max-width: 100%; 
+   height:auto; display: block;
+}
+.title{/*标题显示,比如：国内名企、创业新秀等*/
+	background-color:#F63;
+	font-size:18px;
+	color:#FFF;
+}
+.table/*职位数据，表格里*/
+{
+	text-align:left;
+	font-size:14px;
+	padding:50px;
+	width:100%;
+	margin:auto;
+	height:20%;
+}
+#login
+{
+	position:absolute;
+	bottom:320px;
+	left:910px;
+	background:#333333;
+	width:234px;
+	height:240px;
+	opacity:0.9;
+	text-align:center;
+}
+
+.login-head
+{
+	height:40px;
+}
+
+.login-head div
+{
+	float:left;
+	width:117px;
+	height:40px;
+	font-size:12px;
+	color:white;
+	line-height:40px;
+}
+
+.login-head #unchecked
+{
+	color:#b5b5b5;
+	background:#6a6a6b;
+}
+
+#login-psd-deal
+{
+	list-style:none;
+	color:#b5b5b5;
+	font-size:12px;
+	line-height:20px;
+	margin: 15px 13px 15px;
+	padding:0px;
+}
+
+#login-psd-deal .left
+{
+	float:left;
+}
+
+#login-psd-deal .right
+{
+	float:right;
+}
+
+.login-head input[type='text']
+{
+	margin-top:15px;
+	width:200px;
+	height:27px;	
+}
+
+.login-head input[type='password']
+{
+	margin-top:10px;
+	width:200px;
+	height:27px;	
+}
+
+.login-head input[type='submit']
+{
+	border-radius:5px;
+	margin-top:10px;
+	width:200px;
+	height:30px;	
+	background:#ff4a00;
+	outline:none;
+	border:none;
+	font-size:16px;
+	color:white;
+}
+
+#login-lab-register
+{
+	float:right;	
+	font-size:12px;
+	color:#00ccff;
+	margin-top:15px;
+	margin-right:20px;
+}
+
+ul
+{
+	margin:0;	
+	padding:0;
+}
+
+li
+{
+	float:left;
+	list-style:none;	
+}
+
+.container
+{
+	width:100%;
+	text-align:center;
+}
+
+.info
+{
+	width:70%;
+	height:220px;
+	margin-left:13%;
+}
+
+.info .left
+{
+	float:left;	
+}
+
+.video
+{
+	border:black solid 1px;	
+	float:left;
+	width:320px;
+	height:200px;
+	margin-left:30px;
+}
+
+.search select
+{
+	width:80px;
+	height:35px;	
+	border:#ff4a00 solid 2px;
+	border-right:none;
+}
+
+.search input
+{
+	height:35px;
+	width:420px;
+	border:#ff4a00 solid 2px;	
+	padding-left:2px;	
+}
+
+.search button
+{
+	background:#ff4a00;
+	border:none;
+	height:35px;
+	width:90px;
+	color:white;
+	font-size:14px;
+}
+
+.hot
+{
+	height:80px;
+	line-height:100px;
+	font-size:13px;
+	color:#999999;
+	margin-left:-120px;
+}
+
+.work
+{
+	height:100px;
+	line-height:100px;
+	margin-top:5px;
+	font-size:16px;
+	color:#999999;
+	margin-left:-200px;
+}
+
+.recommend
+{
+	width:70%;
+	margin-left:13%;
+}
+
+#title-txt
+{
+	color:#999999;
+	font-size:18px;
+	line-height:30px;
+	margin-left:10px;
+	width:900px;
+	text-align:left;
+}
+
+.bar
+{
+	width:10px;
+	height:30px;
+	background:#ff4a00;
+	float:left;
+}
+
+.position-block, .company-block
+{
+	width:200px;
+	height:200px;
+	margin-top:20px;
+	margin-right:46px;
+}
+
+.position-type
+{
+	background:#d7d7d7;	
+	font-size:12px;
+	line-height:20px;
+	height:20px;
+	color:#515151;
+}
+
+.position
+{
+	background:#f8f9f9;
+	height:180px;
+}
+
+.position ul
+{
+	width:200px;	
+}
+
+.position li
+{
+	margin-top:10px;	
+}
+
+.position label
+{
+	font-size:12px;	
+}
+
+.li1
+{
+	font-size:12px;
+	font-weight:700;
+	width:40px;
+	text-align:left;
+	padding-left:10px;
+}
+
+.li2
+{
+	font-size:12px;
+	color:#797979;
+	width:80px;
+	text-align:left;
+	padding-left:10px;
+}
+
+.li3
+{
+	font-size:12px;
+	width:60px;
+}
+
+.li4
+{
+	font-size:12px;	
+	width:200px;
+}
+
+.positions
+{
+	height:280px;
+}
+
+.company-icon
+{
+	height:80px;
+	width:200px;
+}
+
+.company-work
+{
+	font-size:12px;	
+	margin-top:10px;
+}
+
+.company-work li
+{
+	width:200px;
+	text-align:left;
+	padding-left:10px;	
+	margin-bottom:3px;
+}
+
+.company-icon img
+{
+	display:block;
+	width:200px;
+	height:80px;
+}
+
+.companies
+{
+	height:30px;	
+}
+
+#tail
+{
+	margin-top:50px;
+	size:5;
+	border:#e4e4e4 solid 1px;
+	background:#e4e4e4;
+}
+
+.copyright
+{
+	font-size:14px;
+	text-align:center;
+	color:#999999;
+}
+
+.navigator #checked/*被选中的页面*/
+{
+	background:#333333;	
+}
+
+.navigator li:hover/*鼠标悬浮*/
+{
+	background:#333333;	
+}
+

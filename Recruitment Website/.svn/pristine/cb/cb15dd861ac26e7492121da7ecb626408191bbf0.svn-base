@@ -1,0 +1,117 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/position.css">
+<meta charset="utf-8">
+</head>
+<body>
+<!--header-->
+<div class="header">
+	<img id="title-img" src="__PUBLIC__/image/title.png">
+    <!--导航-->
+	<ul class="navigator">
+        <li>首页</li>
+        <li>人脉圈</li>
+        <li>知名企业</li>
+        <li>视频面试</li>
+        <li>海归路上</li>
+    </ul>
+    <!--搜索-->
+    <div class="search">
+    	<img src="__PUBLIC__/image/blank.png" id="search-bg">
+    	<input type="text" id="search-input">
+    	<img src="__PUBLIC__/image/magnifying-glass.png" id="search-magnifying"><img src="__PUBLIC__/image/close.png" id="search-close">
+    </div>
+</div>
+<div class="container">
+	<div class="content">
+   	  <div class="left">
+        	<ul class="menu">
+            	<li>HR首页</li>
+                <li>简历管理
+                	<ul class="submenu">
+                    	<li><label>新收到简历</label>
+                        	<div id="new-resume">99+</div>
+                        </li>
+                        <li><label>待面试简历</label></li>
+                        <li><label>推荐简历</label></li>
+                        <li><label>搜索简历</label></li>
+                        <li><label>我的收藏</label></li>
+                        <li><label>已拒绝简历</label></li>
+                    </ul>
+                </li>
+                <li>职位管理
+                	<ul class="submenu">
+                    	<li><label>发布新职位</label></li>
+                        <li><label>已发布职位</label></li>
+                        <li><label>已失效职位</label></li>
+                    </ul>
+                </li>
+                <li>视频面试
+                	<ul class="submenu">
+                    	<li><label>预约日程</label></li>
+                        <li><label>已面试</label></li>
+                    </ul>
+                </li>
+                <li>企业主页</li>
+                <li>控制面板</li>
+            </ul>
+        </div>
+        <div class="right">
+   	  		<div class="block" id="block-title">企业主页</div>
+  				<div class="block" id="block-head">
+                   <a href="edit_account.html">修改账户信息</a>
+                    <a href="manage_account.html">账号管理</a>
+                </div>
+           <form name="hrChangeInfo" action="{:U('hrChangeInfo')}" method='post'> 
+         <div class="block">
+                	<br><br>
+                    <span>
+                    <label>登陆名</label>
+                    </span>
+                    <input type="text" name="userEmail" value="{$userInfo['useremail']}" size=30/>
+                    <br>
+                    <br>
+                    <span><label>密码</label></span>
+                    <input type="password" name="userPassword"size=20/>
+                     <a href="">修改密码</a>
+                     <br>
+                      <br>
+                    <span><label>姓名</label></span>
+                     <input type="text" name="hrName" value="{$hrInfo['hrname']}"  size=30/>
+                     <br>
+                     <br>
+                   <span><label>&nbsp;</label></span>
+                    <input type="radio" name="radio1" value="先生"/>先生
+                    <input type="radio" name="radio2" value="女士"/>女士
+                     <br>
+                       <br>
+                    <span><label>职位</label></span>
+                     <input type="text" name="hrJob" value="{$hrInfo['hrjob']}" size=30/>
+                     <br>
+                       <br>
+                    <span><label>联系电话</label></span>
+                     <input type="text" name="hrTelNum" value="{$hrInfo['hrtelnum']}"  size=30/>
+                     <br>
+                       <br>
+                    <span><label>投简历邮箱</label></span>
+                     <input type="text" name="hrEmail" value="{$hrInfo['hremail']}"  size=30/>
+                     <br>
+                       <br>
+                    <span><label>头像</label></span>
+                     <img src="" width="150" height="100">
+                     <input type="file" value="上传" size=30/>
+                     <br>
+                     <p>
+                    <input id="btn-renew" type="submit" value="更新">
+                    </p>
+              </div>
+          </form>
+  		</div>
+	</div>
+</div>
+<div class="tail">
+京ICP备09083200号　京ICP证070419号　人才服务许可证：RC0280　京公网安备11010802012824<br>
+Copyright©2000-2014 13hang.com All Rights Reserved
+</div>
+</body>
+</html>

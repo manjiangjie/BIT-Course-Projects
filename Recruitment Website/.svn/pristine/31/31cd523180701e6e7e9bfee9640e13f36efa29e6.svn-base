@@ -1,0 +1,40 @@
+<?php
+	namespace Home\Controller;
+	use Think\Controller;
+	include './Interface.php';
+	class UsersController extends Controller implements Login{
+		Search search;
+		Addinfo addinfo;
+		public function login(){
+
+		}//登录
+		public function doSearch(){
+
+		}//搜索
+		public function doAddinfo(){
+
+		}//添加信息
+		public function emailCheck(){
+			
+		}//邮箱验证
+	}
+	public class IndividualController extends UsersController implements Register{
+		public function indiReg(){
+			echo'test';
+
+		}//个人注册
+		public function hrReg(){
+
+		}
+
+	}
+	public class HRController extends UsersController implements Register{
+		public function indiReg(){
+
+		}
+		public function hrReg(){
+
+		}//HR注册
+
+	}
+?>

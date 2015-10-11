@@ -1,0 +1,1038 @@
+[ 2015-04-18T13:42:50+08:00 ] ::1 /apply/index.php?username=&content=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.042194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.042308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.136393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.136492s ]
+
+[ 2015-04-18T13:42:52+08:00 ] ::1 /apply/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2015-04-18T13:43:57+08:00 ] ::1 /apply/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2015-04-18T13:46:04+08:00 ] ::1 /apply/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2015-04-18T14:43:50+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `resume_info` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `resume_info` WHERE `applicantId` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\apply\App\Home\Controller\WebShowController.class.php 第 92 行.
+
+[ 2015-04-18T14:44:17+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `resume_info` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `resume_info` WHERE `applicantId` = 2  [ RunTime:0.0004s ]
+
+[ 2015-04-18T14:50:06+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0028s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=2 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\apply\App\Home\Controller\WebShowController.class.php 第 98 行.
+
+[ 2015-04-18T14:50:46+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0027s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=2 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\apply\App\Home\Controller\WebShowController.class.php 第 99 行.
+
+[ 2015-04-18T14:51:22+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0028s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId )  [ RunTime:0.0010s ]
+
+[ 2015-04-18T15:01:13+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0033s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId )  [ RunTime:0.0009s ]
+
+[ 2015-04-18T15:03:28+08:00 ] ::1 /apply/index.php?username=&content=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2015-04-18T15:03:31+08:00 ] ::1 /apply/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2015-04-18T15:09:20+08:00 ] ::1 /apply/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2015-04-18T15:12:15+08:00 ] ::1 /apply/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2015-04-18T15:12:18+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0027s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId )  [ RunTime:0.0008s ]
+ERR: 模板不存在:./App/Home/View/WebShow_indi_chosenJob_show.html
+
+[ 2015-04-18T15:13:29+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0032s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2015-04-18T15:13:59+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0026s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2015-04-18T15:14:53+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0028s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-04-18T15:16:01+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0030s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2015-04-18T15:17:40+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0026s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2015-04-18T15:31:17+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0006s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'order clause'
+
+[ 2015-04-18T15:32:20+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: result D:\xampp\htdocs\apply\App\Runtime\Cache\Home\6c4ff2cd8a81a789bf60aca2850cd8fd.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2015-04-18T15:33:39+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2015-04-18T15:34:59+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2015-04-18T15:35:02+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2015-04-18T15:35:04+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2015-04-18T15:36:10+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2015-04-18T15:36:34+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2015-04-18T15:36:38+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2015-04-18T15:36:39+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-04-18T15:36:41+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2015-04-18T15:36:42+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2015-04-18T15:36:44+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2015-04-18T15:36:46+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2015-04-18T15:36:47+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1,1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2015-04-18T15:36:49+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2015-04-18T15:36:51+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1,1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2015-04-18T15:36:52+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2015-04-18T15:37:20+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1,1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2015-04-18T15:37:21+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-04-18T15:38:43+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2015-04-18T15:40:45+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-04-18T15:40:46+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1,1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2015-04-18T15:40:47+08:00 ] ::1 /apply/index.php/Home/WebShow/indi_chosenJob_show/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `interview` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM interview interview,resume_info resume_info,job_info job_info,company_info company_info WHERE ( resume_info.applicantId=3 
+			and interview.resumeId = resume_info.resumeId
+			and interview.jobId = job_info.jobId
+			and interview.hrId = company_info.hrId ) LIMIT 0,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+

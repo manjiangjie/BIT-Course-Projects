@@ -1,0 +1,56 @@
+unit Unit6;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Grids,
+  Vcl.DBGrids, Data.DB, Data.Win.ADODB;
+
+type
+  T查询单词 = class(TForm)
+    要查询的单词: TEdit;
+    查询: TButton;
+    查询单词: TLabel;
+    加入单词本: TButton;
+    返回: TButton;
+    查看单词本: TButton;
+    ADOTable1: TADOTable;
+    DataSource1: TDataSource;
+    DBGrid1: TDBGrid;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure 返回Click(Sender: TObject);
+    procedure 加入单词本Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  查询单词: T查询单词;
+
+implementation
+
+{$R *.dfm}
+
+uses Main;
+
+procedure T查询单词.加入单词本Click(Sender: TObject);
+begin
+MessageDlg('已加入单词本！',mtcustom,[mbOK],0);
+end;
+
+procedure T查询单词.返回Click(Sender: TObject);
+begin
+查询单词.Hide;
+管理员.Show;
+end;
+
+procedure T查询单词.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+查询单词.Hide;
+管理员.Show;
+end;
+
+end.

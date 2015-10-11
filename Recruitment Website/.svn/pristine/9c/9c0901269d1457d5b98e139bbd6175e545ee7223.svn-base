@@ -1,0 +1,17 @@
+<?php
+/*
+ *Author: 谢辰
+ *function: 自动运行控制器，检测用户是否登录
+ *AlterTime: 2015/04/05
+ */
+    namespace Home\Controller;
+	use Think\Controller;
+Class CommonController extends Controller{
+	public function _initialize(){
+		//检测是否已经登录，防止限制级网页在未登录情况下被访问
+		if (!isset($_SESSION['uid']) || !isset($_SESSION['username'])){
+			$this->redirect('转回登录页');
+		}
+	}
+}
+?>

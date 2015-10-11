@@ -1,0 +1,94 @@
+﻿object 添加单词: T添加单词
+  Left = 0
+  Top = 0
+  Caption = #28155#21152#21333#35789
+  ClientHeight = 346
+  ClientWidth = 412
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object 单词: TLabel
+    Left = 64
+    Top = 35
+    Width = 24
+    Height = 13
+    Caption = #21333#35789
+  end
+  object 词性: TLabel
+    Left = 64
+    Top = 83
+    Width = 24
+    Height = 13
+    Caption = #35789#24615
+  end
+  object 解释: TLabel
+    Left = 64
+    Top = 136
+    Width = 24
+    Height = 13
+    Caption = #37322#20041
+  end
+  object 例句: TLabel
+    Left = 64
+    Top = 195
+    Width = 24
+    Height = 13
+    Caption = #20363#21477
+  end
+  object 添加单词: TEdit
+    Left = 130
+    Top = 32
+    Width = 121
+    Height = 21
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+    TextHint = #28155#21152#21333#35789
+  end
+  object 添加词性: TEdit
+    Left = 130
+    Top = 80
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    TextHint = #28155#21152#35789#24615
+  end
+  object 添加解释: TEdit
+    Left = 130
+    Top = 133
+    Width = 121
+    Height = 21
+    TabOrder = 2
+    TextHint = #28155#21152#35299#37322
+  end
+  object 添加: TButton
+    Left = 64
+    Top = 296
+    Width = 75
+    Height = 25
+    Caption = #20445#23384#24182#28155#21152
+    TabOrder = 3
+  end
+  object 添加例句: TEdit
+    Left = 130
+    Top = 192
+    Width = 239
+    Height = 81
+    TabOrder = 4
+    TextHint = #28155#21152#20363#21477
+  end
+  object Button1: TButton
+    Left = 200
+    Top = 296
+    Width = 75
+    Height = 25
+    Caption = #21462#28040
+    TabOrder = 5
+  end
+end

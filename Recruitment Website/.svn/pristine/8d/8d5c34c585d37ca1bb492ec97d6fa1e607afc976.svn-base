@@ -1,0 +1,189 @@
+-- ================================================
+-- Author:      Manjiangjie
+-- Create date: 2015-03-31
+-- Description: 测试用数据库 test_db
+-- Modify:      无
+-- ================================================
+
+create database test_db;
+
+set character_set_database=utf8;
+set character_set_server=utf8;
+
+use test_db;
+
+-- 求职者
+create table applicant_info(
+applicantId int not null auto_increment primary key,
+applicantName varchar(10) not null,
+applicantPassword varchar(20) not null,
+applicantPic longblob,
+applicantBirthday date not null, 
+applicantSex varchar(2) not null,
+applicantEmail varchar(20) not null,
+applicantTelNum varchar(15),
+applicantAuthCode varchar(5) not null,
+applicantSchoolId int not null,
+applicantFriendId int,
+applicantJobId int,
+applicantResumeId int,
+applicantLinkId int
+);
+
+-- HR
+create table hr_info(
+hrId int not null auto_increment primary key,
+hrName varchar(10) not null,
+hrPassword varchar(20) not null,
+hrSex varchar(2),
+hrCompanyTelNum varchar(15),
+hrContactName varchar(10),
+hrContactTelNum varchar(15),
+hrPic longblob,
+hrEmail varchar(20),
+hrAuthCode varchar(5) not null,
+hrCompanyId int,
+hrJobId int
+);
+
+-- 企业
+create table company_info(
+companyId int not null auto_increment primary key,
+companyLicense longblob not null,
+companyName varchar(40) not null,
+companySize varchar(20),
+companyNature varchar(10),
+companyProfile text,
+companyAuthCode varchar(5) not null,
+companyEmail varchar(20),
+companyWebsite varchar(30),
+companyNewsId int,
+companyIndustryId int,
+companyAddressId int not null,
+companyContact varchar(10)
+);
+
+-- 职位
+create table job_info(
+jobId int not null auto_increment primary key,
+jobName varchar(60) not null,
+jobDescription text,
+jobExperience varchar(10),
+jobRequirement varchar(15),
+jobNature varchar(5),
+jobNum varchar(3),
+jobSalary varchar(10) not null,
+jobTagId int,
+jobIndustryId int not null,
+jobAddressId int not null,
+jobCompanyId int not null
+);
+
+-- 求职者学历背景
+create table school(
+schoolId int not null auto_increment primary key,
+schoolName varchar(50),
+schoolAddressId int,
+schoolStartTime date,
+schoolEndTime date,
+schoolDegree varchar(10) not null,
+schoolMajor varchar(20) not null
+);
+
+-- 简历
+create table resume_info(
+resumeId int not null auto_increment primary key,
+resumeProfile text,
+resumeAge varchar(2),
+resumeNationality varchar(5),
+resumePoliticalStatus varchar(10),
+resumeOriginPlace varchar(10),
+resumeWechat varchar(30),
+resumeEducationId int,
+resumeWorkId int
+);
+
+-- 求职者链接网站
+create table link(
+linkId int not null auto_increment primary key,
+linkFacebook varchar(30),
+linkTwitter varchar(30),
+linkInstagram varchar(30)
+);
+
+-- 行业
+create table industry(
+industryId int not null auto_increment primary key,
+industryName varchar(20)
+);
+
+-- 地址
+create table address(
+addressId int not null auto_increment primary key,
+addressCountry varchar(20),
+addressArea varchar(20)
+);
+
+-- 好友
+create table friend(
+friendId int not null auto_increment primary key,
+friendName varchar(20)
+);
+
+-- 职位标签
+create table job_tag(
+tagId int not null auto_increment primary key,
+tagText varchar(20)
+);
+
+-- 企业咨询
+create table company_news(
+newsId int not null auto_increment primary key,
+newsTitle1 varchar(20),
+newsTitle2 varchar(20),
+newsCover longblob,
+newsContent longtext
+);
+
+-- 简历中的教育经历
+create table resume_education(
+educationId int not null auto_increment primary key,
+educationStartYear varchar(4),
+educationEndYear varchar(4),
+educationSchool varchar(20),
+educationMajor varchar(20),
+educationDegree varchar(10)
+);
+
+-- 简历中的工作经历
+create table resume_work(
+workId int not null auto_increment primary key,
+workStartYear varchar(4),
+workEndYear varchar(4),
+workCompany varchar(20),
+workJob varchar(20)
+);
+
+-- 添加外键
+alter table applicant_info add foreign key (applicantLinkId) references link(linkId) on delete cascade on update cascade;
+alter table applicant_info add foreign key (applicantResumeId) references resume_info(resumeId) on delete cascade on update cascade;
+alter table applicant_info add foreign key (applicantJobId) references job_info(jobId) on delete cascade on update cascade;
+alter table applicant_info add foreign key (applicantFriendId) references friend(friendId) on delete cascade on update cascade;
+alter table applicant_info add foreign key (applicantSchoolId) references school(schoolId) on delete cascade on update cascade;
+
+alter table hr_info add foreign key (hrCompanyId) references company_info(companyId) on delete cascade on update cascade;
+alter table hr_info add foreign key (hrJobId) references job_info(jobId) on delete cascade on update cascade;
+
+alter table company_info add foreign key (companyNewsId) references company_news(newsId) on delete cascade on update cascade;
+alter table company_info add foreign key (companyIndustryId) references industry(industryId) on delete cascade on update cascade;
+alter table company_info add foreign key (companyAddressId) references address(addressId) on delete cascade on update cascade;
+
+alter table job_info add foreign key (jobTagId) references job_tag(tagId) on delete cascade on update cascade;
+alter table job_info add foreign key (jobIndustryId) references industry(industryId) on delete cascade on update cascade;
+alter table job_info add foreign key (jobAddressId) references address(addressId) on delete cascade on update cascade;
+alter table job_info add foreign key (jobCompanyId) references company_info(companyId) on delete cascade on update cascade;
+
+alter table resume_info add foreign key (resumeEducationId) references resume_education(educationId) on delete cascade on update cascade;
+alter table resume_info add foreign key (resumeWorkId) references resume_work(workId) on delete cascade on update cascade;
+
+alter table school add foreign key (schoolAddressId) references address(addressId) on delete cascade on update cascade;

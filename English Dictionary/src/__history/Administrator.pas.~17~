@@ -1,0 +1,91 @@
+unit Administrator;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Data.DB,
+  Data.Win.ADODB, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TAdmin = class(TForm)
+    Insert: TButton;
+    Update: TButton;
+    Delete: TButton;
+    Query: TButton;
+    Exit: TButton;
+    LogOff: TButton;
+    InputWord: TEdit;
+    InputPOS: TEdit;
+    InputMeaning: TEdit;
+    InputExample: TEdit;
+    POS: TLabel;
+    Word: TLabel;
+    Meaning: TLabel;
+    Example: TLabel;
+    ADOTable1: TADOTable;
+    DataSource1: TDataSource;
+    DBGrid1: TDBGrid;
+    procedure ExitClick(Sender: TObject);
+    procedure InsertClick(Sender: TObject);
+    procedure UpdateClick(Sender: TObject);
+    procedure DeleteClick(Sender: TObject);
+    procedure QueryClick(Sender: TObject);
+    procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
+    procedure LogOffClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Admin: TAdmin;
+
+implementation
+
+uses Login, Unit6, User;
+{$R *.dfm}
+
+procedure TAdmin.FormCloseQuery(Sender: TObject; var CanClose: Boolean);
+begin
+if MessageBox(Handle,'确定要退出本系统吗？','系统提示',MB_ICONWARNING+MB_YesNo) = IDNO
+then CanClose := False;
+end;
+
+procedure TAdmin.UpdateClick(Sender: TObject);
+begin
+//TAdmin.Hide;
+end;
+
+procedure TAdmin.DeleteClick(Sender: TObject);
+begin
+//TAdmin.Hide;
+end;
+
+procedure TAdmin.InsertClick(Sender: TObject);
+begin
+//TAdmin.Hide;
+end;
+
+procedure TAdmin.QueryClick(Sender: TObject);
+begin
+//TAdmin.Hide;
+end;
+
+procedure TAdmin.LogOffClick(Sender: TObject);
+begin
+Free;
+Application.Initialize;
+Application.CreateForm(TWelcome, Welcome);
+Welcome.Show;
+Application.Run;
+end;
+
+procedure TAdmin.ExitClick(Sender: TObject);
+begin
+if MessageBox(Handle,'确定要退出本系统吗？','系统提示',MB_ICONWARNING+MB_YesNo) = IDYES
+then application.Terminate;
+end;
+
+end.

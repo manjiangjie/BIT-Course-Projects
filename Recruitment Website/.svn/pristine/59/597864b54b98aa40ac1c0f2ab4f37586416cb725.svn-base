@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css&js/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css&js/head.css" rel="stylesheet">
+    <script src="css&js/jquery-2.1.3.min.js"></script>
+    <script src="css&js/bootstrap.min.js"></script>
+    <link href="css&js/styleofnew.css" rel="stylesheet">
+    <style>
+        .football2{
+            margin-left: 12%;
+            margin-top:1100px;
+        }
+    </style>
+</head>
+<body >
+<nav class="navbar  navbar-fixed-top navbar-inverse " role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img class="navimg" alt="Brand" src="home/u42.png"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav ">
+
+                <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">找职位<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">搜寻职位</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">我投递的职位</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">我收藏的职位</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">职位订阅</a></li>
+                    </ul>
+                </li><!-- dropdown ！-->
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">人脉圈<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">海外校友</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">人脉圈</a></li>
+
+                    </ul>
+                </li><!-- dropdown ！-->
+
+                <li><a href="#">知名企业</a></li>
+                <li><a href="#">视频面试</a></li>
+                <li><a href="#">海归路上</a></li>
+
+
+                <!--
+                  <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                 <input type="text" class="form-control" placeholder="Search">
+               </div>
+                </form>
+
+                   <li><a href="#"><img class="navimg" alt="Brand" src="home/1_u297.png"></a></li>
+                    <li><a href="#"><img class="navimg" alt="Brand" src="home/2_u299.png"></a></li>
+         !-->
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">加入收藏</a></li>
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container 标签页 -->
+</nav>
+<div class="Astyle hidden-xs">
+    <div style="width: 200px;height:50px;margin-top: 20px;margin-left: 50px">
+        <img src="home/u114.png" class="img-responsive" alt="10">
+    </div>
+    <div style="font-size: large">
+        <center>
+            <strong>
+                腾讯科技(深圳)有限公司
+            </strong>
+        </center>
+    </div>
+    <div class="heit">
+
+            规模：1000人以上
+
+    </div>
+    <div style="margin-left: 75px">
+
+                行业：互联网/电子商务<br>
+                性质：国内上市公司   <br>
+                所在地：深圳          <br>
+                官网：<br>
+                <a>http://hr.tencent.com/about.php</a>
+        <div style="font-size: large;margin-top: 5px">
+            公司简介
+        </div>
+        <div style="width: 190px;margin-top: 10px">
+            <div>
+                腾讯公司成立于1998年11月，是目前中国最大的互联网综合服务提供商之一，也是中国服务用户最多的互联网企业之一。成立十年多以来，腾讯一直秉承“一切以用户价值为依归”的经营理念，始终处于稳健发展的状态。
+            </div>
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th>
+                            1
+                        </th>
+                        <th>
+                            网页设计师
+                        </th>
+                        <th>
+                            <a>过去看看</a>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            2
+                        </th>
+                        <th>
+                            外卖小哥
+                        </th>
+                        <th>
+                            <a>过去看看</a>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                           3
+                        </th>
+                        <th>
+                            前台接待
+                        </th>
+                        <th>
+                            <a>过去看看</a>
+                        </th>
+                    </tr>
+
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+    <div style="float: left;width: 50px;height: 50px;margin-top: 50px">
+        <img src="home/u437.png" class="img-responsive" alt="12">
+    </div>
+    <div style="width: 300px;height: 60px;margin-top: 50px">
+
+        <div>
+            您好!
+        </div>
+        <div>
+            　　我是阿里巴巴的招聘经理。很高兴认识你。有任何问题欢迎沟通交流。
+        </div>
+
+    </div>
+    <div style="width: 300px;overflow: hidden">
+        <textarea class="form-control" rows="3" style="resize: none"></textarea>
+        <div  style="float: right">
+            <button type="submit" class="btn btn-default">提交</button>
+        </div>
+    </div>
+    <div style="margin-top: 100px">
+        公司地址
+    </div>
+    <div>
+        中国浙江省杭州市华星路99号软件园创业大厦6层
+
+    </div>
+    <div>
+        附近有 <a>10个公交站</a>
+    </div>
+</div>
+
+
+<div class="Bstyle col-xs-12 col-sm-6" >
+    <div style="font-size: x-large;margin-top: 5px;float: left">
+        浏览器Mac开发工程师
+    </div>
+    <button type="button" class="btn btn-default btn-sm" style="margin-top: 15px;margin-left: 30%;color: red">
+        <span class="glyphicon glyphicon-fire" aria-hidden="true"></span> 热门职位
+    </button>
+    <div style="font-size: small;color: #9d9d9d ;margin-top: 10px;">
+        MIG移动互联网事业群                    发布于2016.1.1
+    </div>
+    <div style="height:5px;background-color: gray;color: gray;margin-top: 10px">
+        .
+    </div>
+    <div style="font-size: x-large;color: orangered;margin-top: 40px">
+        年薪15-30万
+
+    </div>
+    <div style="height: 40px">
+        <div style="margin-top: 20px;float: left">
+            职位亮点&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        </div>
+        <div class="btn-group" style="float: left;margin-top: 20px">
+            <button type="button" class="btn btn-warning btn-xs dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                高薪 <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">15000以上每月</a></li>
+
+            </ul>
+        </div>
+        <div style="float: left;margin-top: 20px;margin-left: 15px;">
+            <button type="button" class="btn btn-success btn-xs " >
+                商业保险
+            </button>
+
+        </div>
+        <div style="float: left;margin-top: 20px;margin-left: 15px;">
+            <button type="button" class="btn btn-success btn-xs " >
+                五险一金
+            </button>
+
+        </div>
+        <div style="float: left;margin-top: 20px;margin-left: 15px;">
+            <button type="button" class="btn btn-success btn-xs " >
+                岗位晋升
+            </button>
+
+        </div>
+
+        <div style="float:left;margin-top: 20px;margin-left: 15px;">
+            <button type="button" class="btn btn-success btn-xs " >
+                免费班车
+            </button>
+
+        </div>
+    </div>
+
+    <div>
+        <div style="margin-top: 20px;float: left">
+            职位要求&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        </div>
+
+        <div style="float: left;margin-top: 20px;">
+            <button type="button" class="btn btn-info btn-xs " >
+                学历不限制
+            </button>
+
+        </div>
+        <div style="float: left;margin-top: 20px;margin-left: 15px;">
+            <button type="button" class="btn btn-info btn-xs " >
+                普通话
+            </button>
+
+        </div>
+
+
+
+        <div style="margin-top: 50px;margin-left: 15px;color: white">
+            .
+
+        </div>
+    </div>
+    <div style="margin-top: 70px;font-size: large;">
+        职位详情
+    </div>
+
+    <table class="table " style="margin-top: 40px">
+       <tr>
+           <td style="color: darkgray">工作地点</td>
+           <td>深圳</td>
+       </tr>
+        <tr>
+            <td style="color: darkgray">招聘人数</td>
+            <td>一人</td>
+        </tr>
+        <tr>
+            <td style="color: darkgray">岗位职责</td>
+            <td style="overflow: inherit">
+                <p><br>工作职责：负责Mac浏览器的基础功能开发<br>负责Mac平台UI框架设计与实现；<br>负责Mac开发工具设计与实现。<br>工作要求：5年以上工作经验；<br>熟悉Mac OS X系统；<br>熟悉Cocoa Framework、Apple SDK；<br>熟悉C/C++/Objective C语言及其混合编程；<br>熟悉常用的设计模式，有较好的数据结构和算法基础；<br>了解浏览器工作原理，熟悉Chromium者优先；<br>有Mac平台产品开发经验兼有iOS，Windows等终端开发经验者优先。
+                </p>
+            </td>
+        </tr>
+    </table>
+    <button type="button" class="btn btn-default btn-lg" style="margin-top: 25px;margin-left: 40%;color: orangered">
+        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> 我感兴趣
+    </button>
+
+</div>
+
+
+
+<div class="football2">
+
+    <div class="footballword hidden-xs">
+
+        <strong><font size="5">简介</font></strong>
+        <div>北京十三行</div>
+        <div>产品服务</div>
+        <div>创新优势</div>
+        <div>联系我们</div>
+    </div>
+    <div class="standline hidden-xs">.</div>
+    <div class="footballword hidden-xs">
+
+        <strong><font size="5">简介</font></strong>
+        <div>北京十三行</div>
+        <div>产品服务</div>
+        <div>创新优势</div>
+        <div>联系我们</div>
+    </div>
+    <div class="standline hidden-xs">.</div>
+    <div class="footballword hidden-xs">
+
+        <strong><font size="5">简介</font></strong>
+        <div>北京十三行</div>
+        <div>产品服务</div>
+        <div>创新优势</div>
+        <div>联系我们</div>
+    </div>
+    <div class="standline hidden-xs">.</div>
+    <div class="footballword  ">
+
+        <button type="button" class="btn btn-default btn-lg hidden-xs">
+            <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> 联系我们
+        </button>
+        <div >联系我们</div>
+        <div >合作咨询</div>
+    </div>
+
+
+</div>
+<div class="footballmax">
+    <div>京ICP备09083200号　京ICP证070419号　人才服务许可证：RC0280　京公网安备11010802012824</div><br>
+    <div>Copyright©2015 trading13.com All Rights Reserved</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+unit Insert;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  T添加单词 = class(TForm)
+    添加单词: TEdit;
+    添加词性: TEdit;
+    添加解释: TEdit;
+    添加: TButton;
+    单词: TLabel;
+    词性: TLabel;
+    解释: TLabel;
+    例句: TLabel;
+    添加例句: TEdit;
+    取消: TButton;
+    procedure 取消Click(Sender: TObject);
+    procedure 添加Click(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  添加单词: T添加单词;
+
+implementation
+
+uses Main;
+{$R *.dfm}
+
+procedure T添加单词.取消Click(Sender: TObject);
+begin
+添加单词.Hide;
+管理员.Show;
+end;
+
+procedure T添加单词.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+添加单词.Hide;
+管理员.Show;
+end;
+
+procedure T添加单词.添加Click(Sender: TObject);
+begin
+添加单词.Hide;
+管理员.Show;
+end;
+
+end.

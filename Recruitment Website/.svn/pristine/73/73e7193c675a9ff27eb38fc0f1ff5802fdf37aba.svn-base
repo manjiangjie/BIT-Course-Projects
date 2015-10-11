@@ -1,0 +1,135 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/position.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <!--header-->
+    <div class="header">
+        <img id="title-img" src="__PUBLIC__/image/title.png">
+        <!--导航-->
+        <ul class="navigator">
+            <li>首页</li>
+            <li>人脉圈</li>
+            <li>知名企业</li>
+            <li>视频面试</li>
+            <li>海归路上</li>
+        </ul>
+        <!--搜索-->
+        <div class="search">
+            <img src="__PUBLIC__/image/blank.png" id="search-bg">
+            <input type="text" id="search-input">
+            <img src="__PUBLIC__/image/magnifying-glass.png" id="search-magnifying"><img src="__PUBLIC__/image/close.png" id="search-close">
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="left">
+                <ul class="menu">
+                    <li>HR首页</li>
+                    <li>简历管理
+                        <ul class="submenu">
+                            <li><label>新收到简历</label>
+                                <div id="new-resume"><?php echo($NewResumeNum);?></div>
+                            </li>
+                            <li><label>待面试简历</label></li>
+                            <li><label>推荐简历</label></li>
+                            <li><label>搜索简历</label></li>
+                            <li><label>我的收藏</label></li>
+                            <li><label>已拒绝简历</label></li>
+                        </ul>
+                    </li>
+                    <li>职位管理
+                        <ul class="submenu">
+                            <li><label>发布新职位</label></li>
+                            <li><label>已发布职位</label></li>
+                            <li><label>已失效职位</label></li>
+                        </ul>
+                    </li>
+                    <li>视频面试
+                        <ul class="submenu">
+                            <li><label>预约日程</label></li>
+                            <li><label>已面试</label></li>
+                        </ul>
+                    </li>
+                    <li>企业主页</li>
+                    <li>控制面板</li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="block" id="block-title">已面试</div>
+                <form>
+                    <div class="block">
+                        <br>
+                        <input type="checkbox"/>    
+                        <input type="button" value="删除全部"/>
+                        <input type="submit" value="查看"/> 
+                        <select id="pos-type">
+                            <option>最近一个月</option>
+                            <option>最近三个月</option>
+                            <option>最近半年</option>
+                            <option>最近一年</option>
+                        </select>
+                        <br><br>
+                    </div>
+                    <div class="block">
+                        <br>
+                        <br><br>
+                         投递时间使用了interviewdelivertime 待修改  
+                        <foreach name='NewResumeInfo' item='r'>
+                            <div class="position">
+                                <input type="checkbox">
+                                
+                                <div  class="portraite-post">
+                                    <img src="
+                                    " width="60" height="60"></div>
+                                    <div class="profile">
+                                        <div class="pos-name">
+                                            <span id="u124">
+                                                <label>投递时间:</label>
+                                                <label>{$r.interviewdelivertime|date='Y-m-d h:i',###}</label>
+                                                <br>
+                                                <label>面试时间:</label>
+                                                <label>{$r.lastedittime|date='Y-m-d h:i',###}</label>
+                                            </span>
+                                            <label>个人资料: </label>
+                                            <label><a href="">{$r.applicantname}</a> </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <label>{:changesex($r.applicantsex)} /{:changedegree($r.educationdegree)}
+                                            /NOT DONE/ {$r.resumeaddress}</label>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        </div>
+                                        <div class="job-interview">  
+                                            <span id="u125">
+                                                <label><a href="">收藏</a></label>
+                                                <label><a href="">删除</a></label>
+                                            </span>
+                                            应聘职位：<a href="">{$r.jobname}</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                </foreach>
+                                    <p>
+                                        <td colspan = '5' align = 'center'>
+                                          {$page}
+                                       </td>
+
+                                        <br>
+                                    </p>
+                                    <!-- <div class="page">
+                                        <label class="page1">共 10 页</label>
+                                        <label class="page2">上一页</label>
+                                        <label class="page1">第 1 页</label>
+                                        <label class="page2">下一页</label>
+                                    </div> -->
+                                    <br><br>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tail">
+                    京ICP备09083200号　京ICP证070419号　人才服务许可证：RC0280　京公网安备11010802012824<br>
+                    Copyright©2000-2014 13hang.com All Rights Reserved
+                </div>
+            </body>
+            </html>

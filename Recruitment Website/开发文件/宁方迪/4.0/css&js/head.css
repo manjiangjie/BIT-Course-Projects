@@ -1,0 +1,140 @@
+.navimg{
+            width:30PX;
+            height:30px;
+        }
+        body{
+            padding-top: 70px;
+        }
+
+        img1_xy{/*完善经历的图片*/
+            width:70px;
+        }
+
+        .jingli_add{/*整块"完善经历"*/
+            border:3px solid;
+            border-color:#FFF;
+            width:98%;
+            margin-top:15px;
+            padding:0;
+
+        }
+        .jingli_label{/*"经历的标签"样式设置*/
+            font-size:20px;
+            margin-bottom:15px;
+            margin-right:5px;
+            float:left;
+        }
+        .modul_school{/*学校名称模块*/
+            width:70%;
+            border-color:#FFF;
+            margin-left:14px;
+            padding-left:0px;
+        }
+        .school_list{/*学校名称列表*/
+            border:3px solid;
+            border-color:#FFF;
+            overflow-y:scroll;
+            list-style:none;
+            width:90%;
+            padding-left:5px;/*文字左边距*/
+            margin-left:15px;/*滚动列表左边距*/
+            height:150px;
+        }
+        .jingli_button{/*添加教育经历按钮*/
+            margin-left:10px;
+            margin-top:10px;
+            margin-bottom:20px;
+        }
+
+
+
+        .tinyFace{
+            width:65PX;
+            height:65px;
+        }
+        .ren {
+            padding-top:30px;
+            overflow:hidden;
+            list-style:none;
+        }
+        .ren-title{
+            background-color:#CCC;
+            text-align:center;
+        }
+        .ren-img{
+            float:left;
+        }
+        .ren-1{
+            float:left;
+
+        }
+        .ren-name{
+            float:left;
+            font-weight: bold;
+            font-size: 130%;
+
+        }
+        .ren-location{
+
+            padding-left:100px;
+        }
+        .ren-edu{
+            float:left;
+            color:#999;
+            font-size: 80%;
+        }
+        .ren-xueli{
+            float:left;
+            color:#999;
+            font-size: 80%;
+            padding-left:5px;
+        }
+        .ren-school{
+            color:#999;
+            font-size: 80%;
+            padding-left:5px;
+            margin-left:5px;
+        }
+        .ren-company{
+            float:left;
+            font-size: 80%;
+            color:#999;
+        }
+        .ren-zhiwei{
+            color:#999;
+            font-size: 80%;
+            padding-left:5px;
+            margin-left:5px;
+        }
+
+        .ren-2{
+            font-size: 80%;
+        }
+
+        .comp{
+            padding-top:30px;
+            overflow:hidden;
+            list-style:none;
+        }
+        .comp-name{
+            font-size:150%;
+            color:#09C;
+            padding-left:30px;
+        }
+        .comp-img{
+            margin-left:10px;
+        }
+        .comp-image{
+            width:170px;
+            height:80px;
+        }
+        .comp-prof{
+            padding-left:30px;
+        }
+        .comp-type{
+            padding-left:30px;
+        }
+        .comp-btn{
+
+            margin-left:50px;
+        }

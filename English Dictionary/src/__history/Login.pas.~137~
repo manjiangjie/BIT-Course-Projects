@@ -1,0 +1,123 @@
+unit Login;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Data.DB,
+  Data.Win.ADODB, Vcl.Imaging.jpeg, Vcl.Imaging.pngimage, Vcl.ComCtrls;
+
+type
+  TLoginForm = class(TForm)
+    Login: TButton;
+    InputUsername: TComboBox;
+    InputPassword: TEdit;
+    Image2: TImage;
+    ADOQuery1: TADOQuery;
+    ADOConnection1: TADOConnection;
+    DataSource1: TDataSource;
+    Register: TButton;
+    procedure LoginClick(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure InputPasswordKeyPress(Sender: TObject; var Key: Char);
+    procedure FormCreate(Sender: TObject);
+    procedure RegisterClick(Sender: TObject);
+  private
+
+  public
+
+  end;
+
+var
+  LoginForm: TLoginForm;
+  CurrentTime: TDateTime;
+  username: string;
+
+implementation
+
+uses Admin, User, Registration;
+{$R *.dfm}
+
+procedure TLoginForm.RegisterClick(Sender: TObject);
+begin
+Application.CreateForm(TRegisterForm, RegisterForm);
+RegisterForm.ShowModal;
+RegisterForm.Free;
+end;
+
+procedure TLoginForm.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+UserForm.Free;
+AdminForm.Free;
+application.Terminate;
+end;
+
+procedure TLoginForm.FormCreate(Sender: TObject);
+begin
+count := 0;
+word_num := 0;
+end;
+
+procedure TLoginForm.InputPasswordKeyPress(Sender: TObject; var Key: Char);
+begin
+if key = #13 then
+LoginClick(LoginForm);
+end;
+
+procedure ClearMainForm;
+var
+  pMainForm: Pointer;
+begin
+  pMainForm           := @Application.MainForm;
+  Pointer(pMainForm^) := nil;
+end;
+
+procedure TLoginForm.LoginClick(Sender: TObject);
+begin
+  username := InputUsername.Text;
+  ADOQuery1.Close;
+  ADOQuery1.SQL.Clear;
+  ADOQuery1.SQL.Add('select * from user_table where name = :username');
+  ADOQuery1.Parameters.ParamByName('username').Value := InputUsername.Text;
+  try
+    ADOQuery1.Open;
+    if ADOQuery1.RecordCount > 0 then
+    begin
+      ADOQuery1.First;
+      if trim(ADOQuery1.FieldByName('u_password').AsString) = InputPassword.Text then
+      begin
+        CurrentTime := Now();
+        Application.MessageBox('登录成功！','系统提示',64);
+        LoginForm.Hide;
+        ClearMainForm;
+        if InputUsername.Text = 'admin' then
+          begin
+          Application.CreateForm(TAdminForm,AdminForm);
+          AdminForm.Show;
+          LoginForm.Free;
+          end
+        else
+          begin
+          Application.CreateForm(TUserForm,UserForm);
+          UserForm.Show;
+          LoginForm.Free;
+          end;
+      end
+      else
+      begin
+        Application.MessageBox('密码错误！请重新输入','系统提示',64);
+        InputPassword.Clear;
+      end;
+    end
+    else
+    begin
+      Application.MessageBox('用户名错误！请重新输入','系统提示',64);
+      InputUsername.Clear;
+      InputPassword.Clear;
+    end;
+  except
+    Application.MessageBox('登录失败！','系统提示',64);
+  end;
+end;
+
+end.

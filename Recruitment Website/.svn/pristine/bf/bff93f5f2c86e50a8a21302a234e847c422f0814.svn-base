@@ -1,0 +1,383 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family:microsoft yahei;	
+}
+
+.header
+{
+	top:0px;
+	left:0px;
+	background:#404144;
+	height:40px;
+	width:100%;
+	position:absolute;
+}
+
+.navigator
+{
+	height:40px;
+	position:absolute;
+	top:0px;
+	left:238px;
+	margin-top:0px;
+	line-height:40px;
+	color:white;
+}
+
+.navigator li
+{
+	margin:0;
+	padding:0;
+	float:left;
+	width:96px;
+	text-align:center;
+	list-style:none;
+}
+
+.navigator li:hover
+{
+	cursor:pointer;
+	background:#333333;
+}
+
+#title-img
+{
+	height:40px;
+	margin-left:183px;
+}
+
+.search
+{
+	position:absolute;
+	top:8px;
+	left:990px;
+	line-height:40px;
+}
+
+#search-bg
+{
+	position:relative;
+}
+
+#search-magnifying
+{
+	position:absolute;
+	top:5px;
+	left:4px;
+}
+
+#search-input
+{
+	position:absolute;
+	top:3px;
+	left:24px;
+	border:none;
+	color:#868686;
+	outline:none;
+}
+
+#search-close
+{
+	position:absolute;
+	top:5px;
+	right:4px;
+}
+
+#search-close:hover
+{
+	cursor:pointer;
+}
+
+.container
+{
+	background:#f0f4f5;
+	width:100%;
+	height:930px;
+	position:absolute;
+	left:0px;
+	top:40px;
+}
+
+.content
+{
+	background:#c2ccd6;
+	width:80%;	
+	height:900px;
+	margin:auto;
+}
+
+.left
+{
+	height:90%;
+	width:14%;
+	position:absolute;
+	left:10%;
+	margin-top:60px;
+}
+
+.right
+{
+	height:90%;
+	width:66%;
+	position:absolute;
+	right:10%;
+	margin-top:30px;
+}
+
+.menu
+{
+	list-style:none;
+	padding:0px;
+	color:white;
+	font-weight:700;
+	margin-left:10px;
+}
+
+.menu li
+{
+	padding:3px 0;
+}
+
+.menu li:hover
+{
+	cursor:pointer;
+}
+
+.submenu
+{
+	list-style:none;
+	font-weight:400;
+	padding:0px;
+	margin-left:-10px;
+}
+
+.submenu label
+{
+	padding-left:40px;	
+}
+
+.submenu li:hover
+{
+	cursor:pointer;
+	background:#ccd4dc;	
+}
+
+#new-resume
+{
+	background:#ed741c;
+	width:25px;
+	border-radius:3px;
+	position:absolute;
+	font-size:13px;
+	top:73px;
+	left:150px;
+	text-align:center;
+}
+
+
+.block
+{
+	margin-left:40px;
+	background:#ffffff;
+	border:#b6bfc8 solid 1px;
+	margin-right:20px;
+	margin-bottom:10px;
+	width:705px;
+	box-shadow:1px 1px 1px #333;
+}
+
+
+#block-title
+{
+	padding:0 0 0 0;
+	margin-top:10px;
+	margin-left:40px;
+	width:610px;
+}
+
+#inner-search
+{
+	font-size:26px;
+	width:500px;
+	height:45px;
+}
+
+input[type="text"]
+{
+	background:#FFF;
+	border:nont;
+	border-radius:0px;
+	margin:0 0 0 0;
+}
+
+.cheat input
+{
+	margin-left:0px;
+	height:35px;
+	width:600px;
+	border:#ff4a00 solid 2px;	
+	padding-left:2px;	
+}
+
+.cheat button
+{
+	background:#ff4a00;
+	border:none;
+	height:41px;
+	width:100px;
+	color:white;
+	font-size:14px;
+}
+
+.cheat li :hover
+{
+	cursor:pointer;
+}
+
+li{list-style:none;float:left;}
+
+#newlying
+{
+	margin-top:80px;
+	height:200px;
+	background:#CCC;
+}
+
+#interview
+{
+	margin-top:20px;
+	height:200px;
+	background:#CCC;
+}
+
+#tuijian
+{
+	margin-top:20px;
+	height:250px;
+	background:#CCC;
+}
+
+.newly
+{
+	margin-top:-20px;
+	width:350px;
+	background:#FFF;
+	height:200px;
+	text-align:center;
+}
+
+.ing
+{
+	margin-top:-220px;
+	margin-left:355px;
+	width:350px;
+	background:#FFF;
+	height:200px;
+	text-align:center;
+}
+
+#interview-title
+{
+	width:auto;
+	height:30px;
+	background:#666;
+}
+#biaotibunengdingdaotou
+{
+	margin-left:10px;
+	margin-top:6px;
+}
+.interview-left
+{
+	width:233px;
+    height:170px;
+	background:#FFF;
+}
+.interview-center
+{
+	margin-top:-170px;
+	width:233px;
+	margin-left:236px;
+	height:170px;
+	background:#FFF;
+}
+.interview-right
+{
+	margin-top:-170px;
+	width:233px;
+	margin-left:472px;
+	height:170px;
+	background:#FFF;
+}
+#tuijian-title
+{
+	width:auto;
+	height:30px;
+	background:#666;
+}
+
+
+#minijianli-left
+{
+	height:155px;
+	width:155px;
+	background:#FFF;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+#minijianli-center
+{
+	height:155px;
+	width:155px;
+	background:#FFF;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+#minijianli-right
+{
+	height:155px;
+	width:155px;
+	background:#FFF;
+	margin-left:425px;
+	margin-top:-155px;
+}
+
+#toleft
+{
+	margin-left:10px;
+	margin-top:60px;
+	width:40px;
+	height:85px;
+}
+#toright
+{
+	margin-left:660px;
+	margin-top:-500px;
+	width:40px;
+	height:85px;
+}
+
+
+.tail
+{
+	background:#f2f2f5;
+	height:50px;	
+	position:absolute;
+	top:770px;
+	left:0px;
+	width:100%;
+	color:#808080;
+	text-align:center;
+	font-size:12px;
+	line-height:25px;
+}
+
+#view-tail
+{
+	top:900px;	
+}

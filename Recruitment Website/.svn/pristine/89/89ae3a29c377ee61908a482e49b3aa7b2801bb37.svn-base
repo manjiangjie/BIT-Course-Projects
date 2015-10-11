@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>公司简介</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse"  role="navigation" ><!--导航栏-->
+    <div class="navbar-header" >
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <img src="home/u191.png" id="img1"/><!--添加13行图标-->
+    </div>
+    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">首页</a></li>
+            <li class="dropdown">
+                <a herf="#" class="dropdown-toggle" data-toggle="dropdown">
+                    找职位<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">搜寻职位</a></li>
+                    <li><a href="#">我投递的职位</a></li>
+                    <li><a href="#">我收藏的职位</a></li>
+                    <li><a href="#">职位订阅</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a herf="#" class="dropdown-toggle" data-toggle="dropdown">
+                    人脉圈<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">海外校友</a></li>
+                    <li><a href="#">人脉圈</a></li>
+                </ul>
+            </li>
+            <li><a href="#">知名企业</a></li>
+            <li><a href="#">视频面试</a></li>
+            <li><a href="#">海归路上</a></li>
+        </ul>
+    </div>
+</nav><!--导航栏-->
+<div style="width: 100%">
+    <div style="float: left">
+        <div>
+            <p><a href="简介.html" target="up">公司简介</a></p>
+            <p><a href="产品服务.html" target="up">产品服务</a></p>
+            <p><a href="创新优势.html" target="up">创新服务</a></p>
+            <p><a href="http://www.w3school.com.cn" target="up">W3School.com.cn</a></p>
+            <p><a href="http://www.w3school.com.cn" target="up">W3School.com.cn</a></p>
+            <p><a href="http://www.w3school.com.cn" target="up">W3School.com.cn</a></p>
+            <p><a href="http://www.w3school.com.cn" target="up">W3School.com.cn</a></p>
+            <p><a href="http://www.w3school.com.cn" target="up">W3School.com.cn</a></p>
+        </div>
+    </div>
+    <iframe src="简介.html" frameborder="0" name="up" width="80%" height="1000px"></iframe>
+</div>
+
+</body>
+</html>

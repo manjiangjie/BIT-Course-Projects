@@ -1,0 +1,20 @@
+<?php
+	namespace Home\Controller;
+	use Think\Controller;
+	use Lib\Interfaces\Search;
+	use Home\Model\applicant_infoModel;
+	class HRSearchController extends Controller implements Search{
+		public function searchJob(){
+
+		}//搜索职位
+		public function searchAll(){
+
+		}
+		public function hrSearchResume(){
+
+		}//搜索简历
+		public function searchFiledResume(){
+
+		}//搜索失效简历
+	}
+?>

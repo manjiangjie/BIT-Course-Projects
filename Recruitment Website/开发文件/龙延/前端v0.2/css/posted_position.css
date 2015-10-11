@@ -1,0 +1,340 @@
+body
+{
+	font-family:microsoft yahei;	
+}
+
+.header
+{
+	top:0px;
+	left:0px;
+	background:#404144;
+	height:40px;
+	width:100%;
+	position:absolute;
+}
+
+.navigator
+{
+	height:40px;
+	position:absolute;
+	top:0px;
+	left:238px;
+	margin-top:0px;
+	line-height:40px;
+	color:white;
+}
+
+.navigator li
+{
+	margin:0;
+	padding:0;
+	float:left;
+	width:96px;
+	text-align:center;
+}
+
+.navigator li:hover
+{
+	cursor:pointer;
+	background:#333333;
+}
+
+#title-img
+{
+	height:40px;
+	margin-left:183px;
+}
+
+.search
+{
+	position:absolute;
+	top:8px;
+	right:270px;
+	line-height:40px;
+}
+
+#search-bg
+{
+	position:relative;
+}
+
+#search-magnifying
+{
+	position:absolute;
+	top:5px;
+	left:4px;
+}
+
+#search-input
+{
+	position:absolute;
+	top:0px;
+	left:24px;
+	border:none;
+	color:#868686;
+	outline:none;
+}
+
+#search-close
+{
+	position:absolute;
+	top:5px;
+	right:4px;
+}
+
+#search-close:hover
+{
+	cursor:pointer;
+}
+
+.container
+{
+	background:#f0f4f5;
+	width:100%;
+	height:1130px;
+	position:absolute;
+	left:0px;
+	top:40px;
+}
+
+.content
+{
+	background:#c2ccd6;
+	width:80%;	
+	height:100%;
+	margin:auto;
+}
+
+.left
+{
+	height:90%;
+	width:14%;
+	position:absolute;
+	left:10%;
+	margin-top:60px;
+}
+
+.right
+{
+	height:90%;
+	width:66%;
+	position:absolute;
+	right:10%;
+	margin-top:30px;
+}
+
+.menu
+{
+	list-style:none;
+	padding:0px;
+	color:white;
+	font-weight:700;
+	margin-left:10px;
+}
+
+.menu li
+{
+	padding:3px 0;
+}
+
+.menu li:hover
+{
+	cursor:pointer;
+}
+
+.submenu
+{
+	list-style:none;
+	font-weight:400;
+	padding:0px;
+	margin-left:-10px;
+}
+
+.submenu label
+{
+	padding-left:40px;	
+}
+
+.submenu li:hover
+{
+	cursor:pointer;
+	background:#ccd4dc;	
+}
+
+.block
+{
+	background:#ffffff;
+	border:#b6bfc8 solid 1px;
+	margin-right:20px;
+	margin-bottom:10px;
+	box-shadow:1px 1px 1px #333;
+}
+
+#block-title
+{
+	padding:3px 20px;
+}
+
+input[type="submit"]
+{
+	background:#ed741c;
+	border:none;
+	border-radius:10px;	
+	width:75px;
+	height:30px;
+	color:white;
+	margin-bottom:10px;
+}
+
+input[type="submit"]:hover
+{
+	cursor:pointer;	
+}
+
+#btn-scan
+{
+	margin-left:350px;	
+}
+
+#btn-post
+{
+	margin-left:50px;	
+}
+
+#new-resume
+{
+	background:#ed741c;
+	width:25px;
+	border-radius:3px;
+	position:absolute;
+	font-size:13px;
+	top:73px;
+	left:170px;
+	text-align:center;
+}
+
+.block label
+{
+	margin-left:50px;	
+}
+
+.block span
+{
+	font-size:12px;	
+}
+
+.block input[type="text"]
+{
+	margin-left:10px;	
+}
+
+.block select
+{
+	width:100px;	
+	margin-left:10px;	
+}
+
+.pos-des
+{
+	margin-left:10px;
+	color:#6b6b6b;
+}
+
+.pos-warn
+{
+	background:#fff8bf;
+	padding:3px;
+	margin-left:10px;
+	width:100px;
+	color:#6b6b6b;
+}
+
+#warn1
+{
+	position:relative;
+	bottom:200px;	
+	width:30px;
+}
+
+.pos-red
+{
+	color:#ef7350;	
+}
+
+#pos-name
+{
+	width:200px;	
+}
+
+#pos-des
+{
+	width:400px;	
+	height:200px;
+	margin-left:128px;
+	margin-top:5px;
+}
+
+#font-gray
+{
+	color:#6b6b6b;
+	font-size:12px;
+}
+
+#recruit-num
+{
+	width:30px;	
+}
+
+#min-salary
+{
+	width:30px;	
+}
+
+#max-salary
+{
+	width:30px;	
+}
+
+#valid-day
+{
+	width:30px;	
+}
+
+.radio-company
+{
+	margin-left:120px;	
+}
+
+.tags
+{
+	margin-left:128px;	
+	margin-top:8px;
+	width:448px;
+}
+
+.pos-tag
+{
+	background:#eff9fe;
+	color:#838483;
+	border:#e1eaff solid 1px;	
+	padding:0px 3px;
+}
+
+.pos-tag:hover
+{
+	cursor:pointer;	
+}
+
+.tail
+{
+	background:#f2f2f5;
+	height:50px;	
+	position:absolute;
+	top:1165px;
+	left:0px;
+	width:100%;
+	color:#808080;
+	text-align:center;
+	font-size:12px;
+	line-height:25px;
+}

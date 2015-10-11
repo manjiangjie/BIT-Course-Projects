@@ -1,0 +1,45 @@
+unit Unit4;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  T删除单词 = class(TForm)
+    要删除的单词: TEdit;
+    Label1: TLabel;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  删除单词: T删除单词;
+
+implementation
+
+{$R *.dfm}
+
+uses Main;
+
+procedure T删除单词.Button1Click(Sender: TObject);
+begin
+删除单词.Hide;
+管理员.Show;
+end;
+
+procedure T删除单词.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+删除单词.Hide;
+管理员.Show;
+end;
+
+end.

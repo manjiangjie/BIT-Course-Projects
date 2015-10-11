@@ -1,0 +1,58 @@
+unit Update;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  T修改单词 = class(TForm)
+    单词: TLabel;
+    要修改的单词: TEdit;
+    修改词性: TEdit;
+    修改释义: TEdit;
+    词性: TLabel;
+    释义: TLabel;
+    例句: TLabel;
+    修改例句: TEdit;
+    修改: TButton;
+    取消: TButton;
+    查看: TButton;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure 修改Click(Sender: TObject);
+    procedure 取消Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  修改单词: T修改单词;
+
+implementation
+
+{$R *.dfm}
+
+uses Main;
+
+procedure T修改单词.修改Click(Sender: TObject);
+begin
+修改单词.Hide;
+管理员.Show;
+end;
+
+procedure T修改单词.取消Click(Sender: TObject);
+begin
+修改单词.Hide;
+管理员.Show;
+end;
+
+procedure T修改单词.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+修改单词.Hide;
+管理员.Show;
+end;
+
+end.

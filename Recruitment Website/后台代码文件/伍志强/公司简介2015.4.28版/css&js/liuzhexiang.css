@@ -1,0 +1,98 @@
+
+
+#login
+{
+	position:absolute;
+	bottom:320px;
+	left:70%;
+        top:20%px;
+	background:#333333;
+	width:240px;
+	height:240px;
+	opacity:0.9;
+	text-align:center;
+}
+
+.login-head
+{
+	height:50px;
+}
+
+.login-head div
+{
+	float:left;
+	width:117px;
+	height:40px;
+	font-size:12px;
+	color:white;
+	line-height:40px;
+}
+.login-head checkbox
+{
+        
+}
+
+.login-head #unchecked
+{
+	color:#b5b5b5;
+	background:#6a6a6b;
+}
+
+#login-psd-deal
+{
+	list-style:none;
+	color:#b5b5b5;
+	font-size:12px;
+	line-height:20px;
+	margin: 15px 13px 15px;
+	padding:0px;
+}
+
+#login-psd-deal .left
+{
+	float:left;
+}
+
+#login-psd-deal .right
+{
+	float:right;
+}
+
+.login-head input[type='text']
+{
+	margin-top:15px;
+	width:200px;
+	height:27px;	
+}
+
+.login-head input[type='password']
+{
+	margin-top:10px;
+	width:200px;
+	height:27px;	
+}
+
+.login-head input[type='submit']
+{
+	border-radius:5px;
+	margin-top:10px;
+	width:200px;
+	height:30px;	
+	background:#ff4a00;
+	outline:none;
+	border:none;
+	font-size:16px;
+	color:white;
+}
+
+#login-lab-register
+{
+	float:right;	
+	font-size:12px;
+	color:#00ccff;
+	margin-top:15px;
+	margin-right:20px;
+}
+
+
+

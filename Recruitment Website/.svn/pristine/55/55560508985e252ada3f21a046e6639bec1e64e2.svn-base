@@ -1,0 +1,149 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/position.css">
+<meta charset="utf-8">
+</head>
+<body>
+<script type="text/javascript" src="../javascript/position.js"></script>
+<!--header-->
+<div class="header">
+	<img id="title-img" src="../image/title.png">
+    <!--导航-->
+	<ul class="navigator">
+        <li>首页</li>
+        <li onMouseOver="showSubnav()" onMouseOut="hideSubnav()">人脉圈
+        	<ul id="subnav">
+            	<li>海外校友</li>
+                <li>人脉圈</li>
+            </ul>
+        </li>
+        <li>知名企业</li>
+        <li>视频面试</li>
+        <li>海归路上</li>
+    </ul>
+    <!--搜索-->
+    <div class="search">
+    	<img src="../image/blank.png" id="search-bg">
+    	<input type="text" id="search-input">
+    	<img src="../image/magnifying-glass.png" id="search-magnifying"><img src="../image/close.png" id="search-close">
+    </div>
+</div>
+<div class="container">
+	<div class="content">
+    	<div class="left">
+        	<ul class="menu">
+            	<li>HR首页</li>
+                <li>简历管理
+                	<ul class="submenu">
+                    	<a href="new_resume.html"><li>新收到简历
+                        	<div id="new-resume">99+</div>
+                        </li></a>
+                        <a href="to_be_interviewed.html"><li>待面试简历</li></a>
+                        <a href="commend_resume.html"><li>推荐简历</li></a>
+                        <a href="search.html"><li>搜索简历</li></a>
+                        <a href="favorite.html"><li>我的收藏</li></a>
+                        <a href="refused.html"><li>已拒绝简历</li></a>
+                    </ul>
+                </li>
+                <li>职位管理
+                	<ul class="submenu">
+                    	<a href="new_position.html"><li>发布新职位</li></a>
+                        <a href="posted_postion.html"><li id="cur-html">已发布职位</li></a>
+                        <a href="expired_position.html"><li>已失效职位</li></a>
+                    </ul>
+                </li>
+                <li>视频面试
+                	<ul class="submenu">
+                    	<a><li>预约日程</li></a>
+                        <a><li>已面试</li></a>
+                    </ul>
+                </li>
+                <li>企业主页</li>
+                <li>控制面板</li>
+            </ul>
+        </div>
+        <div class="right">
+   	  		<div class="block" id="block-title">已发布职位</div>
+            <form>
+            	<div class="block">
+                    <br>
+                    <label class="lab-title">发布时间</label>
+              		<select id="pos-type"></select>
+                    <label class="lab-title">收简历数</label>
+                    <select id="pos-type"></select>
+                    <input type="submit" value="搜索">
+                    <br><br>
+                </div>
+                <div class="block">
+                	<br>
+                    <input id="selectAll" onMouseDown="checkAll()" style="margin-left:50px" type="checkbox">	
+                    <label id="lab-checkbox">全选</label>
+                    <span class="pos-des">结束发布</span>
+                    <br><br>
+                    <div class="position">
+                    	<input name="checkSingle" class="choose-check" type="checkbox">
+              			<div class="info-pos">
+                        	<div class="pos-name">海外市场部经理</div>
+                            <div class="pos-intro">地点：北京 | 薪水：7000/月 | 招聘人数：3 | 已收到简历 29 份 | 发布时间：2015-04-01</div>
+                        </div>
+                        <div  class="end-post"><label>结束发布</label></div>
+                    </div>
+                    <div class="position">
+                    	<input name="checkSingle" type="checkbox">
+              			<div class="info-pos">
+                        	<div class="pos-name">海外市场部经理</div>
+                            <div class="pos-intro">地点：北京 | 薪水：7000/月 | 招聘人数：3 | 已收到简历 29 份 | 发布时间：2015-04-01</div>
+                        </div>
+                        <div  class="end-post"><label>结束发布</label></div>
+                    </div>
+                    <div class="position">
+                    	<input name="checkSingle" type="checkbox">
+              			<div class="info-pos">
+                        	<div class="pos-name">海外市场部经理</div>
+                            <div class="pos-intro">地点：北京 | 薪水：7000/月 | 招聘人数：3 | 已收到简历 29 份 | 发布时间：2015-04-01</div>
+                        </div>
+                        <div  class="end-post"><label>结束发布</label></div>
+                    </div>
+                    <div class="position">
+                    	<input name="checkSingle" type="checkbox">
+              			<div class="info-pos">
+                        	<div class="pos-name">海外市场部经理</div>
+                            <div class="pos-intro">地点：北京 | 薪水：7000/月 | 招聘人数：3 | 已收到简历 29 份 | 发布时间：2015-04-01</div>
+                        </div>
+                        <div  class="end-post"><label>结束发布</label></div>
+                    </div>
+                    <div class="position">
+                    	<input name="checkSingle" type="checkbox">
+              			<div class="info-pos">
+                        	<div class="pos-name">海外市场部经理</div>
+                            <div class="pos-intro">地点：北京 | 薪水：7000/月 | 招聘人数：3 | 已收到简历 29 份 | 发布时间：2015-04-01</div>
+                        </div>
+                        <div  class="end-post"><label>结束发布</label></div>
+                    </div>
+                    <div class="position">
+                    	<input name="checkSingle" type="checkbox">
+              			<div class="info-pos">
+                        	<div class="pos-name">海外市场部经理</div>
+                            <div class="pos-intro">地点：北京 | 薪水：7000/月 | 招聘人数：3 | 已收到简历 29 份 | 发布时间：2015-04-01</div>
+                        </div>
+                        <div  class="end-post"><label>结束发布</label></div>
+                    </div>
+                    <br>
+                    <div class="page">
+                    	<label class="page1">共 10 页</label>
+                        <label class="page2">上一页</label>
+                        <label class="page1">第 1 页</label>
+                        <label class="page2">下一页</label>
+                    </div>
+                    <br><br>
+            	</div>
+            </form>
+  		</div>
+	</div>
+</div>
+<div class="tail">
+京ICP备09083200号　京ICP证070419号　人才服务许可证：RC0280　京公网安备11010802012824<br>
+Copyright©2000-2014 13hang.com All Rights Reserved
+</div>
+</body>
+</html>

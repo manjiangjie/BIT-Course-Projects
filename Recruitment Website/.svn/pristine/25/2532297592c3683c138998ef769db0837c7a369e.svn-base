@@ -1,0 +1,143 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/position.css">
+<meta charset="utf-8">
+</head>
+<body>
+<!--header-->
+<div class="header">
+	<img id="title-img" src="../image/title.png">
+    <!--导航-->
+	<ul class="navigator">
+        <li>首页</li>
+        <li>人脉圈</li>
+        <li>知名企业</li>
+        <li>视频面试</li>
+        <li>海归路上</li>
+    </ul>
+    <!--搜索-->
+    <div class="search">
+    	<img src="../image/blank.png" id="search-bg">
+    	<input type="text" id="search-input">
+    	<img src="../image/magnifying-glass.png" id="search-magnifying"><img src="../image/close.png" id="search-close">
+    </div>
+</div>
+<div class="container" id="view">
+	<div class="content">
+    	<div class="left">
+        	<ul class="menu">
+            	<li>HR首页</li>
+                <li>简历管理
+                	<ul class="submenu">
+                    	<li><label>新收到简历</label>
+                        	<div id="new-resume">99+</div>
+                        </li>
+                        <li><label>待面试简历</label></li>
+                        <li><label>推荐简历</label></li>
+                        <li><label>搜索简历</label></li>
+                        <li><label>我的收藏</label></li>
+                        <li><label>已拒绝简历</label></li>
+                    </ul>
+                </li>
+                <li>职位管理
+                	<ul class="submenu">
+                    	<li><label>发布新职位</label></li>
+                        <li><label>已发布职位</label></li>
+                        <li><label>已失效职位</label></li>
+                    </ul>
+                </li>
+                <li>视频面试
+                	<ul class="submenu">
+                    	<li><label>预约日程</label></li>
+                        <li><label>已面试</label></li>
+                    </ul>
+                </li>
+                <li>企业主页</li>
+                <li>控制面板</li>
+            </ul>
+        </div>
+        <div class="right">
+   	  		<div class="block" id="block-title">查看个人简历</div>
+            <form>
+                <div class="block">
+                  <div class="brief">
+                	  <img src="../image/icon1.png">
+                	  <div class="intro">
+                      	<div>姓名： 李华 </div>
+                        <div>学历： 初中</div>
+                        <div>工作经验： 3年</div>
+                        <div class="intro-text">个人简介：专注网页设计开发5年，曾获过北京市网页设计比赛第一名，中国大学生网页设计第一名。个人觉得个人简介有三行比较好。所以一定要打满三行，打满三行，打满三行。</div>
+                        <div>
+                        	<ul>
+                            	<li><input id="btn1" type="submit" value="发送邀请"></li>
+                                <li><input id="btn2" type="submit" value="下载简历"></li>
+                                <li><input id="btn3" type="submit" value="收藏"></li>
+                                <li><input id="btn4" type="submit" value="拒绝"></li>
+                            </ul>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="seperate">基本信息
+                    <span>———————————————————————————————————————
+                    </span>
+                  </div>
+                  <div class="infoma">
+                  	<div class="lab1">年龄： 21</div>
+                    <div class="lab2">民族： 汉</div>
+                    <div class="lab1">籍贯： 北京</div>
+                    <div class="lab2">政治面貌： 群众</div>
+                  </div>
+                  <div class="seperate">联系方式
+                    <span>———————————————————————————————————————
+                    </span>
+                  </div>
+                  <div class="contact">
+                  	<div class="lab1">手机： 13888888888</div>
+                    <div class="lab2">邮箱： haha@sina.com</div>
+                    <div class="lab1">微信： haha</div>
+                  </div>
+                  <div class="seperate">教育经历
+                    <span>———————————————————————————————————————
+                    </span>
+                  </div>
+                  <div class="education">
+                  	<ul>
+                    	<li>2007~2011</li>
+                        <li>北京大学</li>
+                        <li>计算机专业</li>
+                        <li>本科</li>
+                    </ul>
+                  	<ul>
+                    	<li>2011~2012</li>
+                        <li>美国斯坦福大学</li>
+                        <li>计算机专业</li>
+                        <li>硕士</li>
+                    </ul>
+                  </div>
+                  <div class="seperate">工作经历
+                    <span>———————————————————————————————————————
+                    </span>
+                  </div>
+                    <div class="work">
+                    	<ul>
+                        	<li>2012~2013</li>
+                            <li>深圳腾讯公司</li>
+                            <li>网页工程师</li>
+                        </ul>
+                    	<ul>
+                        	<li>2013~2015</li>
+                            <li>杭州阿里巴巴</li>
+                            <li>网页工程师</li>
+                        </ul>
+                    </div>
+           	  </div>
+            </form>
+  		</div>
+	</div>
+</div>
+<div class="tail" id="view-tail">
+京ICP备09083200号　京ICP证070419号　人才服务许可证：RC0280　京公网安备11010802012824<br>
+Copyright©2000-2014 13hang.com All Rights Reserved
+</div>
+</body>
+</html>

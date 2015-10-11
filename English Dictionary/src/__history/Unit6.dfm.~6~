@@ -1,0 +1,55 @@
+﻿object 查询单词: T查询单词
+  Left = 0
+  Top = 0
+  Caption = #26597#35810#21333#35789
+  ClientHeight = 323
+  ClientWidth = 405
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 48
+    Top = 27
+    Width = 48
+    Height = 13
+    Caption = #26597#35810#21333#35789
+  end
+  object Edit1: TEdit
+    Left = 136
+    Top = 24
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    TextHint = #36755#20837#35201#26597#35810#30340#21333#35789
+  end
+  object Button1: TButton
+    Left = 304
+    Top = 22
+    Width = 75
+    Height = 25
+    Caption = #26597#35810
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 80
+    Top = 264
+    Width = 75
+    Height = 25
+    Caption = #21152#20837#21333#35789#26412
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 248
+    Top = 264
+    Width = 75
+    Height = 25
+    Caption = #36820#22238
+    TabOrder = 3
+  end
+end

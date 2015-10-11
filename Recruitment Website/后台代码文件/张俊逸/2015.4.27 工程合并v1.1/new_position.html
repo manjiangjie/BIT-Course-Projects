@@ -1,0 +1,238 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/position.css">
+<meta charset="utf-8">
+</head>
+<body onLoad="newPosiInit()">
+<script type="text/javascript" src="__PUBLIC__/javascript/position.js"></script>
+<!--header-->
+<div class="header">
+  <img id="title-img" src="__PUBLIC__/image/title.png">
+    <!--导航-->
+  <ul class="navigator">
+        <li><a href="{:U('WebShow/home')}">首页</a></li>
+        <li onMouseOver="showSubnav1()" onMouseOut="hideSubnav1()"><a href="{:U('WebSearch/searchJob')}">找职位</a>
+        <li onMouseOver="showSubnav2()" onMouseOut="hideSubnav2()">人脉圈
+          <ul class="subnav" id="subnav2">
+              <li><a href="{:U('WebShow/indi_myfriends')}">海外校友</a></li>
+                <li><a href="#">人脉圈</a></li>
+            </ul>
+        </li>
+        <li><a href="{:U('WebShow/indi_famous')}">知名企业</a></li>
+        <li><a href="#">视频面试</a></li>
+        <li><a href="#">海归路上</a></li>
+    </ul>
+   <div class="toolbar">
+        <a href="{:U('WebShow/indi_webNews_show_all')}"><img src="__PUBLIC__/image/chat.png"></a>
+        <a href="{:U('WebShow/hr_recuitmentJob_show')}">
+            <img src="__PUBLIC__/image/avatar.png"  onMouseOver="showGeren()" onMouseOut="hideGeren()">
+            <div class="info" id="gerenzhongxin">
+                <div class="arrow"></div>
+                <div class="arrow-border"></div>
+                <ul>
+                    <li class="geren" onMouseOver="setShowFlag(this)" onMouseOut="hideGeren()">账号信息</li>
+                    <li class="geren" onMouseOver="setShowFlag(this)" onMouseOut="hideGeren()">账号升级</li>
+                    <li class="geren" onMouseOver="setShowFlag(this)" onMouseOut="hideGeren()">使用帮助</li>
+                    <li class="geren" onMouseOver="setShowFlag(this)" onMouseOut="hideGeren()">反馈建议</li>
+                   <a href="{:U('UserLog/logout')}"> <li class="geren" onMouseOver="setShowFlag(this)" onMouseOut="hideGeren()">退出</li></a>
+                </ul>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="container">
+	<div class="content">
+    	<div class="left">
+            <a href="{:U('HRAddinfo/hrAddJob')}"><div class="title">发布新职位</div></a>
+            <ul class="menu">
+                <a href="{:U('WebShow/hr_recuitmentJob_show')}"><li class="clickable">HR首页</li></a>
+                <li>简历管理
+                    <ul class="submenu">
+                        <a href="{:U('WebShow/hr_getNewResume_show')}">
+                            <li>新收到简历
+                            </li></a>
+                        <a href="{:U('WebShow/hr_recommandResume_show')}"><li>推荐简历</li></a>
+                        <a href="{:U('Search/hrSearchResume')}"><li>搜索简历</li></a>
+                        <a href="{:U('WebShow/hr_collectedResume_show')}"><li>我的收藏</li></a>
+                        <a href="{:U('WebShow/hr_rejectedResume_show')}"><li>已拒绝简历</li></a>
+                    </ul>
+                </li>
+                <li>职位管理
+                    <ul class="submenu">
+                        <a href="{:U('HRAddinfo/Addjob')}"><li id="cur-html">发布新职位</li></a>
+                        <a href="{:U('WebShow/hr_publishedJob_show')}"><li>已发布职位</li></a>
+                        <a href="{:U('WebShow/hr_failedJob_show')}"><li>已失效职位</li></a>
+                    </ul>
+                </li>
+                <li>视频面试
+                    <ul class="submenu">
+                        <a href="{:U('WebShow/hr_interResume_show')}"><li>待面试</li></a>
+                        <a href="{:U('WebShow/hr_interviewed_show')}"><li>已面试</li></a>
+                    </ul>
+                </li>
+                <a href="{:U('HRAddinfo/compInfoShow')}"><li class="clickable">企业主页</li></a>
+                <a href="{:U('HRAddinfo/hrInfoShow')}"><li class="clickable">控制面板</li></a>
+            </ul>
+            <div class="wanshanxinxi">
+                <div>完善企业资料</div>
+                <div class="xinxi-wrap">
+                    <ul>
+                    <li><div><img class="li1" src="__PUBLIC__/image/booklet.png"></div></li>
+                    <li><div class="li2">15%</div></li>
+                    <li><div class="li3">企业基本信息</div></li>
+                    <li><div><img class="li4" src="__PUBLIC__/image/view.png"></div></li>
+                    <li><div><img class="li5" src="__PUBLIC__/image/refresh.png"></div></li>
+                    <li><div><img class="li6" src="__PUBLIC__/image/modify.png"></div></li>
+                </ul>
+                    <ul>
+                        <li><div><img class="li1" src="__PUBLIC__/image/booklet.png"></div></li>
+                        <li><div class="li2">15%</div></li>
+                        <li><div class="li3">管理员信息</div></li>
+                        <li><div><img class="li4" src="__PUBLIC__/image/view.png"></div></li>
+                        <li><div><img class="li5" src="__PUBLIC__/image/refresh.png"></div></li>
+                        <li><div><img class="li6" src="__PUBLIC__/image/modify.png"></div></li>
+                    </ul>
+                    <ul>
+                        <li><div><img class="li1" src="__PUBLIC__/image/booklet.png"></div></li>
+                        <li><div class="li2">15%</div></li>
+                        <li><div class="li3">职位信息</div></li>
+                        <li><div><img class="li4" src="__PUBLIC__/image/view.png"></div></li>
+                        <li><div><img class="li5" src="__PUBLIC__/image/refresh.png"></div></li>
+                        <li><div><img class="li6" src="__PUBLIC__/image/modify.png"></div></li>
+                    </ul>
+                </div>
+                <hr>
+                <div>服务热线</div>
+                <div class="xiaozi">
+                    十三行人事顾问：赵卉心<br>
+                    联系电话：<label>18611771893</label><br>
+                    Email：<label>zhx212@trading13.com</label>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+        	<ul class="cheat">
+            	<li><input type="text"> </li>
+            	<li><button>搜索</button></li>
+            </ul>
+            <form name="hrAddJob" action="{:U('hrAddJob')}" method='post'> 
+            	<div class="block">
+                	<br><br>
+                	<label class="lab-title">职位名称</label>
+           	  		<input type="text" id="pos-name" name="jobName">
+              		<span class="pos-des">可输入30个汉字或60个字符</span>
+              		<span class="pos-warn"><span class="pos-red">提示：</span>职位名称发布后不可修改</span>
+                    <br><br>
+                    <label class="lab-title" name="">职位类别</label>
+              		<select id="pos-type"></select>
+                    <span class="pos-des">精准选择职位类别可以提升招聘效果</span>
+                    <br><br>
+                    <label class="lab-title">职位描述</label>
+                    <span class="pos-des">最多2000个字符</span><br>
+                    <textarea id="pos-des" name="jobDescription"></textarea>
+                    <br><br>
+                    <label class="lab-title">增加职位亮点标签</label>
+                    <span class="pos-des">( 选择职位亮点，提升职位吸引力，有效增加职位投递！）</span>
+                    <span class="pos-des" id="warn-tag">最多可选8个标签</span>
+                    <div class="tags">
+                    	<div style="height:25px">
+                    		<span onClick="tagsChangeColor(this)"class="pos-tag" id="1">五险一金</span>
+							<input type="hidden" name="tag1" id="tag1"value="" >
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="2">年底双薪</span>
+							<input type="hidden" name="tag2" id="tag2" value="">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="3">绩效奖金</span>
+							<input type="hidden" name="tag3" id="tag3"value="" >
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="4">年终分红</span>
+							<input type="hidden" name="tag4" id="tag4" value="">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="5">股票期权</span>
+							<input type="hidden" name="tag5" id="tag5" value="">
+                    		<span onClick="tagsChangeColor(this)"class="pos-tag" id="6">加班补助</span>
+							<input type="hidden" name="tag6" id="tag6" value="">
+                        </div>
+                        <div style="height:25px">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag"id="7" >包吃</span>
+						    <input type="hidden" name="tag7" id="tag7"value="" >
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="8">包住</span>
+							<input type="hidden" name="tag8" id="tag8" value="">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="9" >交通补助</span>
+							<input type="hidden" name="tag9" id="tag9" value="">
+                    		<span onClick="tagsChangeColor(this)"class="pos-tag" id="10">餐补</span>
+							<input type="hidden" name="tag10" id="tag10" value="">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="11">房补</span>
+							<input type="hidden" name="tag11" id="tag11" value="">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="12">通讯补贴</span>
+							<input type="hidden" name="tag12" id="tag12" value="">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="13">采暖补贴</span>
+							<input type="hidden" name="tag13" id="tag13" value="">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="14">带薪年假</span>
+						    <input type="hidden" name="tag14" id="tag14" value="">
+                        </div>
+                        <div style="height:25px">
+                    		<span onClick="tagsChangeColor(this)"class="pos-tag" id="15" >弹性工作</span>
+						     <input type="hidden" name="tag15" id="tag15" value="">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="16">补充医疗保险</span>
+						    <input type="hidden" name="tag16" id="tag16" value="">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="17" >定期体检</span>
+							<input type="hidden" name="tag17" id="tag17" value="">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="18">免费班车</span>
+                            <input type="hidden" name="tag18" id="tag18" value="">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="19" >员工旅游</span>
+						    <input type="hidden" name="tag19" id="tag19" value="">
+                    		<span onClick="tagsChangeColor(this)"class="pos-tag" id="20">高温补贴</span>
+							<input type="hidden" name="tag20" id="tag20" value="">
+                        <div>
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="21">全勤奖</span>
+							<input type="hidden" name="tag21" id="tag21" value="">
+                        	<span onClick="tagsChangeColor(this)"class="pos-tag" id="22">节日福利</span>
+							<input type="hidden" name="tag22" id="tag22" value="">
+                        </div>
+                    </div>
+                    <label class="lab-title">工作地点</label>
+                    <select name="jobAddress"></select>
+                    <br><br>
+                    <label class="lab-title">工作经验</label>
+                    <select name='jobExperience'></select>
+                    <span class="font-gray">含以上</span>
+                    <br><br>
+                    <label class="lab-title">学历要求</label>
+                    <select name='jobEducation'></select>
+                    <span class="font-gray">含以上</span>
+                    <br><br>
+                    <label class="lab-title">工作性质</label>
+                    <input type="radio" name="jobNature" value="1" onMouseDown="changeWorkType()"><span class="font-gray">全职</span>
+                    <input type="radio" name="jobNature" value="2" onMouseDown="changeWorkType()"><span class="font-gray">兼职</span>
+                    <input type="radio" name="jobNature" value="3" onMouseDown="changeWorkType()"><span class="font-gray">实习</span>
+                    <br><br>
+                    <label class="lab-title">招聘人数</label>
+                    <input type="text" id="recruit-num" name='jobRecruitNum'>
+                    <br><br>
+                    <label class="lab-title">职位月薪</label>
+                    <input type="text" id="min-salary" name="jobSalary1"> 至<input type="text" id="max-salary" name="jobSalary2">
+                    <input name="faceToface" onMouseUp="isFaceToFace()" type="radio">
+                    <span class="font-gray">面谈</span>
+                    <br><br>
+                    <label class="lab-title">有效时间</label>
+                    <input type="text" id="valid-day" name="validTime"> 天
+                    <br><br>
+            	</div>
+            	<div class="block">
+                	<br>
+                	<label class="lab-title">公司信息</label>
+                    <br><br>
+                    <input class="radio-company" type="radio">北京百度科技有限公司
+                    <br><br>
+                    <input class="radio-company" type="radio">新增
+                    <br><br>
+                    <input id="btn-scan" type="submit" value="预览">
+                    <input id="btn-post" type="submit" value="发布">
+                </div>
+            </form>
+  		</div>
+	</div>
+</div>
+<div class="tail" id="top1200">
+京ICP备09083200号　京ICP证070419号　人才服务许可证：RC0280　京公网安备11010802012824<br>
+Copyright©2000-2014 13hang.com All Rights Reserved
+</div>
+</body>
+</html>

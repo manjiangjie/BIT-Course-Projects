@@ -1,0 +1,95 @@
+﻿object 欢迎登录: T欢迎登录
+  Left = 0
+  Top = 0
+  Caption = #27426#36814#30331#24405
+  ClientHeight = 183
+  ClientWidth = 370
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object 用户名: TLabel
+    Left = 88
+    Top = 35
+    Width = 36
+    Height = 13
+    Caption = #29992#25143#21517
+  end
+  object 密码: TLabel
+    Left = 100
+    Top = 80
+    Width = 24
+    Height = 13
+    Caption = #23494#30721
+  end
+  object Image1: TImage
+    Left = 0
+    Top = 0
+    Width = 369
+    Height = 185
+  end
+  object 登录: TButton
+    Left = 88
+    Top = 140
+    Width = 75
+    Height = 25
+    Align = alCustom
+    Caption = #30331#24405
+    Default = True
+    TabOrder = 0
+  end
+  object 输入用户名: TComboBox
+    Left = 168
+    Top = 32
+    Width = 145
+    Height = 21
+    TabOrder = 1
+    TextHint = #36755#20837#29992#25143#21517
+    Items.Strings = (
+      'admin'
+      'manjiangjie'
+      'test'
+      'guest')
+  end
+  object 输入密码: TEdit
+    Left = 168
+    Top = 77
+    Width = 145
+    Height = 21
+    Ctl3D = True
+    DoubleBuffered = False
+    ParentCtl3D = False
+    ParentDoubleBuffered = False
+    ParentShowHint = False
+    PasswordChar = '*'
+    ShowHint = False
+    TabOrder = 2
+    TextHint = #36755#20837#23494#30721
+  end
+  object 记住密码: TCheckBox
+    Left = 168
+    Top = 109
+    Width = 97
+    Height = 17
+    Caption = #35760#20303#23494#30721
+    TabOrder = 3
+  end
+  object 退出: TButton
+    Left = 208
+    Top = 140
+    Width = 75
+    Height = 25
+    Caption = #36864#20986
+    TabOrder = 4
+    OnClick = 退出Click
+  end
+  object ADOTable1: TADOTable
+    Left = 312
+    Top = 112
+  end
+end

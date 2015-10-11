@@ -1,0 +1,160 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/position.css">
+<meta charset="utf-8">
+</head>
+<body>
+<!--header-->
+<div class="header">
+	<img id="title-img" src="../image/title.png">
+    <!--导航-->
+	<ul class="navigator">
+        <li>首页</li>
+        <li>人脉圈</li>
+        <li>知名企业</li>
+        <li>视频面试</li>
+        <li>海归路上</li>
+    </ul>
+    <!--搜索-->
+    <div class="search">
+    	<img src="../image/blank.png" id="search-bg">
+    	<img src="../image/magnifying-glass.png" id="search-magnifying">
+        <input type="text" id="search-input">
+        <img src="../image/close.png" id="search-close">
+    </div>
+</div>
+<div class="container" id="new-position">
+	<div class="content">
+    	<div class="left">
+        	<ul class="menu">
+            	<li>HR首页</li>
+                <li>简历管理
+                	<ul class="submenu">
+                    	<li><label>新收到简历</label>
+                        	<div id="new-resume">99+</div>
+                        </li>
+                        <li><label>待面试简历</label></li>
+                        <li><label>推荐简历</label></li>
+                        <li><label>搜索简历</label></li>
+                        <li><label>我的收藏</label></li>
+                        <li><label>已拒绝简历</label></li>
+                    </ul>
+                </li>
+                <li>职位管理
+                	<ul class="submenu">
+                    	<li><label>发布新职位</label></li>
+                        <li><label>已发布职位</label></li>
+                        <li><label>已失效职位</label></li>
+                    </ul>
+                </li>
+                <li>视频面试
+                	<ul class="submenu">
+                    	<li><label>预约日程</label></li>
+                        <li><label>已面试</label></li>
+                    </ul>
+                </li>
+                <li>企业主页</li>
+                <li>控制面板</li>
+            </ul>
+        </div>
+        <div class="right">
+   	  		<div class="block" id="block-title">发布一个新职位</div>
+            <form>
+            	<div class="block">
+                	<br><br>
+                	<label class="lab-title">职位名称</label>
+           	  		<input type="text" id="pos-name">
+              		<span class="pos-des">可输入30个汉字或60个字符</span>
+              		<span class="pos-warn"><span class="pos-red">提示：</span>请您认真填写，职位名称发布后不可修改</span>
+                    <br><br>
+                    <label class="lab-title">职位类别</label>
+              		<select id="pos-type"></select>
+                    <span class="pos-des">精准选择职位类别可以提升招聘效果</span>
+                    <br><br>
+                    <label class="lab-title">职位描述</label>
+                    <span class="pos-des">最多2000个字符</span><br>
+                    <textarea id="pos-des"></textarea>
+                    <br><br>
+                    <label class="lab-title">增加职位亮点标签</label>
+                    <span class="pos-des">( 选择职位亮点，提升职位吸引力，有效增加职位投递！）</span>
+                    <span class="pos-des">最多可选8个标签</span>
+                    <div class="tags">
+                    	<div style="height:25px">
+                    		<span class="pos-tag">五险一金</span>
+                        	<span class="pos-tag">年底双薪</span>
+                        	<span class="pos-tag">绩效奖金</span>
+                        	<span class="pos-tag">年终分红</span>
+                        	<span class="pos-tag">股票期权</span>
+                    		<span class="pos-tag">加班补助</span>
+                        	<span class="pos-tag">全勤奖</span>
+                        </div>
+                        <div style="height:25px">
+                        	<span class="pos-tag">包吃</span>
+                        	<span class="pos-tag">包住</span>
+                        	<span class="pos-tag">交通补助</span>
+                    		<span class="pos-tag">餐补</span>
+                        	<span class="pos-tag">房补</span>
+                        	<span class="pos-tag">通讯补贴</span>
+                        	<span class="pos-tag">采暖补贴</span>
+                        	<span class="pos-tag">带薪年假</span>
+                        </div>
+                        <div style="height:25px">
+                    		<span class="pos-tag">弹性工作</span>
+                        	<span class="pos-tag">补充医疗保险</span>
+                        	<span class="pos-tag">定期体检</span>
+                        	<span class="pos-tag">免费班车</span>
+                        	<span class="pos-tag">员工旅游</span>
+                    		<span class="pos-tag">高温补贴</span>
+                        	<span class="pos-tag">节日福利</span>
+                        </div>
+                    </div>
+                    <br>
+                    <label class="lab-title">工作地点</label>
+                    <select></select>
+                    <br><br>
+                    <label class="lab-title">工作经验</label>
+                    <select></select>
+                    <span class="font-gray">含以上</span>
+                    <br><br>
+                    <label class="lab-title">学历要求</label>
+                    <select></select>
+                    <span class="font-gray">含以上</span>
+                    <br><br>
+                    <label class="lab-title">工作性质</label>
+                    <input type="radio"><span class="font-gray">全职</span>
+                    <input type="radio"><span class="font-gray">兼职</span>
+                    <input type="radio"><span class="font-gray">实习</span>
+                    <br><br>
+                    <label class="lab-title">招聘人数</label>
+                    <input type="text" value="1" id="recruit-num">
+                    <br><br>
+                    <label class="lab-title">职位月薪</label>
+                    <input type="text" id="min-salary"> 至<input type="text" id="max-salary">
+                    <input type="radio">
+                    <span class="font-gray">面谈</span>
+                    <br><br>
+                    <label class="lab-title">有效时间</label>
+                    <input type="text" id="valid-day"> 天
+                    <br><br>
+            	</div>
+            	<div class="block">
+                	<br>
+                	<label class="lab-title">公司信息</label>
+                    <br><br>
+                    <input class="radio-company" type="radio">北京百度科技有限公司
+                    <br><br>
+                    <input class="radio-company" type="radio">新增
+                    <br><br>
+                    <input id="btn-scan" type="submit" value="预览">
+                    <input id="btn-post" type="submit" value="发布">
+                </div>
+            </form>
+  		</div>
+	</div>
+</div>
+<div class="tail" id="new-position-tail">
+京ICP备09083200号　京ICP证070419号　人才服务许可证：RC0280　京公网安备11010802012824<br>
+Copyright©2000-2014 13hang.com All Rights Reserved
+</div>
+</body>
+</html>

@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family:microsoft yahei;	
+}
+
+.header
+{
+	top:0px;
+	left:0px;
+	background:#404144;
+	height:40px;
+	width:100%;
+	position:absolute;
+}
+
+.navigator
+{
+	height:40px;
+	position:absolute;
+	top:0px;
+	left:238px;
+	margin-top:0px;
+	line-height:40px;
+	color:white;
+}
+
+.navigator li
+{
+	margin:0;
+	padding:0;
+	float:left;
+	width:96px;
+	text-align:center;
+	list-style:none;
+}
+
+.navigator li:hover
+{
+	cursor:pointer;
+	background:#333333;
+}
+
+#title-img
+{
+	height:40px;
+	margin-left:183px;
+}
+
+.search
+{
+	position:absolute;
+	top:8px;
+	left:990px;
+	line-height:40px;
+}
+
+#search-bg
+{
+	position:relative;
+}
+
+#search-magnifying
+{
+	position:absolute;
+	top:5px;
+	left:4px;
+}
+
+#search-input
+{
+	position:absolute;
+	top:3px;
+	left:24px;
+	border:none;
+	color:#868686;
+	outline:none;
+}
+
+#search-close
+{
+	position:absolute;
+	top:5px;
+	right:4px;
+}
+
+#search-close:hover
+{
+	cursor:pointer;
+}
+
+.container
+{
+	background:#f0f4f5;
+	width:100%;
+	height:1130px;
+	position:absolute;
+	left:0px;
+	top:40px;
+}
+
+.content
+{
+	background:#c2ccd6;
+	width:80%;	
+	height:100%;
+	margin:auto;
+}
+
+.left
+{
+	height:90%;
+	width:14%;
+	position:absolute;
+	left:10%;
+	margin-top:60px;
+}
+
+.right
+{
+	height:90%;
+	width:66%;
+	position:absolute;
+	right:10%;
+	margin-top:30px;
+}
+
+.menu
+{
+	list-style:none;
+	padding:0px;
+	color:white;
+	font-weight:700;
+	margin-left:10px;
+}
+
+.menu li
+{
+	padding:3px 0;
+}
+
+.menu li:hover
+{
+	cursor:pointer;
+}
+
+.submenu
+{
+	list-style:none;
+	font-weight:400;
+	padding:0px;
+	margin-left:-10px;
+}
+
+.submenu label
+{
+	padding-left:40px;	
+}
+
+.submenu li:hover
+{
+	cursor:pointer;
+	background:#ccd4dc;	
+}
+
+#new-resume
+{
+	background:#ed741c;
+	width:25px;
+	border-radius:3px;
+	position:absolute;
+	font-size:13px;
+	top:73px;
+	left:150px;
+	text-align:center;
+}
+
+
+.block
+{
+	background:#ffffff;
+	border:#b6bfc8 solid 1px;
+	margin-right:20px;
+	margin-bottom:10px;
+	box-shadow:1px 1px 1px #333;
+}
+
+
+#block-title
+{
+	padding:0 0 0 0;
+	margin-top:10px;
+	margin-left:40px;
+}
+
+#inner-search
+{
+	font-size:26px;
+	width:500px;
+	height:40px;
+}
+
+input[type="text"]
+{
+	background:#0F9;
+	border:nont;
+	border-radius:0px;
+	margin:0 0 0 0;
+}
+
+#search-blank
+{
+	
+}
+
+input[type="submit"]
+{
+	background:#ed741c;
+	border:none;
+	border-radius:0px;	
+	width:100px;
+	height:45px;
+	color:white;
+}

@@ -1,0 +1,63 @@
+﻿object 删除单词: T删除单词
+  Left = 0
+  Top = 0
+  Caption = #21024#38500#21333#35789
+  ClientHeight = 354
+  ClientWidth = 637
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 224
+    Top = 43
+    Width = 24
+    Height = 13
+    Caption = #21333#35789
+  end
+  object 要删除的单词: TEdit
+    Left = 304
+    Top = 40
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    TextHint = #35201#21024#38500#30340#21333#35789
+  end
+  object Button1: TButton
+    Left = 240
+    Top = 304
+    Width = 75
+    Height = 25
+    Caption = #30830#23450
+    TabOrder = 1
+  end
+  object Panel1: TPanel
+    Left = 144
+    Top = 96
+    Width = 417
+    Height = 145
+    Caption = 'Panel1'
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 374
+    Top = 304
+    Width = 75
+    Height = 25
+    Caption = #36820#22238
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 496
+    Top = 38
+    Width = 75
+    Height = 25
+    Caption = #32467#26524#26174#31034
+    TabOrder = 4
+  end
+end

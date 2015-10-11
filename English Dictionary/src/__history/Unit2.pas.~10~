@@ -1,0 +1,44 @@
+unit Unit2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  T管理员 = class(TForm)
+    添加单词: TButton;
+    修改单词: TButton;
+    删除单词: TButton;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  管理员: T管理员;
+
+implementation
+
+uses Unit1;
+{$R *.dfm}
+
+procedure T管理员.Button3Click(Sender: TObject);
+begin
+管理员.Hide;
+欢迎登录.Show;
+end;
+
+procedure T管理员.Button2Click(Sender: TObject);
+begin
+if messagedlg('确定要退出吗？',mtwarning,[mbyes,mbno],0)=mryes then close;
+end;
+
+end.

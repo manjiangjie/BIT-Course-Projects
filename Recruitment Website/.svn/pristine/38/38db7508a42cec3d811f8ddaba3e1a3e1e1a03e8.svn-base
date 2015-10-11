@@ -1,0 +1,205 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/position.css">
+<meta charset="utf-8">
+<script>
+<!--
+/*更换显示样式*/
+function setTab(name,cursel,n){
+for(i=1;i<=n;i++){
+var menu=document.getElementById(name+i);
+var con=document.getElementById("con_"+name+"_"+i);
+menu.className=i==cursel?"hover":"";
+con.style.display=i==cursel?"block":"none";}}
+//-->
+</script>
+<script type="text/javascript" src="../javascript/position.js"></script>
+</head>
+<body>
+<!--header-->
+<div class="header">
+	<img id="title-img" src="../image/title.png">
+    <!--导航-->
+	<ul class="navigator">
+        <li>首页</li>
+        <li onMouseOver="showSubnav1()" onMouseOut="hideSubnav1()">找职位
+        	<ul class="subnav" id="subnav1">
+            	<li>搜索职位</li>
+                <li>投递职位</li>
+            	<li>收藏职位</li>
+                <li>职位订阅</li>
+            </ul>
+        </li>
+        <li onMouseOver="showSubnav2()" onMouseOut="hideSubnav2()">人脉圈
+        	<ul class="subnav" id="subnav2">
+            	<li>海外校友</li>
+                <li>人脉圈</li>
+            </ul>
+        </li>
+        <li>知名企业</li>
+        <li>视频面试</li>
+        <li>海归路上</li>
+    </ul>
+    <div class="toolbar">
+    	<img src="../image/chat.png">
+        <a href="HRfrontpage.html"><img src="../image/avatar.png"></a>
+    </div>
+</div>
+<div class="container">
+	<div class="content">
+   	  <div class="left">
+        	<div class="title">控制面板</div>
+       	  <ul class="menu">
+            	<a href="HRfrontpage.html"><li class="clickable">HR首页</li></a>
+                <li>简历管理
+                	<ul class="submenu">
+                    	<a href="new_resume.html">
+                       	<li>新收到简历
+                            	<label id="new-resume">99+</label>
+                      </li></a>
+                        <a href="commend_resume.html"><li>推荐简历</li></a>
+                        <a href="search.html"><li>搜索简历</li></a>
+                        <a href="favorite.html"><li>我的收藏</li></a>
+                        <a href="refused.html"><li>已拒绝简历</li></a>
+                    </ul>
+                </li>
+                <li>职位管理
+                	<ul class="submenu">
+                    	<a href="new_position.html"><li>发布新职位</li></a>
+                        <a href="posted_postion.html"><li>已发布职位</li></a>
+                        <a href="expired_position.html"><li>已失效职位</li></a>
+                    </ul>
+                </li>
+                <li>视频面试
+                	<ul class="submenu">
+                    	<a href="to_be_interviewed.html"><li>待面试</li></a>
+                        <a href="interviewed.html"><li>已面试</li></a>
+                    </ul>
+                </li>
+                <a href="company_info.html"><li class="clickable">企业主页</li></a>
+                <a href="edit_account.html"><li class="clickable" id="cur-html">控制面板</li></a>
+            </ul>
+            <div class="wanshanxinxi">
+            	<div>完善企业资料</div>
+                <div class="xinxi-wrap">
+                	<ul>
+                	<li><div><img class="li1" src="../image/booklet.png"></div></li>
+                    <li><div class="li2">15%</div></li>
+                    <li><div class="li3">企业基本信息</div></li>
+                    <li><div><img class="li4" src="../image/view.png"></div></li>
+                    <li><div><img class="li5" src="../image/refresh.png"></div></li>
+                    <li><div><img class="li6" src="../image/modify.png"></div></li>
+                </ul>
+                	<ul>
+                		<li><div><img class="li1" src="../image/booklet.png"></div></li>
+                    	<li><div class="li2">15%</div></li>
+                    	<li><div class="li3">管理员信息</div></li>
+                    	<li><div><img class="li4" src="../image/view.png"></div></li>
+                    	<li><div><img class="li5" src="../image/refresh.png"></div></li>
+                    	<li><div><img class="li6" src="../image/modify.png"></div></li>
+                	</ul>
+                	<ul>
+                		<li><div><img class="li1" src="../image/booklet.png"></div></li>
+                    	<li><div class="li2">15%</div></li>
+                    	<li><div class="li3">职位信息</div></li>
+                    	<li><div><img class="li4" src="../image/view.png"></div></li>
+                    	<li><div><img class="li5" src="../image/refresh.png"></div></li>
+                    	<li><div><img class="li6" src="../image/modify.png"></div></li>
+                	</ul>
+                </div>
+                <hr>
+                <div>服务热线</div>
+                <div class="xiaozi">
+                	十三行人事顾问：赵卉心<br>
+                    联系电话：<label>18611771893</label><br>
+                    Email：<label>zhx212@trading13.com</label>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+        	<ul class="cheat">
+            	<li><input type="text"> </li>
+            	<li><button>搜索</button></li>
+            </ul>
+  				<div class="block" id="block-head">
+                <label id="one1" onClick="setTab('one',1,4)" class="hover">修改账户信息</label>
+                   <label id="one2" onClick="setTab('one',2,4)" class="hover">账号管理</label>
+                  
+                </div>
+            <form>
+         <div class="block" id="con_one_1">
+                	<br><br>
+                    <span>
+                    <label class="lab-title2">登陆名</label>
+                    </span>
+                    <input type="text" size=30/>
+                    <br>
+                    <br>
+                    <span><label class="lab-title2">密码</label></span>
+                    <input type="password" size=20/>
+                     <a href="">修改密码</a>
+                     <br>
+                      <br>
+                    <span><label class="lab-title2">姓名</label></span>
+                     <input type="text"  size=30/>
+                     <br>
+                     <br>
+                   <span><label class="lab-title2">&nbsp;</label></span>
+                    <input type="radio" name="radio1" value="先生"/>先生
+                    <input type="radio" name="radio2" value="女士"/>女士
+                     <br>
+                       <br>
+                    <span><label class="lab-title2">职位</label></span>
+                     <input type="text"  size=30/>
+                     <br>
+                       <br>
+                    <span><label class="lab-title2">联系电话</label></span>
+                     <input type="text"  size=30/>
+                     <br>
+                       <br>
+                    <span><label class="lab-title2">投简历邮箱</label></span>
+                     <input type="text"  size=30/>
+                     <br>
+                       <br>
+                    <span><label class="lab-title2">头像</label></span>
+                     <img src="" width="150" height="150">
+                     <input type="file" value="上传" size=30/>
+                     <br>
+                     <p>
+                    <input id="btn-renew" type="submit" value="更新">
+                    </p>
+              </div>
+              
+               <div class="block" id="con_one_2" style="display:none">
+         <br>
+         <br>
+         	 <span><label class="lab-title2"l>接受求职者私信</label></span>
+                <input type="radio" name="radio1" value="允许"/>允许
+                <input type="radio" name="radio2" value="不允许"/>不允许
+                <br>
+                <br>
+             	<span><label class="lab-title2">每页显示简历数</label></span>
+                <select>
+                <option>10</option>
+                <option>15</option>
+                <option>20</option>
+                <option>30</option>
+                </select>
+                <br>
+                <br>
+                <span><label class="lab-title2">更多功能</label></span>
+                &nbsp;&nbsp;&nbsp;<a href="">升级账号</a>
+                <br>
+                <br>
+                <input id="btn-save" type="submit" value="保存">
+             </div>
+          </form>
+  		</div>
+	</div>
+</div>
+<div class="tail">
+京ICP备09083200号　京ICP证070419号　人才服务许可证：RC0280　京公网安备11010802012824<br>
+Copyright©2000-2014 13hang.com All Rights Reserved
+</div>
+</body>
+</html>

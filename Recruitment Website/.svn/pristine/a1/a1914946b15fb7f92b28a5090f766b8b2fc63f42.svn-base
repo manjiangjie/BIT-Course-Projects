@@ -1,0 +1,201 @@
+ul
+{
+	margin:0;	
+	padding:0;
+}
+
+li
+{
+	float:left;
+	list-style:none;	
+}
+
+.navigator/*导航*/
+{
+	height:40px;
+	width:1366px;
+	margin-top:-8px;
+	margin-left:-8px;
+	margin-right:-8px;
+}
+
+.navigator li/*导航每个部件*/
+{
+	height:40px;
+	width:100px;
+	text-align:center;
+	line-height:40px;
+	color:white;
+	list-style:none;
+	float:left;
+	display:block;
+	background:#404144;
+}
+
+.navigator #checked/*被选中的页面*/
+{
+	background:#333333;	
+	
+}
+
+.navigator li:hover/*鼠标悬浮*/
+{
+	background:#333333;
+	cursor:pointer;	
+}
+
+#img1{ 
+float:left;
+border:0; 
+margin-left:240px; 
+padding:0; 
+max-width:40px; 
+width:expression_r(this.width>52?"52px":this.width); 
+max-height:40px; 
+height:expression_r(this.height>52?"52px":this.height); 
+}
+
+.main{
+height:65px;
+width:70%;
+position:absolute;
+margin-left:15%;
+margin-top:25px;
+text-align:center;
+}
+
+.title{
+	float:left;
+	margin-left:30px;
+}
+
+.form_style{
+	width:70%;
+	height:350px;
+	position:absolute;
+	margin-left:15%;
+	margin-top:115px;
+}
+
+.form_1{
+	width:100px;
+	height:300px;
+	position:absolute;
+	margin-left:20%;
+	font-size:13px;
+}
+
+.form_2{
+	width:350px;
+	height:300px;
+	position:absolute;
+	margin-left:30%;
+	font-size:13px;
+}
+
+.form_3{
+	height:50px;
+	position:absolute;
+	margin-left:30%;
+	width:100px;
+	margin-top:300px;
+}
+
+.inputforcompanyname{
+	width:300px;
+	height:26px;
+}
+
+.selectfornation{
+	width:100px;
+	height:30px;
+}
+
+.selectforstate{
+	width:166px;
+	height:30px;
+	margin-left:30px;
+}
+
+.inputforcontacter{
+	width:150px;
+	height:26px;
+}
+
+.radiospace{
+	margin-left:25px;
+}
+
+.red{
+	color:#F00;
+}
+
+/* GRAY */
+a.gray,
+a.gray:hover,
+a.gray:visited {
+    color: #555;
+    border-bottom: 4px solid #b2b1b1;
+    text-shadow: 0px 1px 0px #fafafa;
+     
+    background: #eee;
+    background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#e2e2e2));
+    background: -moz-linear-gradient(top,  #eee,  #e2e2e2);
+     
+    box-shadow: inset 1px 1px 0 #f5f5f5;
+}
+ 
+.gray:before,
+.gray:after {
+    border: 1px solid #cbcbcb;
+    border-bottom: 1px solid #a5a5a5;
+}
+ 
+.gray:hover {
+    background: #e2e2e2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e2e2e2), to(#eee));
+    background: -moz-linear-gradient(top,  #e2e2e2,  #eee);
+}
+
+.forbutton{
+	margin-top:5px;
+	margin-left:5px;
+}
+
+.stylefordivider{
+	margin-top:550px;
+	height:3px;
+	width:110%;
+}
+
+.styleforbottomnav{
+	margin-top:10px;
+	margin-left:350px;
+	width:625px;
+	height:100px;
+}
+
+.styleforbottomblock{
+	color:#797979;
+	text-align:center;
+	font-size:13px;
+	float:left;
+	margin-top:0px;
+	margin-left:5px;
+	width:150px;
+	height:100px;
+}
+
+.h3style{
+	margin-top:10px;
+	margin-bottom:2px;
+}
+
+.copyright{
+	margin-top:10px;
+	width:100%;
+	height:60px;
+	text-align:center;
+	font-size:13px;
+	color:#797979;
+}
