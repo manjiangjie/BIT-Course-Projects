@@ -1,0 +1,7 @@
+D:\WebSite\BigData\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+D:\WebSite\BigData\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+D:\WebSite\BigData\DBUtility\bin\Debug\MySql.Data.dll
+D:\WebSite\BigData\DBUtility\bin\Debug\System.Data.SQLite.DLL
+D:\WebSite\BigData\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+D:\WebSite\BigData\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+D:\WebSite\BigData\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb

@@ -1,0 +1,8 @@
+D:\WebSite\BigData\DAL\bin\Release\Maticsoft.DAL.dll
+D:\WebSite\BigData\DAL\bin\Release\Maticsoft.Common.dll
+D:\WebSite\BigData\DAL\bin\Release\Maticsoft.DBUtility.dll
+D:\WebSite\BigData\DAL\bin\Release\Maticsoft.Model.dll
+D:\WebSite\BigData\DAL\bin\Release\MySql.Data.dll
+D:\WebSite\BigData\DAL\bin\Release\System.Data.SQLite.dll
+D:\WebSite\BigData\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+D:\WebSite\BigData\DAL\obj\Release\Maticsoft.DAL.dll

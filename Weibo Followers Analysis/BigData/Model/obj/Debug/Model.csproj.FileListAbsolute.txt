@@ -1,0 +1,5 @@
+D:\WebSite\BigData\Model\bin\Debug\Maticsoft.Model.dll
+D:\WebSite\BigData\Model\bin\Debug\Maticsoft.Model.pdb
+D:\WebSite\BigData\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\WebSite\BigData\Model\obj\Debug\Maticsoft.Model.dll
+D:\WebSite\BigData\Model\obj\Debug\Maticsoft.Model.pdb
